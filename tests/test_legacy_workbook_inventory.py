@@ -1,10 +1,12 @@
+import sys
 from pathlib import Path
 
 import pytest
 
 openpyxl = pytest.importorskip("openpyxl")
 
-from scripts.inspect_legacy_workbook import inventory
+sys.path.insert(0, str(Path(__file__).parents[1] / "scripts"))
+from inspect_legacy_workbook import inventory
 
 
 def test_inventory_reports_formula_and_external_style_reference(tmp_path: Path):
