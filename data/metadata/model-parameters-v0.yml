@@ -1,0 +1,36 @@
+schema_version: 2
+parameters:
+  - symbol: identity_export_sum
+    equation_block: commodity_export_accounting
+    interpretation: exact accounting summation coefficient
+    status: identity
+    numerical_value: 1
+    unit: dimensionless
+    source_method: accounting identity
+    estimation_sample: not applicable
+  - symbol: lambda_revenue
+    equation_block: optional_export_to_fiscal_link
+    interpretation: revenue response per MNT change in mining export income
+    status: disabled
+    numerical_value: null
+    unit: MNT revenue per MNT mining-export-income change
+    source_method: explicit user assumption or future institutional fiscal module
+    estimation_sample: not applicable
+    uncertainty_note: Phase 3B rejected the historical reduced-form total-revenue equation; no fitted slope is a default.
+  - symbol: phi_revenue_to_expenditure
+    equation_block: optional_revenue_to_spending_link
+    interpretation: spending response per MNT revenue deviation
+    status: disabled
+    numerical_value: null
+    unit: MNT expenditure per MNT revenue deviation
+    source_method: user policy/closure choice or future institutional fiscal rule
+    estimation_sample: not applicable
+  - symbol: production_to_mining_output
+    equation_block: optional_physical_production_to_real_mining_output_link
+    interpretation: commodity-specific calibrated real-output elasticity
+    status: disabled
+    numerical_value: null
+    unit: elasticity
+    source_method: future calibration
+    estimation_sample: not applicable
+    uncertainty_note: Phase 3B physical-production index is diagnostic evidence only; correlation is not a model parameter.

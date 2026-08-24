@@ -1,0 +1,153 @@
+{
+  "snapshot_date": "2026-08-23T085553Z",
+  "snapshots": [
+    {
+      "snapshot_id": "nso-2026-08-23T085553Z-gdp_quarterly",
+      "source": "National Statistics Office of Mongolia",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/National%20Accounts/DT_NSO_0500_004V1.px",
+      "table_id": "DT_NSO_0500_004V1.px",
+      "retrieved_at_utc": "2026-08-23T08:55:53.689315+00:00",
+      "raw_response_checksum_sha256": "72020b0a82a911cc652758a9c835e300276f6d906bb7226c1e04cf815136fd00",
+      "schema": {
+        "dimensions": [
+          "Статистик үзүүлэлт",
+          "Салбар",
+          "Он"
+        ],
+        "sizes": [
+          4,
+          11,
+          106
+        ],
+        "format": "json-stat2"
+      },
+      "unit": "million MNT",
+      "native_frequency": "quarterly",
+      "transformation": "none; official nominal and 2015-constant indicators retained",
+      "file": "data/snapshots/nso/2026-08-23T085553Z/gdp_quarterly.csv"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T085553Z-trade_total_monthly",
+      "source": "National Statistics Office of Mongolia",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/Foreign%20Trade/DT_NSO_1400_003V1.px",
+      "table_id": "DT_NSO_1400_003V1.px",
+      "retrieved_at_utc": "2026-08-23T08:55:53.801288+00:00",
+      "raw_response_checksum_sha256": "640c6ec5315042c03a38ed495c679ba6cdfc35a18f804b0b0bb0117c4248e756",
+      "schema": {
+        "dimensions": [
+          "Гадаад худалдааны үндсэн үзүүлэлт",
+          "Сар"
+        ],
+        "sizes": [
+          2,
+          355
+        ],
+        "format": "json-stat2"
+      },
+      "unit": "USD thousand",
+      "native_frequency": "monthly flow",
+      "transformation": "monthly values summed to quarterly in canonical panel",
+      "file": "data/snapshots/nso/2026-08-23T085553Z/trade_total_monthly.csv"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T085553Z-trade_main_commodities_monthly_cumulative",
+      "source": "National Statistics Office of Mongolia",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/Foreign%20Trade/DT_NSO_1400_006V2_month.px",
+      "table_id": "DT_NSO_1400_006V2_month.px",
+      "retrieved_at_utc": "2026-08-23T08:55:53.929009+00:00",
+      "raw_response_checksum_sha256": "a295ec9171216d360b1539c38aac010299d32b3a76211771af79cf3f1dd5251f",
+      "schema": {
+        "dimensions": [
+          "Статистик үзүүлэлт",
+          "Гол нэр төрлийн бараа",
+          "Сар"
+        ],
+        "sizes": [
+          2,
+          4,
+          187
+        ],
+        "format": "json-stat2"
+      },
+      "unit": "commodity-specific (see labels)",
+      "native_frequency": "monthly cumulative flow",
+      "transformation": "source representation retained; de-cumulated within calendar year and summed to quarter in canonical panel",
+      "file": "data/snapshots/nso/2026-08-23T085553Z/trade_main_commodities_monthly_cumulative.csv"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T085553Z-budget_revenue_monthly_cumulative",
+      "source": "National Statistics Office of Mongolia",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/Government%20budget/DT_NSO_0800_002V1.px",
+      "table_id": "DT_NSO_0800_002V1.px",
+      "retrieved_at_utc": "2026-08-23T08:55:54.041594+00:00",
+      "raw_response_checksum_sha256": "190bacfbb02f825297306a2f57d2724e373553b2d5ff2b45b2fd037118dc4a71",
+      "schema": {
+        "dimensions": [
+          "Үзүүлэлт",
+          "Ангилал",
+          "Он"
+        ],
+        "sizes": [
+          1,
+          1,
+          319
+        ],
+        "format": "json-stat2"
+      },
+      "unit": "million MNT",
+      "native_frequency": "monthly cumulative flow",
+      "transformation": "source cumulative values retained; canonical panel de-cumulates within calendar year",
+      "file": "data/snapshots/nso/2026-08-23T085553Z/budget_revenue_monthly_cumulative.csv"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T085553Z-budget_expenditure_monthly_cumulative",
+      "source": "National Statistics Office of Mongolia",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/Government%20budget/DT_NSO_0800_005V1.px",
+      "table_id": "DT_NSO_0800_005V1.px",
+      "retrieved_at_utc": "2026-08-23T08:55:54.166204+00:00",
+      "raw_response_checksum_sha256": "dc15ebb00c25a02c0821fe5e8ebfe27c6069e6db541c9d728c88a5abf5f29474",
+      "schema": {
+        "dimensions": [
+          "Үзүүлэлт",
+          "Ангилал",
+          "Сар"
+        ],
+        "sizes": [
+          1,
+          2,
+          319
+        ],
+        "format": "json-stat2"
+      },
+      "unit": "million MNT",
+      "native_frequency": "monthly cumulative flow",
+      "transformation": "source cumulative values retained; canonical panel de-cumulates within calendar year",
+      "file": "data/snapshots/nso/2026-08-23T085553Z/budget_expenditure_monthly_cumulative.csv"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T085553Z-cpi_national_monthly_2020_base",
+      "source": "National Statistics Office of Mongolia",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/Consumer%20Price%20Index/DT_NSO_0600_001V3.px",
+      "table_id": "DT_NSO_0600_001V3.px",
+      "retrieved_at_utc": "2026-08-23T08:55:54.289082+00:00",
+      "raw_response_checksum_sha256": "de77a537ac817f229dbf170f5a930a892081f961461d7e05e4e63fe3f26c895f",
+      "schema": {
+        "dimensions": [
+          "Суурь он",
+          "Бүлэг",
+          "Сар"
+        ],
+        "sizes": [
+          1,
+          1,
+          247
+        ],
+        "format": "json-stat2"
+      },
+      "unit": "index (2020=100)",
+      "native_frequency": "monthly index",
+      "transformation": "quarterly average in canonical panel; no seasonal adjustment",
+      "file": "data/snapshots/nso/2026-08-23T085553Z/cpi_national_monthly_2020_base.csv"
+    }
+  ]
+}

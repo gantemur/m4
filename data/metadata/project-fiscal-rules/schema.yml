@@ -1,0 +1,42 @@
+schema_version: 1
+purpose: Inert evidence schema for future project fiscal modules; no rule is executable by default.
+required_fields:
+  - project_id
+  - effective_from
+  - fiscal_stream
+  - rule_type
+  - source_id
+  - evidence_status
+  - implementation_status
+allowed_evidence_status:
+  - EXACT_STATUTORY_RULE
+  - EXACT_CONTRACTUAL_RULE
+  - COMPANY_REPORTED_ACTUAL
+  - GOVERNMENT_REPORTED_ACTUAL
+  - DERIVED_ACCOUNTING
+  - USER_ASSUMPTION_REQUIRED
+  - UNRESOLVED
+allowed_implementation_status:
+  - DIRECTLY_COMPUTABLE
+  - COMPUTABLE_GIVEN_ADDITIONAL_USER_INPUT
+  - USER_INPUT_REQUIRED
+  - REPORTED_ACTUAL_ONLY
+  - NOT_CURRENTLY_COMPUTABLE
+  - DEFERRED
+record_fields:
+  project_id: string
+  effective_from: ISO date or year
+  effective_to: ISO date, null when open-ended, or unresolved
+  fiscal_stream: royalty|corporate_income_tax|dividend|customs_vat_other|fees_environment|special_payment|financing_flow|non_fiscal_domestic
+  rule_type: fixed_rate|piecewise_schedule|profit_based|declaration_based|contractual|reported_actual
+  tax_base: string or unresolved
+  rate: number, object, or null
+  thresholds: list or null
+  reference_price_rule: object or null
+  deductible_cost_rule: object or null
+  ownership_share: number, object, or null
+  payout_rule: object or null
+  source_id: project-fiscal-sources identifier
+  evidence_status: enum
+  implementation_status: enum
+  notes: string

@@ -1,0 +1,32 @@
+project_id: badrakh_energy_zuuvch_ovoo
+rules:
+  - effective_from: 2025-01-17
+    effective_to: unresolved
+    fiscal_stream: dividend
+    rule_type: contractual
+    tax_base: distributable profit under Investment Agreement conditions
+    rate: null
+    thresholds: 10% state-owned preferred shares; agreement conditions govern dividends and 51% direct-benefit claim
+    reference_price_rule: unresolved; provision-level extraction required
+    deductible_cost_rule: unresolved
+    ownership_share: {government_preferred_percent: 10, investor_percent: 90}
+    payout_rule: State has no equity or debt financing obligation; precise dividend/payout provision requires clause extraction
+    source_id: badrakh_ia_2025
+    evidence_status: EXACT_CONTRACTUAL_RULE
+    implementation_status: NOT_CURRENTLY_COMPUTABLE
+    notes: Do not convert the reported 51% direct-benefit claim into an annual payment rule without the full cash-flow definition and inputs.
+  - effective_from: 2025-01-17
+    effective_to: unresolved
+    fiscal_stream: royalty
+    rule_type: contractual
+    tax_base: unresolved pending nuclear/mineral legal and agreement provision mapping
+    rate: null
+    thresholds: null
+    reference_price_rule: unresolved
+    deductible_cost_rule: not applicable
+    ownership_share: null
+    payout_rule: null
+    source_id: badrakh_ia_2025
+    evidence_status: UNRESOLVED
+    implementation_status: DEFERRED
+    notes: No royalty rule is implemented from promotional summaries or inferred effective rates.

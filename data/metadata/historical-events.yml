@@ -1,0 +1,56 @@
+schema_version: 1
+events:
+  - event_id: global_financial_commodity_shock
+    date_range: 2008-10/2009-12
+    label_mn: ""
+    label_en: Global financial and commodity shock
+    source_url: https://www.worldbank.org/en/news/press-release/2009/05/21/new-world-bank-strategy-support-mongolia-faces-impacts-economic-downturn
+    relevance: Copper-price and fiscal/export shock relevant to external and fiscal blocks.
+  - event_id: ot_investment_agreement
+    date_range: 2009-10-06
+    label_mn: ""
+    label_en: Oyu Tolgoi Investment Agreement
+    source_url: https://www.riotinto.com/-/media/content/documents/invest/reports/annual-reports/2024-annual-report.pdf
+    relevance: Establishes the major project/legal milestone for the mining block.
+  - event_id: ot_open_pit_and_concentrator
+    date_range: 2011/2013
+    label_mn: ""
+    label_en: Oyu Tolgoi open-pit mining and concentrator production
+    source_url: https://admin.ot.mn/wp-content/uploads/otnew/content/2023_vision/Playbook-Public-Edition_v2.pdf
+    relevance: Marks the transition from project construction to copper-concentrate production.
+  - event_id: fiscal_commodity_downturn
+    date_range: 2015/2016
+    label_mn: ""
+    label_en: Fiscal and commodity downturn
+    source_url: https://www.worldbank.org/en/news/feature/2016/05/23/mongolia-economic-update
+    relevance: Candidate downturn marker for fiscal and mining diagnostics; no causal claim.
+  - event_id: covid_border_shock
+    date_range: 2020-02/2020-12
+    label_mn: ""
+    label_en: COVID-19 restrictions and China-border disruption
+    source_url: https://documents1.worldbank.org/curated/en/158131612895925383/pdf/Mongolia-Economic-Update-From-Relief-to-Recovery.pdf
+    relevance: Documents coal-export suspension and logistics disruption.
+  - event_id: china_border_disruption
+    date_range: 2021/2022
+    label_mn: ""
+    label_en: China-border and logistics disruption
+    source_url: https://blogs.worldbank.org/en/eastasiapacific/mongolia-post-covid-19-risks-to-an-inclusive-recovery
+    relevance: Relevant to export quantity/value separation and trade volatility.
+  - event_id: ot_2022_reset
+    date_range: 2022-01-25
+    label_mn: ""
+    label_en: Oyu Tolgoi comprehensive agreement/reset
+    source_url: https://www.riotinto.com/news/releases/2022/oyu-tolgoi-partners-reach-comprehensive-agreement-and-approve-commencement-of-underground-mining-operations
+    relevance: Project-governance milestone before underground production.
+  - event_id: ot_underground_production
+    date_range: 2023-03
+    label_mn: ""
+    label_en: Oyu Tolgoi underground production commencement
+    source_url: https://www.riotinto.com/-/media/content/documents/invest/reports/annual-reports/2024-annual-report.pdf
+    relevance: Marks underground ramp-up in the project layer.
+  - event_id: coal_export_expansion
+    date_range: 2023/2025
+    label_mn: ""
+    label_en: Rapid coal-export expansion
+    source_url: https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/Foreign%20Trade/DT_NSO_1400_006V2_month.px
+    relevance: Visible in the official commodity-export quantity/value series.

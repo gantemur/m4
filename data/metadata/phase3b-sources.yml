@@ -1,0 +1,27 @@
+schema_version: 1
+retrieved_at_utc: 2026-08-23
+sources:
+  - institution: National Statistics Office of Mongolia
+    table_id: DT_NSO_0500_004V1
+    url: https://1212.mn/en/statistic/statcate/573067/table-view/DT_NSO_0500_004V1
+    native_frequency: quarterly
+    units: million MNT, current prices
+    observation_status: flow
+    use: GDP accounting components and taxes less subsidies on products
+    transformations: retain official values; derive industry GVA and other-industry accounting residual
+  - institution: National Statistics Office of Mongolia
+    table_id: DT_NSO_1100_016V5
+    url: https://1212.mn/en/statistic/statcate/573067/table-view/DT_NSO_1100_016V5
+    native_frequency: monthly
+    units: index, 2015=100; selected comparison series has 100 as no annual change
+    observation_status: monthly comparison measure
+    use: mining industrial-production diagnostic
+    transformations: subtract 100 to express YoY percentage growth; average monthly growth within quarter
+  - institution: National Statistics Office of Mongolia
+    table_id: DT_NSO_1100_006V2
+    url: https://1212.mn/en/statistic/statcate/573067/table-view/DT_NSO_1100_006V2
+    native_frequency: monthly
+    units: thousand tonnes except gold in kilograms
+    observation_status: flow
+    use: physical production versus exports diagnostic
+    transformations: sum monthly output flows to quarters; exclude undated non-observation cell; no interpolation

@@ -1,0 +1,30 @@
+{
+  "new_snapshot": "2026-08-23T085851Z",
+  "previous_snapshot": "2026-08-23T085811Z",
+  "files": [
+    {
+      "file": "data/snapshots/nso/2026-08-23T085851Z/gdp_quarterly.csv",
+      "changes": []
+    },
+    {
+      "file": "data/snapshots/nso/2026-08-23T085851Z/trade_total_monthly.csv",
+      "changes": []
+    },
+    {
+      "file": "data/snapshots/nso/2026-08-23T085851Z/trade_main_commodities_monthly_cumulative.csv",
+      "changes": []
+    },
+    {
+      "file": "data/snapshots/nso/2026-08-23T085851Z/budget_revenue_monthly_cumulative.csv",
+      "changes": []
+    },
+    {
+      "file": "data/snapshots/nso/2026-08-23T085851Z/budget_expenditure_monthly_cumulative.csv",
+      "changes": []
+    },
+    {
+      "file": "data/snapshots/nso/2026-08-23T085851Z/cpi_national_monthly_2020_base.csv",
+      "changes": []
+    }
+  ]
+}

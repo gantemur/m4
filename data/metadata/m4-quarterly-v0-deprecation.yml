@@ -1,0 +1,9 @@
+dataset_id: m4-quarterly-v0
+status: deprecated-invalid-for-analysis
+superseded_by: m4-quarterly-v1
+reason:
+  - total-trade indicators were mapped by numeric position rather than labels
+  - total-trade values were labelled USD thousand instead of official USD million
+  - direct monthly fiscal Month flows were incorrectly de-cumulated
+  - constant-price GDP and CPI coverage was overstated in documentation
+preserve_for_audit: true

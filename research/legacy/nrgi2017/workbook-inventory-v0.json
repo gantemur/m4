@@ -1,0 +1,6340 @@
+{
+  "inventory_format": "m4-legacy-workbook-inventory-v1",
+  "generated_date": "2026-08-23",
+  "source_file": "nrgi-mmfm-2017-original.xlsx",
+  "source_size_bytes": 8769025,
+  "sha256": "780d42b13b2df31c8743dbda0ba3e6e54f7a32e07fdb077dffcb019584c979a4",
+  "sheet_count": 91,
+  "sheet_inventory": [
+    {
+      "title": "Guide to model",
+      "state": "visible",
+      "max_row": 132,
+      "max_column": 16384,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 9
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Control panel",
+      "state": "visible",
+      "max_row": 56,
+      "max_column": 37,
+      "classified_as": [
+        "control_or_scenario"
+      ],
+      "counts": {
+        "nonempty_nonformula": 63,
+        "formula": 1,
+        "cross_sheet_link": 1,
+        "formula_with_numeric_literal": 1,
+        "numeric_constant": 23
+      },
+      "formula_samples": [
+        {
+          "cell": "E4",
+          "formula": "=+IF(SUMSQ('Numerical results'!D161:AH233)<0.0001,\"BASELINE SCENARIO\",\"ALTERNATIVE SCENARIO\")"
+        }
+      ]
+    },
+    {
+      "title": "Control panel - advanced",
+      "state": "visible",
+      "max_row": 41,
+      "max_column": 32,
+      "classified_as": [
+        "control_or_scenario"
+      ],
+      "counts": {
+        "nonempty_nonformula": 708,
+        "numeric_constant": 646,
+        "formula": 25
+      },
+      "formula_samples": [
+        {
+          "cell": "H5",
+          "formula": "=G5+1"
+        },
+        {
+          "cell": "I5",
+          "formula": "=H5+1"
+        },
+        {
+          "cell": "J5",
+          "formula": "=I5+1"
+        },
+        {
+          "cell": "K5",
+          "formula": "=J5+1"
+        },
+        {
+          "cell": "L5",
+          "formula": "=K5+1"
+        },
+        {
+          "cell": "M5",
+          "formula": "=L5+1"
+        },
+        {
+          "cell": "N5",
+          "formula": "=M5+1"
+        },
+        {
+          "cell": "O5",
+          "formula": "=N5+1"
+        },
+        {
+          "cell": "P5",
+          "formula": "=O5+1"
+        },
+        {
+          "cell": "Q5",
+          "formula": "=P5+1"
+        },
+        {
+          "cell": "R5",
+          "formula": "=Q5+1"
+        },
+        {
+          "cell": "S5",
+          "formula": "=R5+1"
+        }
+      ]
+    },
+    {
+      "title": "Graphical results",
+      "state": "visible",
+      "max_row": 87,
+      "max_column": 2,
+      "classified_as": [
+        "output"
+      ],
+      "counts": {
+        "nonempty_nonformula": 4
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Numerical results",
+      "state": "visible",
+      "max_row": 316,
+      "max_column": 39,
+      "classified_as": [
+        "output"
+      ],
+      "counts": {
+        "nonempty_nonformula": 2577,
+        "formula": 6525,
+        "cross_sheet_link": 1446,
+        "numeric_constant": 2223,
+        "formula_with_numeric_literal": 2107
+      },
+      "formula_samples": [
+        {
+          "cell": "D3",
+          "formula": "=+'Macro for fiscal'!M29/1000"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+'Macro for fiscal'!N29/1000"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+'Macro for fiscal'!O29/1000"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+'Macro for fiscal'!P29/1000"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+'Macro for fiscal'!Q29/1000"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+'Macro for fiscal'!R29/1000"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+'Macro for fiscal'!S29/1000"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+'Macro for fiscal'!T29/1000"
+        },
+        {
+          "cell": "L3",
+          "formula": "=+'Macro for fiscal'!U29/1000"
+        },
+        {
+          "cell": "M3",
+          "formula": "=+'Macro for fiscal'!V29/1000"
+        },
+        {
+          "cell": "N3",
+          "formula": "=+'Macro for fiscal'!W29/1000"
+        },
+        {
+          "cell": "O3",
+          "formula": "=+'Macro for fiscal'!X29/1000"
+        }
+      ]
+    },
+    {
+      "title": "TOC",
+      "state": "visible",
+      "max_row": 77,
+      "max_column": 3,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 164
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Driver",
+      "state": "visible",
+      "max_row": 151,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 280,
+        "numeric_constant": 153,
+        "formula": 2098,
+        "cross_sheet_link": 2037,
+        "formula_with_numeric_literal": 116
+      },
+      "formula_samples": [
+        {
+          "cell": "J5",
+          "formula": "=I5+1"
+        },
+        {
+          "cell": "K5",
+          "formula": "=J5+1"
+        },
+        {
+          "cell": "L5",
+          "formula": "=K5+1"
+        },
+        {
+          "cell": "M5",
+          "formula": "=L5+1"
+        },
+        {
+          "cell": "N5",
+          "formula": "=M5+1"
+        },
+        {
+          "cell": "O5",
+          "formula": "=N5+1"
+        },
+        {
+          "cell": "P5",
+          "formula": "=O5+1"
+        },
+        {
+          "cell": "Q5",
+          "formula": "=P5+1"
+        },
+        {
+          "cell": "R5",
+          "formula": "=Q5+1"
+        },
+        {
+          "cell": "S5",
+          "formula": "=R5+1"
+        },
+        {
+          "cell": "T5",
+          "formula": "=S5+1"
+        },
+        {
+          "cell": "U5",
+          "formula": "=T5+1"
+        }
+      ]
+    },
+    {
+      "title": "Macro baseline",
+      "state": "visible",
+      "max_row": 78,
+      "max_column": 48,
+      "classified_as": [
+        "macro"
+      ],
+      "counts": {
+        "nonempty_nonformula": 2400,
+        "numeric_constant": 2067
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Macro simul",
+      "state": "visible",
+      "max_row": 75,
+      "max_column": 16379,
+      "classified_as": [
+        "macro"
+      ],
+      "counts": {
+        "nonempty_nonformula": 303,
+        "formula": 1842,
+        "cross_sheet_link": 1842
+      },
+      "formula_samples": [
+        {
+          "cell": "C3",
+          "formula": "='Mixing two tables'!C16"
+        },
+        {
+          "cell": "D3",
+          "formula": "='Mixing two tables'!D16"
+        },
+        {
+          "cell": "E3",
+          "formula": "='Mixing two tables'!E16"
+        },
+        {
+          "cell": "F3",
+          "formula": "='Mixing two tables'!F16"
+        },
+        {
+          "cell": "G3",
+          "formula": "='Mixing two tables'!G16"
+        },
+        {
+          "cell": "H3",
+          "formula": "='Mixing two tables'!H16"
+        },
+        {
+          "cell": "I3",
+          "formula": "='Mixing two tables'!I16"
+        },
+        {
+          "cell": "J3",
+          "formula": "='Mixing two tables'!J16"
+        },
+        {
+          "cell": "K3",
+          "formula": "='Mixing two tables'!K16"
+        },
+        {
+          "cell": "L3",
+          "formula": "='Mixing two tables'!L16"
+        },
+        {
+          "cell": "M3",
+          "formula": "='Mixing two tables'!M16"
+        },
+        {
+          "cell": "N3",
+          "formula": "='Mixing two tables'!N16"
+        }
+      ]
+    },
+    {
+      "title": "Simul-Baseline",
+      "state": "visible",
+      "max_row": 75,
+      "max_column": 16384,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 333,
+        "formula": 2067,
+        "cross_sheet_link": 2067
+      },
+      "formula_samples": [
+        {
+          "cell": "C3",
+          "formula": "=+'Macro simul'!C3-'Macro baseline'!C3"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+'Macro simul'!D3-'Macro baseline'!D3"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+'Macro simul'!E3-'Macro baseline'!E3"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+'Macro simul'!F3-'Macro baseline'!F3"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+'Macro simul'!G3-'Macro baseline'!G3"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+'Macro simul'!H3-'Macro baseline'!H3"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+'Macro simul'!I3-'Macro baseline'!I3"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+'Macro simul'!J3-'Macro baseline'!J3"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+'Macro simul'!K3-'Macro baseline'!K3"
+        },
+        {
+          "cell": "L3",
+          "formula": "=+'Macro simul'!L3-'Macro baseline'!L3"
+        },
+        {
+          "cell": "M3",
+          "formula": "=+'Macro simul'!M3-'Macro baseline'!M3"
+        },
+        {
+          "cell": "N3",
+          "formula": "=+'Macro simul'!N3-'Macro baseline'!N3"
+        }
+      ]
+    },
+    {
+      "title": "IRF",
+      "state": "visible",
+      "max_row": 129,
+      "max_column": 47,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 153,
+        "formula": 1548,
+        "cross_sheet_link": 930,
+        "numeric_constant": 2
+      },
+      "formula_samples": [
+        {
+          "cell": "C2",
+          "formula": "='Numerical results'!D32"
+        },
+        {
+          "cell": "D2",
+          "formula": "='Numerical results'!E32"
+        },
+        {
+          "cell": "E2",
+          "formula": "='Numerical results'!F32"
+        },
+        {
+          "cell": "F2",
+          "formula": "='Numerical results'!G32"
+        },
+        {
+          "cell": "G2",
+          "formula": "='Numerical results'!H32"
+        },
+        {
+          "cell": "H2",
+          "formula": "='Numerical results'!I32"
+        },
+        {
+          "cell": "I2",
+          "formula": "='Numerical results'!J32"
+        },
+        {
+          "cell": "J2",
+          "formula": "='Numerical results'!K32"
+        },
+        {
+          "cell": "K2",
+          "formula": "='Numerical results'!L32"
+        },
+        {
+          "cell": "L2",
+          "formula": "='Numerical results'!M32"
+        },
+        {
+          "cell": "M2",
+          "formula": "='Numerical results'!N32"
+        },
+        {
+          "cell": "N2",
+          "formula": "='Numerical results'!O32"
+        }
+      ]
+    },
+    {
+      "title": "Semi-struct_model",
+      "state": "visible",
+      "max_row": 398,
+      "max_column": 970,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 237207,
+        "numeric_constant": 235496,
+        "formula": 9176,
+        "cross_sheet_link": 9176
+      },
+      "formula_samples": [
+        {
+          "cell": "OS3",
+          "formula": "=Setting_shocks_irfs!LQ5"
+        },
+        {
+          "cell": "OT3",
+          "formula": "=Setting_shocks_irfs!LR5"
+        },
+        {
+          "cell": "OU3",
+          "formula": "=Setting_shocks_irfs!LS5"
+        },
+        {
+          "cell": "OV3",
+          "formula": "=Setting_shocks_irfs!LT5"
+        },
+        {
+          "cell": "OW3",
+          "formula": "=Setting_shocks_irfs!LU5"
+        },
+        {
+          "cell": "OX3",
+          "formula": "=Setting_shocks_irfs!LV5"
+        },
+        {
+          "cell": "OY3",
+          "formula": "=Setting_shocks_irfs!LW5"
+        },
+        {
+          "cell": "OZ3",
+          "formula": "=Setting_shocks_irfs!LX5"
+        },
+        {
+          "cell": "PA3",
+          "formula": "=Setting_shocks_irfs!LY5"
+        },
+        {
+          "cell": "PB3",
+          "formula": "=Setting_shocks_irfs!LZ5"
+        },
+        {
+          "cell": "PC3",
+          "formula": "=Setting_shocks_irfs!MA5"
+        },
+        {
+          "cell": "PD3",
+          "formula": "=Setting_shocks_irfs!MB5"
+        }
+      ]
+    },
+    {
+      "title": "Mixing two tables",
+      "state": "visible",
+      "max_row": 182,
+      "max_column": 43,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 815,
+        "formula": 4931,
+        "cross_sheet_link": 2999,
+        "numeric_constant": 6
+      },
+      "formula_samples": [
+        {
+          "cell": "C3",
+          "formula": "='Macro baseline'!C3"
+        },
+        {
+          "cell": "D3",
+          "formula": "='Macro baseline'!D3"
+        },
+        {
+          "cell": "E3",
+          "formula": "='Macro baseline'!E3"
+        },
+        {
+          "cell": "F3",
+          "formula": "='Macro baseline'!F3"
+        },
+        {
+          "cell": "G3",
+          "formula": "='Macro baseline'!G3"
+        },
+        {
+          "cell": "H3",
+          "formula": "='Macro baseline'!H3"
+        },
+        {
+          "cell": "I3",
+          "formula": "='Macro baseline'!I3"
+        },
+        {
+          "cell": "J3",
+          "formula": "='Macro baseline'!J3"
+        },
+        {
+          "cell": "K3",
+          "formula": "='Macro baseline'!K3"
+        },
+        {
+          "cell": "L3",
+          "formula": "='Macro baseline'!L3"
+        },
+        {
+          "cell": "M3",
+          "formula": "='Macro baseline'!M3"
+        },
+        {
+          "cell": "N3",
+          "formula": "='Macro baseline'!N3"
+        }
+      ]
+    },
+    {
+      "title": "Setting_shocks_irfs",
+      "state": "visible",
+      "max_row": 167,
+      "max_column": 618,
+      "classified_as": [
+        "control_or_scenario"
+      ],
+      "counts": {
+        "nonempty_nonformula": 7420,
+        "numeric_constant": 5763,
+        "formula": 45473,
+        "formula_with_numeric_literal": 358,
+        "cross_sheet_link": 6071
+      },
+      "formula_samples": [
+        {
+          "cell": "I5",
+          "formula": "=H5+1"
+        },
+        {
+          "cell": "J5",
+          "formula": "=I5+1"
+        },
+        {
+          "cell": "K5",
+          "formula": "=J5+1"
+        },
+        {
+          "cell": "L5",
+          "formula": "=K5+1"
+        },
+        {
+          "cell": "M5",
+          "formula": "=L5+1"
+        },
+        {
+          "cell": "N5",
+          "formula": "=M5+1"
+        },
+        {
+          "cell": "O5",
+          "formula": "=N5+1"
+        },
+        {
+          "cell": "P5",
+          "formula": "=O5+1"
+        },
+        {
+          "cell": "Q5",
+          "formula": "=P5+1"
+        },
+        {
+          "cell": "R5",
+          "formula": "=Q5+1"
+        },
+        {
+          "cell": "S5",
+          "formula": "=R5+1"
+        },
+        {
+          "cell": "T5",
+          "formula": "=S5+1"
+        }
+      ]
+    },
+    {
+      "title": "Macro for fiscal",
+      "state": "visible",
+      "max_row": 116,
+      "max_column": 45,
+      "classified_as": [
+        "fiscal",
+        "macro"
+      ],
+      "counts": {
+        "nonempty_nonformula": 514,
+        "formula": 2867,
+        "numeric_constant": 23,
+        "cross_sheet_link": 1466
+      },
+      "formula_samples": [
+        {
+          "cell": "C3",
+          "formula": "=+D3/(1+D71/100)"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+E3/(1+E71/100)"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+F3/(1+F71/100)"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+G3/(1+G71/100)"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+H3/(1+H71/100)"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+H29/H16"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+H3*(1+I71/100)"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+I3*(1+J71/100)"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+J3*(1+K71/100)"
+        },
+        {
+          "cell": "L3",
+          "formula": "=+K3*(1+L71/100)"
+        },
+        {
+          "cell": "M3",
+          "formula": "=+L3*(1+M71/100)"
+        },
+        {
+          "cell": "N3",
+          "formula": "=+M3*(1+N71/100)"
+        }
+      ]
+    },
+    {
+      "title": "Population",
+      "state": "visible",
+      "max_row": 121,
+      "max_column": 57,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 473,
+        "formula": 91,
+        "cross_sheet_link": 26,
+        "numeric_constant": 396
+      },
+      "formula_samples": [
+        {
+          "cell": "C3",
+          "formula": "=+D3-1"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+E3-1"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+F3-1"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+G3-1"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+H3-1"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+I3-1"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+J3-1"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+K3-1"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+L3-1"
+        },
+        {
+          "cell": "A4",
+          "formula": "=+'Worldbank data'!A1307"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+'Worldbank data'!AH1307"
+        },
+        {
+          "cell": "D4",
+          "formula": "=+'Worldbank data'!AI1307"
+        }
+      ]
+    },
+    {
+      "title": "Labor market ",
+      "state": "visible",
+      "max_row": 136,
+      "max_column": 16378,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 554,
+        "formula": 3024,
+        "cross_sheet_link": 896,
+        "formula_with_numeric_literal": 106,
+        "numeric_constant": 313
+      },
+      "formula_samples": [
+        {
+          "cell": "B5",
+          "formula": "=+Population!L4"
+        },
+        {
+          "cell": "C5",
+          "formula": "=+Population!M4"
+        },
+        {
+          "cell": "D5",
+          "formula": "=+Population!N4"
+        },
+        {
+          "cell": "E5",
+          "formula": "=+Population!O4"
+        },
+        {
+          "cell": "F5",
+          "formula": "=+Population!P4"
+        },
+        {
+          "cell": "G5",
+          "formula": "=+Population!Q4"
+        },
+        {
+          "cell": "H5",
+          "formula": "=+Population!R4"
+        },
+        {
+          "cell": "I5",
+          "formula": "=+Population!S4"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+Population!T4"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+Population!U4"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+Population!V4"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+Population!W4"
+        }
+      ]
+    },
+    {
+      "title": "Total capital stock",
+      "state": "visible",
+      "max_row": 44,
+      "max_column": 56,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 80,
+        "numeric_constant": 58,
+        "formula": 528,
+        "cross_sheet_link": 220
+      },
+      "formula_samples": [
+        {
+          "cell": "B5",
+          "formula": "=+'Worldbank data'!AH709/1000000"
+        },
+        {
+          "cell": "C5",
+          "formula": "=+'Worldbank data'!AI709/1000000"
+        },
+        {
+          "cell": "D5",
+          "formula": "=+'Worldbank data'!AJ709/1000000"
+        },
+        {
+          "cell": "E5",
+          "formula": "=+'Worldbank data'!AK709/1000000"
+        },
+        {
+          "cell": "F5",
+          "formula": "=+'Worldbank data'!AL709/1000000"
+        },
+        {
+          "cell": "G5",
+          "formula": "=+'Worldbank data'!AM709/1000000"
+        },
+        {
+          "cell": "H5",
+          "formula": "=+'Worldbank data'!AN709/1000000"
+        },
+        {
+          "cell": "I5",
+          "formula": "=+'Worldbank data'!AO709/1000000"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+'Worldbank data'!AP709/1000000"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+'Worldbank data'!AQ709/1000000"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+'Worldbank data'!AR709/1000000"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+'Worldbank data'!AS709/1000000"
+        }
+      ]
+    },
+    {
+      "title": "Sectoral capital stocks",
+      "state": "visible",
+      "max_row": 82,
+      "max_column": 43,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 144,
+        "numeric_constant": 70,
+        "formula": 1800,
+        "cross_sheet_link": 417,
+        "formula_with_numeric_literal": 29
+      },
+      "formula_samples": [
+        {
+          "cell": "I5",
+          "formula": "=+(OT!D60+Erdenet!D60+TsSuv!D60+Gatsuurt!D60+ETT!D60+ER!D60)*'Natural resource prices'!T20*'Macro for fiscal'!N44"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+(OT!E60+Erdenet!E60+TsSuv!E60+Gatsuurt!E60+ETT!E60+ER!E60)*'Natural resource prices'!U20*'Macro for fiscal'!O44"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+(OT!F60+Erdenet!F60+TsSuv!F60+Gatsuurt!F60+ETT!F60+ER!F60)*'Natural resource prices'!V20*'Macro for fiscal'!P44"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+(OT!G60+Erdenet!G60+TsSuv!G60+Gatsuurt!G60+ETT!G60+ER!G60)*'Natural resource prices'!W20*'Macro for fiscal'!Q44"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+(OT!H60+Erdenet!H60+TsSuv!H60+Gatsuurt!H60+ETT!H60+ER!H60)*'Natural resource prices'!X20*'Macro for fiscal'!R44"
+        },
+        {
+          "cell": "N5",
+          "formula": "=+(OT!I60+Erdenet!I60+TsSuv!I60+Gatsuurt!I60+ETT!I60+ER!I60)*'Natural resource prices'!Y20*'Macro for fiscal'!S44"
+        },
+        {
+          "cell": "O5",
+          "formula": "=+(OT!J60+Erdenet!J60+TsSuv!J60+Gatsuurt!J60+ETT!J60+ER!J60)*'Natural resource prices'!Z20*'Macro for fiscal'!T44"
+        },
+        {
+          "cell": "P5",
+          "formula": "=+(OT!K60+Erdenet!K60+TsSuv!K60+Gatsuurt!K60+ETT!K60+ER!K60)*'Natural resource prices'!AA20*'Macro for fiscal'!U44"
+        },
+        {
+          "cell": "Q5",
+          "formula": "=+(OT!L60+Erdenet!L60+TsSuv!L60+Gatsuurt!L60+ETT!L60+ER!L60)*'Natural resource prices'!AB20*'Macro for fiscal'!V44"
+        },
+        {
+          "cell": "R5",
+          "formula": "=+(OT!M60+Erdenet!M60+TsSuv!M60+Gatsuurt!M60+ETT!M60+ER!M60)*'Natural resource prices'!AC20*'Macro for fiscal'!W44"
+        },
+        {
+          "cell": "S5",
+          "formula": "=+(OT!N60+Erdenet!N60+TsSuv!N60+Gatsuurt!N60+ETT!N60+ER!N60)*'Natural resource prices'!AD20*'Macro for fiscal'!X44"
+        },
+        {
+          "cell": "T5",
+          "formula": "=+(OT!O60+Erdenet!O60+TsSuv!O60+Gatsuurt!O60+ETT!O60+ER!O60)*'Natural resource prices'!AE20*'Macro for fiscal'!Y44"
+        }
+      ]
+    },
+    {
+      "title": "Natural resource prices",
+      "state": "visible",
+      "max_row": 75,
+      "max_column": 54,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 376,
+        "numeric_constant": 310,
+        "formula": 1784,
+        "cross_sheet_link": 161
+      },
+      "formula_samples": [
+        {
+          "cell": "U9",
+          "formula": "=+T9*(U$18/T$18)"
+        },
+        {
+          "cell": "V9",
+          "formula": "=+U9*(V$18/U$18)"
+        },
+        {
+          "cell": "W9",
+          "formula": "=+V9*(W$18/V$18)"
+        },
+        {
+          "cell": "X9",
+          "formula": "=+W9*(X$18/W$18)"
+        },
+        {
+          "cell": "Y9",
+          "formula": "=+X9*(Y$18/X$18)"
+        },
+        {
+          "cell": "Z9",
+          "formula": "=+Y9*(Z$18/Y$18)"
+        },
+        {
+          "cell": "AA9",
+          "formula": "=+Z9*(AA$18/Z$18)"
+        },
+        {
+          "cell": "AB9",
+          "formula": "=+AA9*(AB$18/AA$18)"
+        },
+        {
+          "cell": "AC9",
+          "formula": "=+AB9*(AC$18/AB$18)"
+        },
+        {
+          "cell": "AD9",
+          "formula": "=+AC9*(AD$18/AC$18)"
+        },
+        {
+          "cell": "AE9",
+          "formula": "=+AD9*(AE$18/AD$18)"
+        },
+        {
+          "cell": "AF9",
+          "formula": "=+AE9*(AF$18/AE$18)"
+        }
+      ]
+    },
+    {
+      "title": "Mining GDP",
+      "state": "visible",
+      "max_row": 172,
+      "max_column": 33,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 155,
+        "numeric_constant": 40,
+        "formula": 2377,
+        "cross_sheet_link": 1306,
+        "formula_with_numeric_literal": 60
+      },
+      "formula_samples": [
+        {
+          "cell": "D5",
+          "formula": "=+D58"
+        },
+        {
+          "cell": "E5",
+          "formula": "=+E58"
+        },
+        {
+          "cell": "F5",
+          "formula": "=+F58"
+        },
+        {
+          "cell": "G5",
+          "formula": "=+G58"
+        },
+        {
+          "cell": "H5",
+          "formula": "=+H58"
+        },
+        {
+          "cell": "I5",
+          "formula": "=+I58"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+J58"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+K58"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+L58"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+M58"
+        },
+        {
+          "cell": "N5",
+          "formula": "=+N58"
+        },
+        {
+          "cell": "O5",
+          "formula": "=+O58"
+        }
+      ]
+    },
+    {
+      "title": "NOS",
+      "state": "visible",
+      "max_row": 54,
+      "max_column": 45,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 112,
+        "formula": 1137,
+        "cross_sheet_link": 428,
+        "numeric_constant": 35
+      },
+      "formula_samples": [
+        {
+          "cell": "B3",
+          "formula": "=+'GDP - income - annual'!B2"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+'GDP - income - annual'!C2"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+'GDP - income - annual'!D2"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+'GDP - income - annual'!E2"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+'GDP - income - annual'!F2"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+'GDP - income - annual'!G2"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+'GDP - income - annual'!H2"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+'GDP - income - annual'!I2"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+'GDP - income - annual'!J2"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+'GDP - income - annual'!K2"
+        },
+        {
+          "cell": "L3",
+          "formula": "=+'GDP - income - annual'!L2"
+        },
+        {
+          "cell": "M3",
+          "formula": "=+'GDP - income - annual'!M2"
+        }
+      ]
+    },
+    {
+      "title": "Interest rates",
+      "state": "visible",
+      "max_row": 28,
+      "max_column": 16365,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 144,
+        "numeric_constant": 79,
+        "formula": 491,
+        "cross_sheet_link": 225,
+        "formula_with_numeric_literal": 59
+      },
+      "formula_samples": [
+        {
+          "cell": "E5",
+          "formula": "=+'Macro for fiscal'!C46"
+        },
+        {
+          "cell": "F5",
+          "formula": "=+'Macro for fiscal'!D46"
+        },
+        {
+          "cell": "G5",
+          "formula": "=+'Macro for fiscal'!E46"
+        },
+        {
+          "cell": "H5",
+          "formula": "=+'Macro for fiscal'!F46"
+        },
+        {
+          "cell": "I5",
+          "formula": "=+'Macro for fiscal'!G46"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+'Macro for fiscal'!H46"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+'Macro for fiscal'!I46"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+'Macro for fiscal'!J46"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+'Macro for fiscal'!K46"
+        },
+        {
+          "cell": "N5",
+          "formula": "=+'Macro for fiscal'!L46"
+        },
+        {
+          "cell": "O5",
+          "formula": "=+'Macro for fiscal'!M46"
+        },
+        {
+          "cell": "P5",
+          "formula": "=+'Macro for fiscal'!N46"
+        }
+      ]
+    },
+    {
+      "title": "Growth accounting",
+      "state": "visible",
+      "max_row": 60,
+      "max_column": 45,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 237,
+        "numeric_constant": 203,
+        "formula": 895,
+        "cross_sheet_link": 164
+      },
+      "formula_samples": [
+        {
+          "cell": "C5",
+          "formula": "=+'Macro for fiscal'!C3"
+        },
+        {
+          "cell": "D5",
+          "formula": "=+'Macro for fiscal'!D3"
+        },
+        {
+          "cell": "E5",
+          "formula": "=+'Macro for fiscal'!E3"
+        },
+        {
+          "cell": "F5",
+          "formula": "=+'Macro for fiscal'!F3"
+        },
+        {
+          "cell": "G5",
+          "formula": "=+'Macro for fiscal'!G3"
+        },
+        {
+          "cell": "H5",
+          "formula": "=+'Macro for fiscal'!H3"
+        },
+        {
+          "cell": "I5",
+          "formula": "=+'Macro for fiscal'!I3"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+'Macro for fiscal'!J3"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+'Macro for fiscal'!K3"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+'Macro for fiscal'!L3"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+'Macro for fiscal'!M3"
+        },
+        {
+          "cell": "N5",
+          "formula": "=+'Macro for fiscal'!N3"
+        }
+      ]
+    },
+    {
+      "title": "ULC",
+      "state": "visible",
+      "max_row": 40,
+      "max_column": 46,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 76,
+        "numeric_constant": 42,
+        "formula": 1060,
+        "cross_sheet_link": 491
+      },
+      "formula_samples": [
+        {
+          "cell": "C5",
+          "formula": "=+'Macro for fiscal'!C9"
+        },
+        {
+          "cell": "D5",
+          "formula": "=+'Macro for fiscal'!D9"
+        },
+        {
+          "cell": "E5",
+          "formula": "=+'Macro for fiscal'!E9"
+        },
+        {
+          "cell": "F5",
+          "formula": "=+'Macro for fiscal'!F9"
+        },
+        {
+          "cell": "G5",
+          "formula": "=+'Macro for fiscal'!G9"
+        },
+        {
+          "cell": "H5",
+          "formula": "=+'Macro for fiscal'!H9"
+        },
+        {
+          "cell": "I5",
+          "formula": "=+'Macro for fiscal'!I9"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+'Macro for fiscal'!J9"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+'Macro for fiscal'!K9"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+'Macro for fiscal'!L9"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+'Macro for fiscal'!M9"
+        },
+        {
+          "cell": "N5",
+          "formula": "=+'Macro for fiscal'!N9"
+        }
+      ]
+    },
+    {
+      "title": "Mining assumptions",
+      "state": "visible",
+      "max_row": 77,
+      "max_column": 34,
+      "classified_as": [
+        "parameters"
+      ],
+      "counts": {
+        "nonempty_nonformula": 214,
+        "numeric_constant": 143,
+        "formula": 992,
+        "cross_sheet_link": 660,
+        "formula_with_numeric_literal": 2
+      },
+      "formula_samples": [
+        {
+          "cell": "E6",
+          "formula": "=+SUM(OT!D22,Gatsuurt!D21)"
+        },
+        {
+          "cell": "F6",
+          "formula": "=+SUM(OT!E22,Gatsuurt!E21)"
+        },
+        {
+          "cell": "G6",
+          "formula": "=+SUM(OT!F22,Gatsuurt!F21)"
+        },
+        {
+          "cell": "H6",
+          "formula": "=+SUM(OT!G22,Gatsuurt!G21)"
+        },
+        {
+          "cell": "I6",
+          "formula": "=+SUM(OT!H22,Gatsuurt!H21)"
+        },
+        {
+          "cell": "J6",
+          "formula": "=+SUM(OT!I22,Gatsuurt!I21)"
+        },
+        {
+          "cell": "K6",
+          "formula": "=+SUM(OT!J22,Gatsuurt!J21)"
+        },
+        {
+          "cell": "L6",
+          "formula": "=+SUM(OT!K22,Gatsuurt!K21)"
+        },
+        {
+          "cell": "M6",
+          "formula": "=+SUM(OT!L22,Gatsuurt!L21)"
+        },
+        {
+          "cell": "N6",
+          "formula": "=+SUM(OT!M22,Gatsuurt!M21)"
+        },
+        {
+          "cell": "O6",
+          "formula": "=+SUM(OT!N22,Gatsuurt!N21)"
+        },
+        {
+          "cell": "P6",
+          "formula": "=+SUM(OT!O22,Gatsuurt!O21)"
+        }
+      ]
+    },
+    {
+      "title": "Mining summary - 2016 real USD",
+      "state": "visible",
+      "max_row": 290,
+      "max_column": 37,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 629,
+        "numeric_constant": 151,
+        "formula": 5505,
+        "cross_sheet_link": 3540
+      },
+      "formula_samples": [
+        {
+          "cell": "C5",
+          "formula": "=+NPV($B$3/100,D5:AG5)"
+        },
+        {
+          "cell": "D5",
+          "formula": "=+D69"
+        },
+        {
+          "cell": "E5",
+          "formula": "=+E69"
+        },
+        {
+          "cell": "F5",
+          "formula": "=+F69"
+        },
+        {
+          "cell": "G5",
+          "formula": "=+G69"
+        },
+        {
+          "cell": "H5",
+          "formula": "=+H69"
+        },
+        {
+          "cell": "I5",
+          "formula": "=+I69"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+J69"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+K69"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+L69"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+M69"
+        },
+        {
+          "cell": "N5",
+          "formula": "=+N69"
+        }
+      ]
+    },
+    {
+      "title": "Mining summary - current MNT",
+      "state": "visible",
+      "max_row": 114,
+      "max_column": 37,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 385,
+        "numeric_constant": 228,
+        "formula": 2393,
+        "cross_sheet_link": 1570
+      },
+      "formula_samples": [
+        {
+          "cell": "C4",
+          "formula": "=+'Macro for fiscal'!I44"
+        },
+        {
+          "cell": "D4",
+          "formula": "=+'Macro for fiscal'!J44"
+        },
+        {
+          "cell": "E4",
+          "formula": "=+'Macro for fiscal'!K44"
+        },
+        {
+          "cell": "F4",
+          "formula": "=+'Macro for fiscal'!L44"
+        },
+        {
+          "cell": "G4",
+          "formula": "=+'Macro for fiscal'!M44"
+        },
+        {
+          "cell": "H4",
+          "formula": "=+'Macro for fiscal'!N44"
+        },
+        {
+          "cell": "I4",
+          "formula": "=+'Macro for fiscal'!O44"
+        },
+        {
+          "cell": "J4",
+          "formula": "=+'Macro for fiscal'!P44"
+        },
+        {
+          "cell": "K4",
+          "formula": "=+'Macro for fiscal'!Q44"
+        },
+        {
+          "cell": "L4",
+          "formula": "=+'Macro for fiscal'!R44"
+        },
+        {
+          "cell": "M4",
+          "formula": "=+'Macro for fiscal'!S44"
+        },
+        {
+          "cell": "N4",
+          "formula": "=+'Macro for fiscal'!T44"
+        }
+      ]
+    },
+    {
+      "title": "Mining shocks",
+      "state": "visible",
+      "max_row": 56,
+      "max_column": 33,
+      "classified_as": [
+        "control_or_scenario"
+      ],
+      "counts": {
+        "nonempty_nonformula": 500,
+        "numeric_constant": 465,
+        "formula": 696,
+        "cross_sheet_link": 173
+      },
+      "formula_samples": [
+        {
+          "cell": "E4",
+          "formula": "=+D4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!D19,IF('Mining shocks'!E$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "F4",
+          "formula": "=+E4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!E19,IF('Mining shocks'!F$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "G4",
+          "formula": "=+F4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!F19,IF('Mining shocks'!G$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "H4",
+          "formula": "=+G4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!G19,IF('Mining shocks'!H$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "I4",
+          "formula": "=+H4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!H19,IF('Mining shocks'!I$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "J4",
+          "formula": "=+I4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!I19,IF('Mining shocks'!J$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "K4",
+          "formula": "=+J4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!J19,IF('Mining shocks'!K$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "L4",
+          "formula": "=+K4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!K19,IF('Mining shocks'!L$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "M4",
+          "formula": "=+L4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!L19,IF('Mining shocks'!M$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "N4",
+          "formula": "=+M4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!M19,IF('Mining shocks'!N$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "O4",
+          "formula": "=+N4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!N19,IF('Mining shocks'!O$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        },
+        {
+          "cell": "P4",
+          "formula": "=+O4*(1+IF('Control panel - advanced'!$C$3=\"YES\",'Control panel - advanced'!O19,IF('Mining shocks'!P$1='Control panel'!$D$17,'Control panel'!$E$17,0))/100)"
+        }
+      ]
+    },
+    {
+      "title": "OT",
+      "state": "visible",
+      "max_row": 207,
+      "max_column": 46,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 553,
+        "numeric_constant": 263,
+        "formula": 3174,
+        "cross_sheet_link": 480
+      },
+      "formula_samples": [
+        {
+          "cell": "C19",
+          "formula": "=SUM(D19:AG19)"
+        },
+        {
+          "cell": "C20",
+          "formula": "=SUM(D20:AG20)"
+        },
+        {
+          "cell": "C21",
+          "formula": "=SUM(D21:AG21)"
+        },
+        {
+          "cell": "D21",
+          "formula": "=+'Mining shocks'!D19*'Mining shocks'!D6/100"
+        },
+        {
+          "cell": "E21",
+          "formula": "=+'Mining shocks'!E19*'Mining shocks'!E6/100"
+        },
+        {
+          "cell": "F21",
+          "formula": "=+'Mining shocks'!F19*'Mining shocks'!F6/100"
+        },
+        {
+          "cell": "G21",
+          "formula": "=+'Mining shocks'!G19*'Mining shocks'!G6/100"
+        },
+        {
+          "cell": "H21",
+          "formula": "=+'Mining shocks'!H19*'Mining shocks'!H6/100"
+        },
+        {
+          "cell": "I21",
+          "formula": "=+'Mining shocks'!I19*'Mining shocks'!I6/100"
+        },
+        {
+          "cell": "J21",
+          "formula": "=+'Mining shocks'!J19*'Mining shocks'!J6/100"
+        },
+        {
+          "cell": "K21",
+          "formula": "=+'Mining shocks'!K19*'Mining shocks'!K6/100"
+        },
+        {
+          "cell": "L21",
+          "formula": "=+'Mining shocks'!L19*'Mining shocks'!L6/100"
+        }
+      ]
+    },
+    {
+      "title": "Erdenet",
+      "state": "visible",
+      "max_row": 188,
+      "max_column": 46,
+      "classified_as": [
+        "mining_or_project"
+      ],
+      "counts": {
+        "nonempty_nonformula": 419,
+        "numeric_constant": 225,
+        "formula": 2349,
+        "cross_sheet_link": 299
+      },
+      "formula_samples": [
+        {
+          "cell": "C21",
+          "formula": "=SUM(D21:AG21)"
+        },
+        {
+          "cell": "D21",
+          "formula": "=+D19"
+        },
+        {
+          "cell": "E21",
+          "formula": "=+E19*'Mining shocks'!E$6/100"
+        },
+        {
+          "cell": "F21",
+          "formula": "=+F19*'Mining shocks'!F$6/100"
+        },
+        {
+          "cell": "G21",
+          "formula": "=+G19*'Mining shocks'!G$6/100"
+        },
+        {
+          "cell": "H21",
+          "formula": "=+H19*'Mining shocks'!H$6/100"
+        },
+        {
+          "cell": "I21",
+          "formula": "=+I19*'Mining shocks'!I$6/100"
+        },
+        {
+          "cell": "J21",
+          "formula": "=+J19*'Mining shocks'!J$6/100"
+        },
+        {
+          "cell": "K21",
+          "formula": "=+K19*'Mining shocks'!K$6/100"
+        },
+        {
+          "cell": "L21",
+          "formula": "=+L19*'Mining shocks'!L$6/100"
+        },
+        {
+          "cell": "M21",
+          "formula": "=+M19*'Mining shocks'!M$6/100"
+        },
+        {
+          "cell": "N21",
+          "formula": "=+N19*'Mining shocks'!N$6/100"
+        }
+      ]
+    },
+    {
+      "title": "TsSuv",
+      "state": "visible",
+      "max_row": 188,
+      "max_column": 46,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 397,
+        "numeric_constant": 204,
+        "formula": 2315,
+        "cross_sheet_link": 298
+      },
+      "formula_samples": [
+        {
+          "cell": "C21",
+          "formula": "=SUM(D21:AG21)"
+        },
+        {
+          "cell": "D21",
+          "formula": "=+D19"
+        },
+        {
+          "cell": "E21",
+          "formula": "=+E19*'Mining shocks'!E$6/100"
+        },
+        {
+          "cell": "F21",
+          "formula": "=+F19*'Mining shocks'!F$6/100"
+        },
+        {
+          "cell": "G21",
+          "formula": "=+G19*'Mining shocks'!G$6/100"
+        },
+        {
+          "cell": "H21",
+          "formula": "=+H19*'Mining shocks'!H$6/100"
+        },
+        {
+          "cell": "I21",
+          "formula": "=+I19*'Mining shocks'!I$6/100"
+        },
+        {
+          "cell": "J21",
+          "formula": "=+J19*'Mining shocks'!J$6/100"
+        },
+        {
+          "cell": "K21",
+          "formula": "=+K19*'Mining shocks'!K$6/100"
+        },
+        {
+          "cell": "L21",
+          "formula": "=+L19*'Mining shocks'!L$6/100"
+        },
+        {
+          "cell": "M21",
+          "formula": "=+M19*'Mining shocks'!M$6/100"
+        },
+        {
+          "cell": "N21",
+          "formula": "=+N19*'Mining shocks'!N$6/100"
+        }
+      ]
+    },
+    {
+      "title": "Gatsuurt",
+      "state": "visible",
+      "max_row": 188,
+      "max_column": 38,
+      "classified_as": [
+        "mining_or_project"
+      ],
+      "counts": {
+        "nonempty_nonformula": 273,
+        "numeric_constant": 123,
+        "formula": 1792,
+        "cross_sheet_link": 268
+      },
+      "formula_samples": [
+        {
+          "cell": "C21",
+          "formula": "=SUM(E21:AG21)"
+        },
+        {
+          "cell": "D21",
+          "formula": "=+D19"
+        },
+        {
+          "cell": "E21",
+          "formula": "=+E19*'Mining shocks'!E$6/100"
+        },
+        {
+          "cell": "F21",
+          "formula": "=+F19*'Mining shocks'!F$6/100"
+        },
+        {
+          "cell": "G21",
+          "formula": "=+G19*'Mining shocks'!G$6/100"
+        },
+        {
+          "cell": "H21",
+          "formula": "=+H19*'Mining shocks'!H$6/100"
+        },
+        {
+          "cell": "I21",
+          "formula": "=+I19*'Mining shocks'!I$6/100"
+        },
+        {
+          "cell": "J21",
+          "formula": "=+J19*'Mining shocks'!J$6/100"
+        },
+        {
+          "cell": "K21",
+          "formula": "=+K19*'Mining shocks'!K$6/100"
+        },
+        {
+          "cell": "L21",
+          "formula": "=+L19*'Mining shocks'!L$6/100"
+        },
+        {
+          "cell": "M21",
+          "formula": "=+M19*'Mining shocks'!M$6/100"
+        },
+        {
+          "cell": "N21",
+          "formula": "=+N19*'Mining shocks'!N$6/100"
+        }
+      ]
+    },
+    {
+      "title": "ETT",
+      "state": "visible",
+      "max_row": 188,
+      "max_column": 38,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 272,
+        "numeric_constant": 155,
+        "formula": 1511,
+        "cross_sheet_link": 179
+      },
+      "formula_samples": [
+        {
+          "cell": "C21",
+          "formula": "=SUM(D21:AG21)"
+        },
+        {
+          "cell": "D21",
+          "formula": "=+D19"
+        },
+        {
+          "cell": "E21",
+          "formula": "=+E19*'Mining shocks'!E$6/100"
+        },
+        {
+          "cell": "F21",
+          "formula": "=+F19*'Mining shocks'!F$6/100"
+        },
+        {
+          "cell": "G21",
+          "formula": "=+G19*'Mining shocks'!G$6/100"
+        },
+        {
+          "cell": "H21",
+          "formula": "=+H19*'Mining shocks'!H$6/100"
+        },
+        {
+          "cell": "I21",
+          "formula": "=+I19*'Mining shocks'!I$6/100"
+        },
+        {
+          "cell": "J21",
+          "formula": "=+J19*'Mining shocks'!J$6/100"
+        },
+        {
+          "cell": "K21",
+          "formula": "=+K19*'Mining shocks'!K$6/100"
+        },
+        {
+          "cell": "L21",
+          "formula": "=+L19*'Mining shocks'!L$6/100"
+        },
+        {
+          "cell": "M21",
+          "formula": "=+M19*'Mining shocks'!M$6/100"
+        },
+        {
+          "cell": "N21",
+          "formula": "=+N19*'Mining shocks'!N$6/100"
+        }
+      ]
+    },
+    {
+      "title": "ER",
+      "state": "visible",
+      "max_row": 204,
+      "max_column": 38,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 317,
+        "numeric_constant": 172,
+        "formula": 1576,
+        "cross_sheet_link": 179
+      },
+      "formula_samples": [
+        {
+          "cell": "C21",
+          "formula": "=SUM(D21:AG21)"
+        },
+        {
+          "cell": "D21",
+          "formula": "=+D19"
+        },
+        {
+          "cell": "E21",
+          "formula": "=+E19*'Mining shocks'!E$6/100"
+        },
+        {
+          "cell": "F21",
+          "formula": "=+F19*'Mining shocks'!F$6/100"
+        },
+        {
+          "cell": "G21",
+          "formula": "=+G19*'Mining shocks'!G$6/100"
+        },
+        {
+          "cell": "H21",
+          "formula": "=+H19*'Mining shocks'!H$6/100"
+        },
+        {
+          "cell": "I21",
+          "formula": "=+I19*'Mining shocks'!I$6/100"
+        },
+        {
+          "cell": "J21",
+          "formula": "=+J19*'Mining shocks'!J$6/100"
+        },
+        {
+          "cell": "K21",
+          "formula": "=+K19*'Mining shocks'!K$6/100"
+        },
+        {
+          "cell": "L21",
+          "formula": "=+L19*'Mining shocks'!L$6/100"
+        },
+        {
+          "cell": "M21",
+          "formula": "=+M19*'Mining shocks'!M$6/100"
+        },
+        {
+          "cell": "N21",
+          "formula": "=+N19*'Mining shocks'!N$6/100"
+        }
+      ]
+    },
+    {
+      "title": "Other mines",
+      "state": "visible",
+      "max_row": 40,
+      "max_column": 37,
+      "classified_as": [
+        "mining_or_project"
+      ],
+      "counts": {
+        "nonempty_nonformula": 92,
+        "numeric_constant": 63,
+        "formula": 834,
+        "cross_sheet_link": 619
+      },
+      "formula_samples": [
+        {
+          "cell": "C3",
+          "formula": "=C11/'Mining summary - current MNT'!C$6"
+        },
+        {
+          "cell": "D3",
+          "formula": "=D11/'Mining summary - current MNT'!D$6"
+        },
+        {
+          "cell": "E3",
+          "formula": "=E11/'Mining summary - current MNT'!E$6"
+        },
+        {
+          "cell": "F3",
+          "formula": "=F11/'Mining summary - current MNT'!F$6"
+        },
+        {
+          "cell": "G3",
+          "formula": "=F3"
+        },
+        {
+          "cell": "H3",
+          "formula": "=G3*'Mining assumptions'!E$30/1000"
+        },
+        {
+          "cell": "I3",
+          "formula": "=H3*('Mining assumptions'!F$30/'Mining assumptions'!E$30)*('Mining shocks'!E$6/'Mining shocks'!D$6)"
+        },
+        {
+          "cell": "J3",
+          "formula": "=I3*('Mining assumptions'!G$30/'Mining assumptions'!F$30)*('Mining shocks'!F$6/'Mining shocks'!E$6)"
+        },
+        {
+          "cell": "K3",
+          "formula": "=J3*('Mining assumptions'!H$30/'Mining assumptions'!G$30)*('Mining shocks'!G$6/'Mining shocks'!F$6)"
+        },
+        {
+          "cell": "L3",
+          "formula": "=K3*('Mining assumptions'!I$30/'Mining assumptions'!H$30)*('Mining shocks'!H$6/'Mining shocks'!G$6)"
+        },
+        {
+          "cell": "M3",
+          "formula": "=L3*('Mining assumptions'!J$30/'Mining assumptions'!I$30)*('Mining shocks'!I$6/'Mining shocks'!H$6)"
+        },
+        {
+          "cell": "N3",
+          "formula": "=M3*('Mining assumptions'!K$30/'Mining assumptions'!J$30)*('Mining shocks'!J$6/'Mining shocks'!I$6)"
+        }
+      ]
+    },
+    {
+      "title": "Concise annual budget - MNT",
+      "state": "visible",
+      "max_row": 57,
+      "max_column": 56,
+      "classified_as": [
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 144,
+        "numeric_constant": 33,
+        "formula": 2031,
+        "cross_sheet_link": 1337
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!B8"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!C8"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!D8"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!E8"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!F8"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!G8"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!H8"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!I8"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!J8"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!K8"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!L8"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!M8"
+        }
+      ]
+    },
+    {
+      "title": "Concise annual budget - GDP%",
+      "state": "visible",
+      "max_row": 50,
+      "max_column": 66,
+      "classified_as": [
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 121,
+        "numeric_constant": 3,
+        "formula": 2203,
+        "cross_sheet_link": 1969
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Concise annual budget - MNT'!B2/('Worldbank data'!AH$804/1000000)"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Concise annual budget - MNT'!C2/('Worldbank data'!AI$804/1000000)"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Concise annual budget - MNT'!D2/('Worldbank data'!AJ$804/1000000)"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Concise annual budget - MNT'!E2/('Worldbank data'!AK$804/1000000)"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Concise annual budget - MNT'!F2/('Worldbank data'!AL$804/1000000)"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Concise annual budget - MNT'!G2/('Worldbank data'!AM$804/1000000)"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Concise annual budget - MNT'!H2/('Worldbank data'!AN$804/1000000)"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Concise annual budget - MNT'!I2/('Worldbank data'!AO$804/1000000)"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Concise annual budget - MNT'!J2/('Worldbank data'!AP$804/1000000)"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Concise annual budget - MNT'!K2/('Worldbank data'!AQ$804/1000000)"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Concise annual budget - MNT'!L2/('Worldbank data'!AR$804/1000000)"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Concise annual budget - MNT'!M2/('Worldbank data'!AS$804/1000000)"
+        }
+      ]
+    },
+    {
+      "title": "Government debt",
+      "state": "visible",
+      "max_row": 69,
+      "max_column": 58,
+      "classified_as": [
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 93,
+        "numeric_constant": 6,
+        "formula": 932,
+        "cross_sheet_link": 773
+      },
+      "formula_samples": [
+        {
+          "cell": "Z3",
+          "formula": "=+SUM(Z4,Z10,Z11)"
+        },
+        {
+          "cell": "AA3",
+          "formula": "=+SUM(AA4,AA10,AA11)"
+        },
+        {
+          "cell": "AB3",
+          "formula": "=+SUM(AB4,AB10,AB11)"
+        },
+        {
+          "cell": "AC3",
+          "formula": "=+SUM(AC4,AC10,AC11)"
+        },
+        {
+          "cell": "AD3",
+          "formula": "=+SUM(AD4,AD10,AD11)"
+        },
+        {
+          "cell": "AE3",
+          "formula": "=+SUM(AE4,AE10,AE11)"
+        },
+        {
+          "cell": "AF3",
+          "formula": "=+SUM(AF4,AF10,AF11)"
+        },
+        {
+          "cell": "AG3",
+          "formula": "=+SUM(AG4,AG10,AG11)"
+        },
+        {
+          "cell": "AH3",
+          "formula": "=+SUM(AH4,AH10,AH11)"
+        },
+        {
+          "cell": "AI3",
+          "formula": "=+SUM(AI4,AI10,AI11)"
+        },
+        {
+          "cell": "AJ3",
+          "formula": "=+SUM(AJ4,AJ10,AJ11)"
+        },
+        {
+          "cell": "AK3",
+          "formula": "=+SUM(AK4,AK10,AK11)"
+        }
+      ]
+    },
+    {
+      "title": "Fiscal rules",
+      "state": "visible",
+      "max_row": 91,
+      "max_column": 52,
+      "classified_as": [
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 544,
+        "numeric_constant": 488,
+        "formula": 986,
+        "cross_sheet_link": 452,
+        "formula_with_numeric_literal": 31
+      },
+      "formula_samples": [
+        {
+          "cell": "R4",
+          "formula": "=+'Numerical results'!E27"
+        },
+        {
+          "cell": "S4",
+          "formula": "=+'Numerical results'!F27"
+        },
+        {
+          "cell": "T4",
+          "formula": "=+'Numerical results'!G27"
+        },
+        {
+          "cell": "U4",
+          "formula": "=+'Numerical results'!H27"
+        },
+        {
+          "cell": "V4",
+          "formula": "=+'Numerical results'!I27"
+        },
+        {
+          "cell": "W4",
+          "formula": "=+'Numerical results'!J27"
+        },
+        {
+          "cell": "X4",
+          "formula": "=+'Numerical results'!K27"
+        },
+        {
+          "cell": "Y4",
+          "formula": "=+'Numerical results'!L27"
+        },
+        {
+          "cell": "Z4",
+          "formula": "=+'Numerical results'!M27"
+        },
+        {
+          "cell": "AA4",
+          "formula": "=+'Numerical results'!N27"
+        },
+        {
+          "cell": "AB4",
+          "formula": "=+'Numerical results'!O27"
+        },
+        {
+          "cell": "AC4",
+          "formula": "=+'Numerical results'!P27"
+        }
+      ]
+    },
+    {
+      "title": "CIT",
+      "state": "visible",
+      "max_row": 153,
+      "max_column": 16368,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 264,
+        "numeric_constant": 163,
+        "formula": 2456,
+        "cross_sheet_link": 601,
+        "formula_with_numeric_literal": 44
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+SUM(B3:B4)"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+SUM(C3:C4)"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+SUM(D3:D4)"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+SUM(E3:E4)"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+SUM(F3:F4)"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+SUM(G3:G4)"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+SUM(H3:H4)"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+SUM(I3:I4)"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+SUM(J3:J4)"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+SUM(K3:K4)"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+SUM(L3:L4)"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+SUM(M3:M4)"
+        }
+      ]
+    },
+    {
+      "title": "PIT",
+      "state": "visible",
+      "max_row": 26,
+      "max_column": 48,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 200,
+        "numeric_constant": 180,
+        "formula": 420,
+        "cross_sheet_link": 195,
+        "formula_with_numeric_literal": 44
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!M10"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!N10"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!O10"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!P10"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!Q10"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!R10"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!S10"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!T10"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!U10"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!V10"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!W10"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!X10"
+        }
+      ]
+    },
+    {
+      "title": "VAT",
+      "state": "visible",
+      "max_row": 45,
+      "max_column": 57,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 118,
+        "numeric_constant": 89,
+        "formula": 593,
+        "cross_sheet_link": 282,
+        "formula_with_numeric_literal": 67
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!B15"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!C15"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!D15"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!E15"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!F15"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!G15"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!H15"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!I15"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!J15"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!K15"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!L15"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!M15"
+        }
+      ]
+    },
+    {
+      "title": "Excise taxes",
+      "state": "visible",
+      "max_row": 6,
+      "max_column": 59,
+      "classified_as": [
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 57,
+        "numeric_constant": 2,
+        "formula": 166,
+        "cross_sheet_link": 82
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!B16"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!C16"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!D16"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!E16"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!F16"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!G16"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!H16"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!I16"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!J16"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!K16"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!L16"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!M16"
+        }
+      ]
+    },
+    {
+      "title": "Income of special purposes",
+      "state": "visible",
+      "max_row": 24,
+      "max_column": 59,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 263,
+        "numeric_constant": 195,
+        "formula": 181,
+        "cross_sheet_link": 78
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!B17"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!C17"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!D17"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!E17"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!F17"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!G17"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!H17"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!I17"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!J17"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!K17"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!L17"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!M17"
+        }
+      ]
+    },
+    {
+      "title": "Customs duties",
+      "state": "visible",
+      "max_row": 9,
+      "max_column": 59,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 92,
+        "numeric_constant": 31,
+        "formula": 327,
+        "cross_sheet_link": 169,
+        "formula_with_numeric_literal": 1
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+SUM('Budget data - Annual'!B19)"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+SUM('Budget data - Annual'!C19)"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+SUM('Budget data - Annual'!D19)"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+SUM('Budget data - Annual'!E19)"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+SUM('Budget data - Annual'!F19)"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+SUM('Budget data - Annual'!G19)"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+SUM('Budget data - Annual'!H19)"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+SUM('Budget data - Annual'!I19)"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+SUM('Budget data - Annual'!J19)"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+SUM('Budget data - Annual'!K19)"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+SUM('Budget data - Annual'!L19)"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+SUM('Budget data - Annual'!M19)"
+        }
+      ]
+    },
+    {
+      "title": "SSC",
+      "state": "visible",
+      "max_row": 30,
+      "max_column": 59,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 169,
+        "numeric_constant": 90,
+        "formula": 1067,
+        "cross_sheet_link": 151
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Concise annual budget - MNT'!B10"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Concise annual budget - MNT'!C10"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Concise annual budget - MNT'!D10"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Concise annual budget - MNT'!E10"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Concise annual budget - MNT'!F10"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Concise annual budget - MNT'!G10"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Concise annual budget - MNT'!H10"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Concise annual budget - MNT'!I10"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Concise annual budget - MNT'!J10"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Concise annual budget - MNT'!K10"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Concise annual budget - MNT'!L10"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!M12"
+        }
+      ]
+    },
+    {
+      "title": "Capital revenue",
+      "state": "visible",
+      "max_row": 47,
+      "max_column": 228,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 119,
+        "numeric_constant": 61,
+        "formula": 631,
+        "cross_sheet_link": 332
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!B23"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!C23"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!D23"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!E23"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!F23"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!G23"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!H23"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!I23"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!J23"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!K23"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!L23"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!M23"
+        }
+      ]
+    },
+    {
+      "title": "Grants and transfers",
+      "state": "visible",
+      "max_row": 49,
+      "max_column": 59,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 152,
+        "numeric_constant": 81,
+        "formula": 778,
+        "cross_sheet_link": 390,
+        "formula_with_numeric_literal": 1
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!B24"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!C24"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!D24"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!E24"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!F24"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!G24"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!H24"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!I24"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!J24"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!K24"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!L24"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!M24"
+        }
+      ]
+    },
+    {
+      "title": "Other revenues",
+      "state": "visible",
+      "max_row": 45,
+      "max_column": 59,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 81,
+        "numeric_constant": 21,
+        "formula": 301,
+        "cross_sheet_link": 145
+      },
+      "formula_samples": [
+        {
+          "cell": "A2",
+          "formula": "=+'Concise annual budget - MNT'!A13"
+        },
+        {
+          "cell": "B2",
+          "formula": "=+'Concise annual budget - MNT'!B13"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Concise annual budget - MNT'!C13"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Concise annual budget - MNT'!D13"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Concise annual budget - MNT'!E13"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Concise annual budget - MNT'!F13"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Concise annual budget - MNT'!G13"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Concise annual budget - MNT'!H13"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Concise annual budget - MNT'!I13"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Concise annual budget - MNT'!J13"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Concise annual budget - MNT'!K13"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Concise annual budget - MNT'!L13"
+        }
+      ]
+    },
+    {
+      "title": "Gov wages",
+      "state": "visible",
+      "max_row": 60,
+      "max_column": 16379,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 132,
+        "numeric_constant": 59,
+        "formula": 1085,
+        "cross_sheet_link": 573
+      },
+      "formula_samples": [
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!B30"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!C30"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!D30"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!E30"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!F30"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!G30"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!H30"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!I30"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!J30"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!K30"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!L30"
+        },
+        {
+          "cell": "N2",
+          "formula": "=+'Budget data - Annual'!M30"
+        }
+      ]
+    },
+    {
+      "title": "Purchase of goods and services",
+      "state": "visible",
+      "max_row": 63,
+      "max_column": 44,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 76,
+        "numeric_constant": 27,
+        "formula": 724,
+        "cross_sheet_link": 338
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!P32"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!Q32"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!R32"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!S32"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!T32"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!U32"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!V32"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!W32"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!X32"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!Y32"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!Z32"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!AA32"
+        }
+      ]
+    },
+    {
+      "title": "Subsidies and transfers",
+      "state": "visible",
+      "max_row": 14,
+      "max_column": 59,
+      "classified_as": [],
+      "counts": {
+        "formula": 329,
+        "cross_sheet_link": 149,
+        "nonempty_nonformula": 63,
+        "numeric_constant": 2
+      },
+      "formula_samples": [
+        {
+          "cell": "A1",
+          "formula": "=+'Concise annual budget - MNT'!A24"
+        },
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!B34+'Budget data - Annual'!B35"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!C34+'Budget data - Annual'!C35"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!D34+'Budget data - Annual'!D35"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!E34+'Budget data - Annual'!E35"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!F34+'Budget data - Annual'!F35"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!G34+'Budget data - Annual'!G35"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!H34+'Budget data - Annual'!H35"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!I34+'Budget data - Annual'!I35"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!J34+'Budget data - Annual'!J35"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!K34+'Budget data - Annual'!K35"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!L34+'Budget data - Annual'!L35"
+        }
+      ]
+    },
+    {
+      "title": "Capital expenditure",
+      "state": "visible",
+      "max_row": 65,
+      "max_column": 59,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 154,
+        "numeric_constant": 89,
+        "formula": 869,
+        "cross_sheet_link": 494
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+SUM('Budget data - Annual'!B36)"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+SUM('Budget data - Annual'!C36)"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+SUM('Budget data - Annual'!D36)"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+SUM('Budget data - Annual'!E36)"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+SUM('Budget data - Annual'!F36)"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+SUM('Budget data - Annual'!G36)"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+SUM('Budget data - Annual'!H36)"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+SUM('Budget data - Annual'!I36)"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+SUM('Budget data - Annual'!J36)"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+SUM('Budget data - Annual'!K36)"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+SUM('Budget data - Annual'!L36)"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+SUM('Budget data - Annual'!M36)"
+        }
+      ]
+    },
+    {
+      "title": "Interest expenditure",
+      "state": "visible",
+      "max_row": 143,
+      "max_column": 16372,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 956,
+        "numeric_constant": 779,
+        "formula": 3012,
+        "cross_sheet_link": 727,
+        "formula_with_numeric_literal": 31
+      },
+      "formula_samples": [
+        {
+          "cell": "B2",
+          "formula": "=+'Budget data - Annual'!B33"
+        },
+        {
+          "cell": "C2",
+          "formula": "=+'Budget data - Annual'!C33"
+        },
+        {
+          "cell": "D2",
+          "formula": "=+'Budget data - Annual'!D33"
+        },
+        {
+          "cell": "E2",
+          "formula": "=+'Budget data - Annual'!E33"
+        },
+        {
+          "cell": "F2",
+          "formula": "=+'Budget data - Annual'!F33"
+        },
+        {
+          "cell": "G2",
+          "formula": "=+'Budget data - Annual'!G33"
+        },
+        {
+          "cell": "H2",
+          "formula": "=+'Budget data - Annual'!H33"
+        },
+        {
+          "cell": "I2",
+          "formula": "=+'Budget data - Annual'!I33"
+        },
+        {
+          "cell": "J2",
+          "formula": "=+'Budget data - Annual'!J33"
+        },
+        {
+          "cell": "K2",
+          "formula": "=+'Budget data - Annual'!K33"
+        },
+        {
+          "cell": "L2",
+          "formula": "=+'Budget data - Annual'!L33"
+        },
+        {
+          "cell": "M2",
+          "formula": "=+'Budget data - Annual'!M33"
+        }
+      ]
+    },
+    {
+      "title": "Worldbank data",
+      "state": "visible",
+      "max_row": 1424,
+      "max_column": 58,
+      "classified_as": [
+        "historical_data"
+      ],
+      "counts": {
+        "nonempty_nonformula": 29564,
+        "numeric_constant": 26664
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Worldbank - Metadata",
+      "state": "visible",
+      "max_row": 2849,
+      "max_column": 4,
+      "classified_as": [
+        "historical_data"
+      ],
+      "counts": {
+        "nonempty_nonformula": 5684
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Gov. empl.",
+      "state": "visible",
+      "max_row": 14,
+      "max_column": 16,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 86,
+        "numeric_constant": 74
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Labor market - quarterly",
+      "state": "visible",
+      "max_row": 93,
+      "max_column": 205,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 3549,
+        "numeric_constant": 2491,
+        "formula": 34
+      },
+      "formula_samples": [
+        {
+          "cell": "F1",
+          "formula": "=+B1+1"
+        },
+        {
+          "cell": "G1",
+          "formula": "=+C1+1"
+        },
+        {
+          "cell": "H1",
+          "formula": "=+D1+1"
+        },
+        {
+          "cell": "I1",
+          "formula": "=+E1+1"
+        },
+        {
+          "cell": "J1",
+          "formula": "=+F1+1"
+        },
+        {
+          "cell": "K1",
+          "formula": "=+G1+1"
+        },
+        {
+          "cell": "L1",
+          "formula": "=+H1+1"
+        },
+        {
+          "cell": "M1",
+          "formula": "=+I1+1"
+        },
+        {
+          "cell": "N1",
+          "formula": "=+J1+1"
+        },
+        {
+          "cell": "O1",
+          "formula": "=+K1+1"
+        },
+        {
+          "cell": "P1",
+          "formula": "=+L1+1"
+        },
+        {
+          "cell": "Q1",
+          "formula": "=+M1+1"
+        }
+      ]
+    },
+    {
+      "title": "GDP - production - annual",
+      "state": "visible",
+      "max_row": 27,
+      "max_column": 27,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 595,
+        "numeric_constant": 546
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "GDP - income - annual",
+      "state": "visible",
+      "max_row": 19,
+      "max_column": 15,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 94,
+        "numeric_constant": 70
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Budget revenues - Monthly",
+      "state": "visible",
+      "max_row": 49,
+      "max_column": 205,
+      "classified_as": [
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 4645,
+        "numeric_constant": 4155,
+        "formula": 4943
+      },
+      "formula_samples": [
+        {
+          "cell": "FN3",
+          "formula": "=+SUM(FN5,FN4)"
+        },
+        {
+          "cell": "FO3",
+          "formula": "=+SUM(FO5,FO4)"
+        },
+        {
+          "cell": "FP3",
+          "formula": "=+SUM(FP5,FP4)"
+        },
+        {
+          "cell": "FQ3",
+          "formula": "=+SUM(FQ5,FQ4)"
+        },
+        {
+          "cell": "FR3",
+          "formula": "=+SUM(FR5,FR4)"
+        },
+        {
+          "cell": "FS3",
+          "formula": "=+SUM(FS5,FS4)"
+        },
+        {
+          "cell": "FT3",
+          "formula": "=+SUM(FT5,FT4)"
+        },
+        {
+          "cell": "FU3",
+          "formula": "=+SUM(FU5,FU4)"
+        },
+        {
+          "cell": "FV3",
+          "formula": "=+SUM(FV5,FV4)"
+        },
+        {
+          "cell": "FW3",
+          "formula": "=+SUM(FW5,FW4)"
+        },
+        {
+          "cell": "FX3",
+          "formula": "=+SUM(FX5,FX4)"
+        },
+        {
+          "cell": "FY3",
+          "formula": "=+SUM(FY5,FY4)"
+        }
+      ]
+    },
+    {
+      "title": "Budget expenditures - Monthly",
+      "state": "visible",
+      "max_row": 52,
+      "max_column": 205,
+      "classified_as": [
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 3680,
+        "numeric_constant": 2946,
+        "formula": 3052,
+        "cross_sheet_link": 5
+      },
+      "formula_samples": [
+        {
+          "cell": "GR16",
+          "formula": "=+'Budget revenues - Monthly'!GR5-'Budget expenditures - Monthly'!GR3"
+        },
+        {
+          "cell": "GS16",
+          "formula": "=+'Budget revenues - Monthly'!GS5-'Budget expenditures - Monthly'!GS3"
+        },
+        {
+          "cell": "GT16",
+          "formula": "=+'Budget revenues - Monthly'!GT5-'Budget expenditures - Monthly'!GT3"
+        },
+        {
+          "cell": "GU16",
+          "formula": "=+'Budget revenues - Monthly'!GU5-'Budget expenditures - Monthly'!GU3"
+        },
+        {
+          "cell": "GV16",
+          "formula": "=+'Budget revenues - Monthly'!GV5-'Budget expenditures - Monthly'!GV3"
+        },
+        {
+          "cell": "GU17",
+          "formula": "=+GU16+GU15"
+        },
+        {
+          "cell": "GV17",
+          "formula": "=+GV16+GV15"
+        },
+        {
+          "cell": "B20",
+          "formula": "=+SUM(B3)"
+        },
+        {
+          "cell": "C20",
+          "formula": "=+SUM(C3)-SUM(B3)"
+        },
+        {
+          "cell": "D20",
+          "formula": "=+SUM(D3)-SUM(C3)"
+        },
+        {
+          "cell": "E20",
+          "formula": "=+SUM(E3)-SUM(D3)"
+        },
+        {
+          "cell": "F20",
+          "formula": "=+SUM(F3)-SUM(E3)"
+        }
+      ]
+    },
+    {
+      "title": "Budget data - Annual",
+      "state": "visible",
+      "max_row": 47,
+      "max_column": 34,
+      "classified_as": [
+        "historical_data",
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 1006,
+        "numeric_constant": 817,
+        "formula": 154,
+        "cross_sheet_link": 131
+      },
+      "formula_samples": [
+        {
+          "cell": "V3",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B28:$GW28,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!V$2)"
+        },
+        {
+          "cell": "W3",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B28:$GW28,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!W$2)"
+        },
+        {
+          "cell": "X3",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B28:$GW28,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!X$2)"
+        },
+        {
+          "cell": "Y3",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B28:$GW28,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!Y$2)"
+        },
+        {
+          "cell": "Z3",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B28:$GW28,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!Z$2)"
+        },
+        {
+          "cell": "AA3",
+          "formula": "=+SUM(AA5,AA4)"
+        },
+        {
+          "cell": "V4",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B29:$GW29,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!V$2)"
+        },
+        {
+          "cell": "W4",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B29:$GW29,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!W$2)"
+        },
+        {
+          "cell": "X4",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B29:$GW29,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!X$2)"
+        },
+        {
+          "cell": "Y4",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B29:$GW29,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!Y$2)"
+        },
+        {
+          "cell": "Z4",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B29:$GW29,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!Z$2)"
+        },
+        {
+          "cell": "V5",
+          "formula": "=+SUMIFS('Budget revenues - Monthly'!$B30:$GW30,'Budget revenues - Monthly'!$B$1:$GW$1,'Budget data - Annual'!V$2)"
+        }
+      ]
+    },
+    {
+      "title": "Debt data compiled",
+      "state": "visible",
+      "max_row": 60,
+      "max_column": 16,
+      "classified_as": [
+        "historical_data",
+        "fiscal"
+      ],
+      "counts": {
+        "nonempty_nonformula": 221,
+        "numeric_constant": 118,
+        "formula": 320,
+        "cross_sheet_link": 24
+      },
+      "formula_samples": [
+        {
+          "cell": "J3",
+          "formula": "=+B3/J$55*1000"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+C3/J$57*1000"
+        },
+        {
+          "cell": "L3",
+          "formula": "=+D3/K$57*1000"
+        },
+        {
+          "cell": "M3",
+          "formula": "=+E3/L$57*1000"
+        },
+        {
+          "cell": "N3",
+          "formula": "=+F3/M$57*1000"
+        },
+        {
+          "cell": "O3",
+          "formula": "=+G3/N$57*1000"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+C31-SUM(C8,C9,C11)-SUM(C19,C20,C22)"
+        },
+        {
+          "cell": "D4",
+          "formula": "=+D31-SUM(D8,D9,D11)-SUM(D19,D20,D22)"
+        },
+        {
+          "cell": "E4",
+          "formula": "=+E31-SUM(E8,E9,E11)-SUM(E19,E20,E22)"
+        },
+        {
+          "cell": "F4",
+          "formula": "=+F31-SUM(F8,F9,F11)-SUM(F19,F20,F22)"
+        },
+        {
+          "cell": "K4",
+          "formula": "=+C4/J$57*1000"
+        },
+        {
+          "cell": "L4",
+          "formula": "=+D4/K$57*1000"
+        }
+      ]
+    },
+    {
+      "title": "IO-table - 2010",
+      "state": "visible",
+      "max_row": 62,
+      "max_column": 27,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 1003,
+        "formula": 190,
+        "numeric_constant": 910
+      },
+      "formula_samples": [
+        {
+          "cell": "B3",
+          "formula": "=+B28"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+C28"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+SUM(P28:R28)"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+F3-SUM(B3:D3)"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+V28"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+W28"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+X28"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+Y28"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+Z28"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+AA28"
+        },
+        {
+          "cell": "B4",
+          "formula": "=+B29"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+C29"
+        }
+      ]
+    },
+    {
+      "title": "IO-table - 2011",
+      "state": "visible",
+      "max_row": 62,
+      "max_column": 27,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 1003,
+        "formula": 190,
+        "numeric_constant": 880
+      },
+      "formula_samples": [
+        {
+          "cell": "B3",
+          "formula": "=+B28"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+C28"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+SUM(P28:R28)"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+F3-SUM(B3:D3)"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+V28"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+W28"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+X28"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+Y28"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+Z28"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+AA28"
+        },
+        {
+          "cell": "B4",
+          "formula": "=+B29"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+C29"
+        }
+      ]
+    },
+    {
+      "title": "IO-table - 2012",
+      "state": "visible",
+      "max_row": 62,
+      "max_column": 27,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 1003,
+        "formula": 190,
+        "numeric_constant": 880
+      },
+      "formula_samples": [
+        {
+          "cell": "B3",
+          "formula": "=+B28"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+C28"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+SUM(P28:R28)"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+F3-SUM(B3:D3)"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+V28"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+W28"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+X28"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+Y28"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+Z28"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+AA28"
+        },
+        {
+          "cell": "B4",
+          "formula": "=+B29"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+C29"
+        }
+      ]
+    },
+    {
+      "title": "IO-table - 2013",
+      "state": "visible",
+      "max_row": 62,
+      "max_column": 27,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 1003,
+        "formula": 190,
+        "numeric_constant": 880
+      },
+      "formula_samples": [
+        {
+          "cell": "B3",
+          "formula": "=+B28"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+C28"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+SUM(P28:R28)"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+F3-SUM(B3:D3)"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+V28"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+W28"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+X28"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+Y28"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+Z28"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+AA28"
+        },
+        {
+          "cell": "B4",
+          "formula": "=+B29"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+C29"
+        }
+      ]
+    },
+    {
+      "title": "IO-table - 2014",
+      "state": "visible",
+      "max_row": 62,
+      "max_column": 27,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 1003,
+        "formula": 190,
+        "numeric_constant": 880
+      },
+      "formula_samples": [
+        {
+          "cell": "B3",
+          "formula": "=+B28"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+C28"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+SUM(P28:R28)"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+F3-SUM(B3:D3)"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+V28"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+W28"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+X28"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+Y28"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+Z28"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+AA28"
+        },
+        {
+          "cell": "B4",
+          "formula": "=+B29"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+C29"
+        }
+      ]
+    },
+    {
+      "title": "GFCF",
+      "state": "visible",
+      "max_row": 45,
+      "max_column": 10,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 144,
+        "formula": 43,
+        "cross_sheet_link": 7,
+        "numeric_constant": 102
+      },
+      "formula_samples": [
+        {
+          "cell": "C3",
+          "formula": "=+C25"
+        },
+        {
+          "cell": "D3",
+          "formula": "=+D25"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+E25"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+F25"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+G25"
+        },
+        {
+          "cell": "C4",
+          "formula": "=+C26"
+        },
+        {
+          "cell": "D4",
+          "formula": "=+D26"
+        },
+        {
+          "cell": "E4",
+          "formula": "=+E26"
+        },
+        {
+          "cell": "F4",
+          "formula": "=+F26"
+        },
+        {
+          "cell": "G4",
+          "formula": "=+G26"
+        },
+        {
+          "cell": "C5",
+          "formula": "=+SUM(C39:C41)"
+        },
+        {
+          "cell": "D5",
+          "formula": "=+SUM(D39:D41)"
+        }
+      ]
+    },
+    {
+      "title": "S0 - Baseline",
+      "state": "visible",
+      "max_row": 162,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "formula": 74,
+        "cross_sheet_link": 74,
+        "nonempty_nonformula": 2216,
+        "numeric_constant": 2215
+      },
+      "formula_samples": [
+        {
+          "cell": "B1",
+          "formula": "='Numerical results'!A81"
+        },
+        {
+          "cell": "B4",
+          "formula": "='Numerical results'!B82"
+        },
+        {
+          "cell": "B5",
+          "formula": "='Numerical results'!B83"
+        },
+        {
+          "cell": "B6",
+          "formula": "='Numerical results'!B84"
+        },
+        {
+          "cell": "B7",
+          "formula": "='Numerical results'!B85"
+        },
+        {
+          "cell": "B8",
+          "formula": "='Numerical results'!B86"
+        },
+        {
+          "cell": "B9",
+          "formula": "='Numerical results'!B87"
+        },
+        {
+          "cell": "B10",
+          "formula": "='Numerical results'!B88"
+        },
+        {
+          "cell": "B11",
+          "formula": "='Numerical results'!B89"
+        },
+        {
+          "cell": "B12",
+          "formula": "='Numerical results'!B90"
+        },
+        {
+          "cell": "B13",
+          "formula": "='Numerical results'!B91"
+        },
+        {
+          "cell": "B14",
+          "formula": "='Numerical results'!B92"
+        }
+      ]
+    },
+    {
+      "title": "Baseline charts",
+      "state": "visible",
+      "max_row": 151,
+      "max_column": 2,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 4
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "Scenarios data",
+      "state": "visible",
+      "max_row": 318,
+      "max_column": 36,
+      "classified_as": [
+        "control_or_scenario",
+        "historical_data"
+      ],
+      "counts": {
+        "nonempty_nonformula": 769,
+        "numeric_constant": 497,
+        "formula": 8206,
+        "cross_sheet_link": 8099
+      },
+      "formula_samples": [
+        {
+          "cell": "B3",
+          "formula": "=+'S0 - Baseline'!B$1"
+        },
+        {
+          "cell": "C3",
+          "formula": "=+SUMPRODUCT(E3:AH3,'PV-calculations'!B$5:AE$5)/D3/30"
+        },
+        {
+          "cell": "E3",
+          "formula": "=+D3*(1+'S0 - Baseline'!E$5/100)"
+        },
+        {
+          "cell": "F3",
+          "formula": "=+E3*(1+'S0 - Baseline'!F$5/100)"
+        },
+        {
+          "cell": "G3",
+          "formula": "=+F3*(1+'S0 - Baseline'!G$5/100)"
+        },
+        {
+          "cell": "H3",
+          "formula": "=+G3*(1+'S0 - Baseline'!H$5/100)"
+        },
+        {
+          "cell": "I3",
+          "formula": "=+H3*(1+'S0 - Baseline'!I$5/100)"
+        },
+        {
+          "cell": "J3",
+          "formula": "=+I3*(1+'S0 - Baseline'!J$5/100)"
+        },
+        {
+          "cell": "K3",
+          "formula": "=+J3*(1+'S0 - Baseline'!K$5/100)"
+        },
+        {
+          "cell": "L3",
+          "formula": "=+K3*(1+'S0 - Baseline'!L$5/100)"
+        },
+        {
+          "cell": "M3",
+          "formula": "=+L3*(1+'S0 - Baseline'!M$5/100)"
+        },
+        {
+          "cell": "N3",
+          "formula": "=+M3*(1+'S0 - Baseline'!N$5/100)"
+        }
+      ]
+    },
+    {
+      "title": "Scenarios charts",
+      "state": "visible",
+      "max_row": 196,
+      "max_column": 58,
+      "classified_as": [
+        "control_or_scenario"
+      ],
+      "counts": {
+        "nonempty_nonformula": 288,
+        "numeric_constant": 186,
+        "formula": 2835,
+        "cross_sheet_link": 2835
+      },
+      "formula_samples": [
+        {
+          "cell": "B3",
+          "formula": "=+'S0 - Baseline'!B$1"
+        },
+        {
+          "cell": "D3",
+          "formula": "=100*('Scenarios data'!D3/'Scenarios data'!D$3-1)"
+        },
+        {
+          "cell": "E3",
+          "formula": "=100*('Scenarios data'!E3/'Scenarios data'!E$3-1)"
+        },
+        {
+          "cell": "F3",
+          "formula": "=100*('Scenarios data'!F3/'Scenarios data'!F$3-1)"
+        },
+        {
+          "cell": "G3",
+          "formula": "=100*('Scenarios data'!G3/'Scenarios data'!G$3-1)"
+        },
+        {
+          "cell": "H3",
+          "formula": "=100*('Scenarios data'!H3/'Scenarios data'!H$3-1)"
+        },
+        {
+          "cell": "I3",
+          "formula": "=100*('Scenarios data'!I3/'Scenarios data'!I$3-1)"
+        },
+        {
+          "cell": "J3",
+          "formula": "=100*('Scenarios data'!J3/'Scenarios data'!J$3-1)"
+        },
+        {
+          "cell": "K3",
+          "formula": "=100*('Scenarios data'!K3/'Scenarios data'!K$3-1)"
+        },
+        {
+          "cell": "L3",
+          "formula": "=100*('Scenarios data'!L3/'Scenarios data'!L$3-1)"
+        },
+        {
+          "cell": "M3",
+          "formula": "=100*('Scenarios data'!M3/'Scenarios data'!M$3-1)"
+        },
+        {
+          "cell": "N3",
+          "formula": "=100*('Scenarios data'!N3/'Scenarios data'!N$3-1)"
+        }
+      ]
+    },
+    {
+      "title": "PV-calculations",
+      "state": "visible",
+      "max_row": 81,
+      "max_column": 31,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 88,
+        "numeric_constant": 55,
+        "formula": 675,
+        "cross_sheet_link": 514,
+        "formula_with_numeric_literal": 87
+      },
+      "formula_samples": [
+        {
+          "cell": "C5",
+          "formula": "=+SUMIFS(C$9:C$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "D5",
+          "formula": "=+SUMIFS(D$9:D$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "E5",
+          "formula": "=+SUMIFS(E$9:E$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "F5",
+          "formula": "=+SUMIFS(F$9:F$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "G5",
+          "formula": "=+SUMIFS(G$9:G$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "H5",
+          "formula": "=+SUMIFS(H$9:H$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "I5",
+          "formula": "=+SUMIFS(I$9:I$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "J5",
+          "formula": "=+SUMIFS(J$9:J$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "K5",
+          "formula": "=+SUMIFS(K$9:K$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "L5",
+          "formula": "=+SUMIFS(L$9:L$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "M5",
+          "formula": "=+SUMIFS(M$9:M$12,$A$9:$A$12,$F$3)"
+        },
+        {
+          "cell": "N5",
+          "formula": "=+SUMIFS(N$9:N$12,$A$9:$A$12,$F$3)"
+        }
+      ]
+    },
+    {
+      "title": "S1",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S2",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S3",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S4",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S5",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S6",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S7",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S8",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S9",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S10",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S11",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S12",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S13",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S14",
+      "state": "visible",
+      "max_row": 79,
+      "max_column": 39,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 2290,
+        "numeric_constant": 2215
+      },
+      "formula_samples": []
+    },
+    {
+      "title": "S15",
+      "state": "visible",
+      "max_row": 57,
+      "max_column": 34,
+      "classified_as": [],
+      "counts": {
+        "nonempty_nonformula": 84,
+        "numeric_constant": 31
+      },
+      "formula_samples": []
+    }
+  ],
+  "defined_name_count": 62,
+  "defined_names": [
+    {
+      "name": "__________GDP2000",
+      "definition": "[1]Sheet1!$D$76",
+      "hidden": false
+    },
+    {
+      "name": "__________GDP2002",
+      "definition": "[1]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "__________GDP2003",
+      "definition": "[1]Sheet1!$G$76",
+      "hidden": false
+    },
+    {
+      "name": "__________GDP2004",
+      "definition": "[1]Sheet1!$H$76",
+      "hidden": false
+    },
+    {
+      "name": "_________GDP2000",
+      "definition": "[2]Sheet1!$D$76",
+      "hidden": false
+    },
+    {
+      "name": "_________GDP2001",
+      "definition": "'[3]1. MacroEcono'!$E$63",
+      "hidden": false
+    },
+    {
+      "name": "_________GDP2002",
+      "definition": "[2]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "_________GDP2003",
+      "definition": "[2]Sheet1!$G$76",
+      "hidden": false
+    },
+    {
+      "name": "_________GDP2004",
+      "definition": "[2]Sheet1!$H$76",
+      "hidden": false
+    },
+    {
+      "name": "________GDP2001",
+      "definition": "'[4]1. MacroEcono'!$E$63",
+      "hidden": false
+    },
+    {
+      "name": "_______GDP2000",
+      "definition": "[5]Sheet1!$D$76",
+      "hidden": false
+    },
+    {
+      "name": "_______GDP2001",
+      "definition": "'[6]1. MacroEcono'!$E$63",
+      "hidden": false
+    },
+    {
+      "name": "_______GDP2002",
+      "definition": "[5]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "_______GDP2003",
+      "definition": "[5]Sheet1!$G$76",
+      "hidden": false
+    },
+    {
+      "name": "_______GDP2004",
+      "definition": "[5]Sheet1!$H$76",
+      "hidden": false
+    },
+    {
+      "name": "_____GDP2000",
+      "definition": "[1]Sheet1!$D$76",
+      "hidden": false
+    },
+    {
+      "name": "_____GDP2001",
+      "definition": "'[3]1. MacroEcono'!$E$63",
+      "hidden": false
+    },
+    {
+      "name": "_____GDP2002",
+      "definition": "[1]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "_____GDP2003",
+      "definition": "[1]Sheet1!$G$76",
+      "hidden": false
+    },
+    {
+      "name": "_____GDP2004",
+      "definition": "[1]Sheet1!$H$76",
+      "hidden": false
+    },
+    {
+      "name": "____GDP2000",
+      "definition": "[7]Sheet1!$D$76",
+      "hidden": false
+    },
+    {
+      "name": "____GDP2001",
+      "definition": "'[3]1. MacroEcono'!$E$63",
+      "hidden": false
+    },
+    {
+      "name": "____GDP2002",
+      "definition": "[7]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "____GDP2003",
+      "definition": "[7]Sheet1!$G$76",
+      "hidden": false
+    },
+    {
+      "name": "____GDP2004",
+      "definition": "[7]Sheet1!$H$76",
+      "hidden": false
+    },
+    {
+      "name": "___GDP2000",
+      "definition": "[1]Sheet1!$D$76",
+      "hidden": false
+    },
+    {
+      "name": "___GDP2001",
+      "definition": "'[3]1. MacroEcono'!$E$63",
+      "hidden": false
+    },
+    {
+      "name": "___GDP2002",
+      "definition": "[1]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "___GDP2003",
+      "definition": "[1]Sheet1!$G$76",
+      "hidden": false
+    },
+    {
+      "name": "___GDP2004",
+      "definition": "[1]Sheet1!$H$76",
+      "hidden": false
+    },
+    {
+      "name": "__GDP2000",
+      "definition": "[2]Sheet1!$D$76",
+      "hidden": false
+    },
+    {
+      "name": "__GDP2001",
+      "definition": "'[4]1. MacroEcono'!$E$63",
+      "hidden": false
+    },
+    {
+      "name": "__GDP2002",
+      "definition": "[2]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "__GDP2003",
+      "definition": "[2]Sheet1!$G$76",
+      "hidden": false
+    },
+    {
+      "name": "__GDP2004",
+      "definition": "[2]Sheet1!$H$76",
+      "hidden": false
+    },
+    {
+      "name": "_GDP2000",
+      "definition": "[8]Sheet1!$D$76",
+      "hidden": false
+    },
+    {
+      "name": "_GDP2001",
+      "definition": "'[9]1. MacroEcono'!$E$63",
+      "hidden": false
+    },
+    {
+      "name": "_GDP2002",
+      "definition": "[8]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "_GDP2003",
+      "definition": "[8]Sheet1!$G$76",
+      "hidden": false
+    },
+    {
+      "name": "_GDP2004",
+      "definition": "[8]Sheet1!$H$76",
+      "hidden": false
+    },
+    {
+      "name": "ACPONOFF",
+      "definition": "Driver!$B$39:$B$40",
+      "hidden": false
+    },
+    {
+      "name": "alpha",
+      "definition": "#REF!",
+      "hidden": false
+    },
+    {
+      "name": "áºá",
+      "definition": "\"Text Box 2\"",
+      "hidden": false
+    },
+    {
+      "name": "as",
+      "definition": "[1]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "creditor",
+      "definition": "[10]criteria!$K$4:$K$134",
+      "hidden": false
+    },
+    {
+      "name": "CRETERYA",
+      "definition": "#REF!",
+      "hidden": false
+    },
+    {
+      "name": "DOD_MNT_IMFmeth",
+      "definition": "'[10]in ORG'!$Y$4:$Y$160",
+      "hidden": false
+    },
+    {
+      "name": "DOD_USD_IMFmeth",
+      "definition": "'[10]in ORG'!$Z$4:$Z$160",
+      "hidden": false
+    },
+    {
+      "name": "DSB_MNT_Accmeth",
+      "definition": "'[10]in ORG'!$M$4:$M$160",
+      "hidden": false
+    },
+    {
+      "name": "DSB_USD_AccMeth",
+      "definition": "'[10]in ORG'!$N$4:$N$160",
+      "hidden": false
+    },
+    {
+      "name": "eco_class",
+      "definition": "[10]criteria!$N$4:$N$134",
+      "hidden": false
+    },
+    {
+      "name": "eco_sector_gov",
+      "definition": "[10]criteria!$O$4:$O$134",
+      "hidden": false
+    },
+    {
+      "name": "GD",
+      "definition": "[2]Sheet1!$F$76",
+      "hidden": false
+    },
+    {
+      "name": "IPMT_MNT_ACCmeth",
+      "definition": "'[10]in ORG'!$S$4:$S$160",
+      "hidden": false
+    },
+    {
+      "name": "IPMT_USD_ACCmeth",
+      "definition": "'[10]in ORG'!$T$4:$T$160",
+      "hidden": false
+    },
+    {
+      "name": "lang",
+      "definition": "#REF!",
+      "hidden": false
+    },
+    {
+      "name": "PPMT_MNT_ACCmeth",
+      "definition": "'[10]in ORG'!$P$4:$P$160",
+      "hidden": false
+    },
+    {
+      "name": "PPMT_USD_ACCmeth",
+      "definition": "'[10]in ORG'!$Q$4:$Q$160",
+      "hidden": false
+    },
+    {
+      "name": "Temporary_increase_of_output_in_the_mining_sector_in_2021",
+      "definition": "'Control panel'!$C$14",
+      "hidden": false
+    },
+    {
+      "name": "Temporary_off_increase_of_output_in_the_mining_sector_in_2021",
+      "definition": "'Control panel'!$C$14",
+      "hidden": false
+    },
+    {
+      "name": "type",
+      "definition": "[10]criteria!$P$4:$P$134",
+      "hidden": false
+    },
+    {
+      "name": "type_gov",
+      "definition": "[10]criteria!$Q$4:$Q$134",
+      "hidden": false
+    }
+  ],
+  "workbook_formula_totals": {
+    "nonempty_nonformula": 352942,
+    "formula": 153254,
+    "cross_sheet_link": 61560,
+    "formula_with_numeric_literal": 3144,
+    "numeric_constant": 328946
+  },
+  "formula_samples_global": [
+    {
+      "sheet": "Control panel",
+      "cell": "E4",
+      "formula": "=+IF(SUMSQ('Numerical results'!D161:AH233)<0.0001,\"BASELINE SCENARIO\",\"ALTERNATIVE SCENARIO\")"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "H5",
+      "formula": "=G5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "I5",
+      "formula": "=H5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "J5",
+      "formula": "=I5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "K5",
+      "formula": "=J5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "L5",
+      "formula": "=K5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "M5",
+      "formula": "=L5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "N5",
+      "formula": "=M5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "O5",
+      "formula": "=N5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "P5",
+      "formula": "=O5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "Q5",
+      "formula": "=P5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "R5",
+      "formula": "=Q5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "S5",
+      "formula": "=R5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "T5",
+      "formula": "=S5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "U5",
+      "formula": "=T5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "V5",
+      "formula": "=U5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "W5",
+      "formula": "=V5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "X5",
+      "formula": "=W5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "Y5",
+      "formula": "=X5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "Z5",
+      "formula": "=Y5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "AA5",
+      "formula": "=Z5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "AB5",
+      "formula": "=AA5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "AC5",
+      "formula": "=AB5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "AD5",
+      "formula": "=AC5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "AE5",
+      "formula": "=AD5+1"
+    },
+    {
+      "sheet": "Control panel - advanced",
+      "cell": "AF5",
+      "formula": "=AE5+1"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D3",
+      "formula": "=+'Macro for fiscal'!M29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E3",
+      "formula": "=+'Macro for fiscal'!N29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F3",
+      "formula": "=+'Macro for fiscal'!O29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G3",
+      "formula": "=+'Macro for fiscal'!P29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H3",
+      "formula": "=+'Macro for fiscal'!Q29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I3",
+      "formula": "=+'Macro for fiscal'!R29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J3",
+      "formula": "=+'Macro for fiscal'!S29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K3",
+      "formula": "=+'Macro for fiscal'!T29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L3",
+      "formula": "=+'Macro for fiscal'!U29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M3",
+      "formula": "=+'Macro for fiscal'!V29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N3",
+      "formula": "=+'Macro for fiscal'!W29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O3",
+      "formula": "=+'Macro for fiscal'!X29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P3",
+      "formula": "=+'Macro for fiscal'!Y29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Q3",
+      "formula": "=+'Macro for fiscal'!Z29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "R3",
+      "formula": "=+'Macro for fiscal'!AA29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "S3",
+      "formula": "=+'Macro for fiscal'!AB29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "T3",
+      "formula": "=+'Macro for fiscal'!AC29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "U3",
+      "formula": "=+'Macro for fiscal'!AD29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "V3",
+      "formula": "=+'Macro for fiscal'!AE29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "W3",
+      "formula": "=+'Macro for fiscal'!AF29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "X3",
+      "formula": "=+'Macro for fiscal'!AG29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Y3",
+      "formula": "=+'Macro for fiscal'!AH29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Z3",
+      "formula": "=+'Macro for fiscal'!AI29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AA3",
+      "formula": "=+'Macro for fiscal'!AJ29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AB3",
+      "formula": "=+'Macro for fiscal'!AK29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AC3",
+      "formula": "=+'Macro for fiscal'!AL29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AD3",
+      "formula": "=+'Macro for fiscal'!AM29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AE3",
+      "formula": "=+'Macro for fiscal'!AN29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AF3",
+      "formula": "=+'Macro for fiscal'!AO29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AG3",
+      "formula": "=+'Macro for fiscal'!AP29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AH3",
+      "formula": "=+'Macro for fiscal'!AQ29/1000"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D4",
+      "formula": "=+'Macro for fiscal'!M71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E4",
+      "formula": "=+'Macro for fiscal'!N71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F4",
+      "formula": "=+'Macro for fiscal'!O71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G4",
+      "formula": "=+'Macro for fiscal'!P71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H4",
+      "formula": "=+'Macro for fiscal'!Q71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I4",
+      "formula": "=+'Macro for fiscal'!R71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J4",
+      "formula": "=+'Macro for fiscal'!S71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K4",
+      "formula": "=+'Macro for fiscal'!T71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L4",
+      "formula": "=+'Macro for fiscal'!U71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M4",
+      "formula": "=+'Macro for fiscal'!V71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N4",
+      "formula": "=+'Macro for fiscal'!W71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O4",
+      "formula": "=+'Macro for fiscal'!X71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P4",
+      "formula": "=+'Macro for fiscal'!Y71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Q4",
+      "formula": "=+'Macro for fiscal'!Z71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "R4",
+      "formula": "=+'Macro for fiscal'!AA71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "S4",
+      "formula": "=+'Macro for fiscal'!AB71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "T4",
+      "formula": "=+'Macro for fiscal'!AC71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "U4",
+      "formula": "=+'Macro for fiscal'!AD71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "V4",
+      "formula": "=+'Macro for fiscal'!AE71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "W4",
+      "formula": "=+'Macro for fiscal'!AF71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "X4",
+      "formula": "=+'Macro for fiscal'!AG71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Y4",
+      "formula": "=+'Macro for fiscal'!AH71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Z4",
+      "formula": "=+'Macro for fiscal'!AI71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AA4",
+      "formula": "=+'Macro for fiscal'!AJ71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AB4",
+      "formula": "=+'Macro for fiscal'!AK71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AC4",
+      "formula": "=+'Macro for fiscal'!AL71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AD4",
+      "formula": "=+'Macro for fiscal'!AM71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AE4",
+      "formula": "=+'Macro for fiscal'!AN71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AF4",
+      "formula": "=+'Macro for fiscal'!AO71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AG4",
+      "formula": "=+'Macro for fiscal'!AP71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AH4",
+      "formula": "=+'Macro for fiscal'!AQ71"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D5",
+      "formula": "=+'Macro for fiscal'!M72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E5",
+      "formula": "=+'Macro for fiscal'!N72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F5",
+      "formula": "=+'Macro for fiscal'!O72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G5",
+      "formula": "=+'Macro for fiscal'!P72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H5",
+      "formula": "=+'Macro for fiscal'!Q72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I5",
+      "formula": "=+'Macro for fiscal'!R72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J5",
+      "formula": "=+'Macro for fiscal'!S72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K5",
+      "formula": "=+'Macro for fiscal'!T72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L5",
+      "formula": "=+'Macro for fiscal'!U72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M5",
+      "formula": "=+'Macro for fiscal'!V72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N5",
+      "formula": "=+'Macro for fiscal'!W72"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O5",
+      "formula": "=+'Macro for fiscal'!X72"
+    }
+  ],
+  "direct_coefficient_formula_samples": [
+    {
+      "sheet": "Control panel",
+      "cell": "E4",
+      "formula": "=+IF(SUMSQ('Numerical results'!D161:AH233)<0.0001,\"BASELINE SCENARIO\",\"ALTERNATIVE SCENARIO\")"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D161",
+      "formula": "=+IF(D3*D82=0,0.5*LN(1+D3^2+D82^2)/LN(10),0.5*LN((D3/D82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E161",
+      "formula": "=+IF(E3*E82=0,0.5*LN(1+E3^2+E82^2)/LN(10),0.5*LN((E3/E82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F161",
+      "formula": "=+IF(F3*F82=0,0.5*LN(1+F3^2+F82^2)/LN(10),0.5*LN((F3/F82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G161",
+      "formula": "=+IF(G3*G82=0,0.5*LN(1+G3^2+G82^2)/LN(10),0.5*LN((G3/G82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H161",
+      "formula": "=+IF(H3*H82=0,0.5*LN(1+H3^2+H82^2)/LN(10),0.5*LN((H3/H82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I161",
+      "formula": "=+IF(I3*I82=0,0.5*LN(1+I3^2+I82^2)/LN(10),0.5*LN((I3/I82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J161",
+      "formula": "=+IF(J3*J82=0,0.5*LN(1+J3^2+J82^2)/LN(10),0.5*LN((J3/J82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K161",
+      "formula": "=+IF(K3*K82=0,0.5*LN(1+K3^2+K82^2)/LN(10),0.5*LN((K3/K82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L161",
+      "formula": "=+IF(L3*L82=0,0.5*LN(1+L3^2+L82^2)/LN(10),0.5*LN((L3/L82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M161",
+      "formula": "=+IF(M3*M82=0,0.5*LN(1+M3^2+M82^2)/LN(10),0.5*LN((M3/M82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N161",
+      "formula": "=+IF(N3*N82=0,0.5*LN(1+N3^2+N82^2)/LN(10),0.5*LN((N3/N82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O161",
+      "formula": "=+IF(O3*O82=0,0.5*LN(1+O3^2+O82^2)/LN(10),0.5*LN((O3/O82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P161",
+      "formula": "=+IF(P3*P82=0,0.5*LN(1+P3^2+P82^2)/LN(10),0.5*LN((P3/P82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Q161",
+      "formula": "=+IF(Q3*Q82=0,0.5*LN(1+Q3^2+Q82^2)/LN(10),0.5*LN((Q3/Q82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "R161",
+      "formula": "=+IF(R3*R82=0,0.5*LN(1+R3^2+R82^2)/LN(10),0.5*LN((R3/R82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "S161",
+      "formula": "=+IF(S3*S82=0,0.5*LN(1+S3^2+S82^2)/LN(10),0.5*LN((S3/S82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "T161",
+      "formula": "=+IF(T3*T82=0,0.5*LN(1+T3^2+T82^2)/LN(10),0.5*LN((T3/T82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "U161",
+      "formula": "=+IF(U3*U82=0,0.5*LN(1+U3^2+U82^2)/LN(10),0.5*LN((U3/U82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "V161",
+      "formula": "=+IF(V3*V82=0,0.5*LN(1+V3^2+V82^2)/LN(10),0.5*LN((V3/V82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "W161",
+      "formula": "=+IF(W3*W82=0,0.5*LN(1+W3^2+W82^2)/LN(10),0.5*LN((W3/W82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "X161",
+      "formula": "=+IF(X3*X82=0,0.5*LN(1+X3^2+X82^2)/LN(10),0.5*LN((X3/X82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Y161",
+      "formula": "=+IF(Y3*Y82=0,0.5*LN(1+Y3^2+Y82^2)/LN(10),0.5*LN((Y3/Y82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Z161",
+      "formula": "=+IF(Z3*Z82=0,0.5*LN(1+Z3^2+Z82^2)/LN(10),0.5*LN((Z3/Z82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AA161",
+      "formula": "=+IF(AA3*AA82=0,0.5*LN(1+AA3^2+AA82^2)/LN(10),0.5*LN((AA3/AA82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AB161",
+      "formula": "=+IF(AB3*AB82=0,0.5*LN(1+AB3^2+AB82^2)/LN(10),0.5*LN((AB3/AB82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AC161",
+      "formula": "=+IF(AC3*AC82=0,0.5*LN(1+AC3^2+AC82^2)/LN(10),0.5*LN((AC3/AC82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AD161",
+      "formula": "=+IF(AD3*AD82=0,0.5*LN(1+AD3^2+AD82^2)/LN(10),0.5*LN((AD3/AD82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AE161",
+      "formula": "=+IF(AE3*AE82=0,0.5*LN(1+AE3^2+AE82^2)/LN(10),0.5*LN((AE3/AE82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AF161",
+      "formula": "=+IF(AF3*AF82=0,0.5*LN(1+AF3^2+AF82^2)/LN(10),0.5*LN((AF3/AF82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AG161",
+      "formula": "=+IF(AG3*AG82=0,0.5*LN(1+AG3^2+AG82^2)/LN(10),0.5*LN((AG3/AG82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AH161",
+      "formula": "=+IF(AH3*AH82=0,0.5*LN(1+AH3^2+AH82^2)/LN(10),0.5*LN((AH3/AH82)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D162",
+      "formula": "=+IF(D4*D83=0,0.5*LN(1+D4^2+D83^2)/LN(10),0.5*LN((D4/D83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E162",
+      "formula": "=+IF(E4*E83=0,0.5*LN(1+E4^2+E83^2)/LN(10),0.5*LN((E4/E83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F162",
+      "formula": "=+IF(F4*F83=0,0.5*LN(1+F4^2+F83^2)/LN(10),0.5*LN((F4/F83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G162",
+      "formula": "=+IF(G4*G83=0,0.5*LN(1+G4^2+G83^2)/LN(10),0.5*LN((G4/G83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H162",
+      "formula": "=+IF(H4*H83=0,0.5*LN(1+H4^2+H83^2)/LN(10),0.5*LN((H4/H83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I162",
+      "formula": "=+IF(I4*I83=0,0.5*LN(1+I4^2+I83^2)/LN(10),0.5*LN((I4/I83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J162",
+      "formula": "=+IF(J4*J83=0,0.5*LN(1+J4^2+J83^2)/LN(10),0.5*LN((J4/J83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K162",
+      "formula": "=+IF(K4*K83=0,0.5*LN(1+K4^2+K83^2)/LN(10),0.5*LN((K4/K83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L162",
+      "formula": "=+IF(L4*L83=0,0.5*LN(1+L4^2+L83^2)/LN(10),0.5*LN((L4/L83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M162",
+      "formula": "=+IF(M4*M83=0,0.5*LN(1+M4^2+M83^2)/LN(10),0.5*LN((M4/M83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N162",
+      "formula": "=+IF(N4*N83=0,0.5*LN(1+N4^2+N83^2)/LN(10),0.5*LN((N4/N83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O162",
+      "formula": "=+IF(O4*O83=0,0.5*LN(1+O4^2+O83^2)/LN(10),0.5*LN((O4/O83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P162",
+      "formula": "=+IF(P4*P83=0,0.5*LN(1+P4^2+P83^2)/LN(10),0.5*LN((P4/P83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Q162",
+      "formula": "=+IF(Q4*Q83=0,0.5*LN(1+Q4^2+Q83^2)/LN(10),0.5*LN((Q4/Q83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "R162",
+      "formula": "=+IF(R4*R83=0,0.5*LN(1+R4^2+R83^2)/LN(10),0.5*LN((R4/R83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "S162",
+      "formula": "=+IF(S4*S83=0,0.5*LN(1+S4^2+S83^2)/LN(10),0.5*LN((S4/S83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "T162",
+      "formula": "=+IF(T4*T83=0,0.5*LN(1+T4^2+T83^2)/LN(10),0.5*LN((T4/T83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "U162",
+      "formula": "=+IF(U4*U83=0,0.5*LN(1+U4^2+U83^2)/LN(10),0.5*LN((U4/U83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "V162",
+      "formula": "=+IF(V4*V83=0,0.5*LN(1+V4^2+V83^2)/LN(10),0.5*LN((V4/V83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "W162",
+      "formula": "=+IF(W4*W83=0,0.5*LN(1+W4^2+W83^2)/LN(10),0.5*LN((W4/W83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "X162",
+      "formula": "=+IF(X4*X83=0,0.5*LN(1+X4^2+X83^2)/LN(10),0.5*LN((X4/X83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Y162",
+      "formula": "=+IF(Y4*Y83=0,0.5*LN(1+Y4^2+Y83^2)/LN(10),0.5*LN((Y4/Y83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Z162",
+      "formula": "=+IF(Z4*Z83=0,0.5*LN(1+Z4^2+Z83^2)/LN(10),0.5*LN((Z4/Z83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AA162",
+      "formula": "=+IF(AA4*AA83=0,0.5*LN(1+AA4^2+AA83^2)/LN(10),0.5*LN((AA4/AA83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AB162",
+      "formula": "=+IF(AB4*AB83=0,0.5*LN(1+AB4^2+AB83^2)/LN(10),0.5*LN((AB4/AB83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AC162",
+      "formula": "=+IF(AC4*AC83=0,0.5*LN(1+AC4^2+AC83^2)/LN(10),0.5*LN((AC4/AC83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AD162",
+      "formula": "=+IF(AD4*AD83=0,0.5*LN(1+AD4^2+AD83^2)/LN(10),0.5*LN((AD4/AD83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AE162",
+      "formula": "=+IF(AE4*AE83=0,0.5*LN(1+AE4^2+AE83^2)/LN(10),0.5*LN((AE4/AE83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AF162",
+      "formula": "=+IF(AF4*AF83=0,0.5*LN(1+AF4^2+AF83^2)/LN(10),0.5*LN((AF4/AF83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AG162",
+      "formula": "=+IF(AG4*AG83=0,0.5*LN(1+AG4^2+AG83^2)/LN(10),0.5*LN((AG4/AG83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AH162",
+      "formula": "=+IF(AH4*AH83=0,0.5*LN(1+AH4^2+AH83^2)/LN(10),0.5*LN((AH4/AH83)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D163",
+      "formula": "=+IF(D5*D84=0,0.5*LN(1+D5^2+D84^2)/LN(10),0.5*LN((D5/D84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E163",
+      "formula": "=+IF(E5*E84=0,0.5*LN(1+E5^2+E84^2)/LN(10),0.5*LN((E5/E84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F163",
+      "formula": "=+IF(F5*F84=0,0.5*LN(1+F5^2+F84^2)/LN(10),0.5*LN((F5/F84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G163",
+      "formula": "=+IF(G5*G84=0,0.5*LN(1+G5^2+G84^2)/LN(10),0.5*LN((G5/G84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H163",
+      "formula": "=+IF(H5*H84=0,0.5*LN(1+H5^2+H84^2)/LN(10),0.5*LN((H5/H84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I163",
+      "formula": "=+IF(I5*I84=0,0.5*LN(1+I5^2+I84^2)/LN(10),0.5*LN((I5/I84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J163",
+      "formula": "=+IF(J5*J84=0,0.5*LN(1+J5^2+J84^2)/LN(10),0.5*LN((J5/J84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K163",
+      "formula": "=+IF(K5*K84=0,0.5*LN(1+K5^2+K84^2)/LN(10),0.5*LN((K5/K84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L163",
+      "formula": "=+IF(L5*L84=0,0.5*LN(1+L5^2+L84^2)/LN(10),0.5*LN((L5/L84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M163",
+      "formula": "=+IF(M5*M84=0,0.5*LN(1+M5^2+M84^2)/LN(10),0.5*LN((M5/M84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N163",
+      "formula": "=+IF(N5*N84=0,0.5*LN(1+N5^2+N84^2)/LN(10),0.5*LN((N5/N84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O163",
+      "formula": "=+IF(O5*O84=0,0.5*LN(1+O5^2+O84^2)/LN(10),0.5*LN((O5/O84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P163",
+      "formula": "=+IF(P5*P84=0,0.5*LN(1+P5^2+P84^2)/LN(10),0.5*LN((P5/P84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Q163",
+      "formula": "=+IF(Q5*Q84=0,0.5*LN(1+Q5^2+Q84^2)/LN(10),0.5*LN((Q5/Q84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "R163",
+      "formula": "=+IF(R5*R84=0,0.5*LN(1+R5^2+R84^2)/LN(10),0.5*LN((R5/R84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "S163",
+      "formula": "=+IF(S5*S84=0,0.5*LN(1+S5^2+S84^2)/LN(10),0.5*LN((S5/S84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "T163",
+      "formula": "=+IF(T5*T84=0,0.5*LN(1+T5^2+T84^2)/LN(10),0.5*LN((T5/T84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "U163",
+      "formula": "=+IF(U5*U84=0,0.5*LN(1+U5^2+U84^2)/LN(10),0.5*LN((U5/U84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "V163",
+      "formula": "=+IF(V5*V84=0,0.5*LN(1+V5^2+V84^2)/LN(10),0.5*LN((V5/V84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "W163",
+      "formula": "=+IF(W5*W84=0,0.5*LN(1+W5^2+W84^2)/LN(10),0.5*LN((W5/W84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "X163",
+      "formula": "=+IF(X5*X84=0,0.5*LN(1+X5^2+X84^2)/LN(10),0.5*LN((X5/X84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Y163",
+      "formula": "=+IF(Y5*Y84=0,0.5*LN(1+Y5^2+Y84^2)/LN(10),0.5*LN((Y5/Y84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Z163",
+      "formula": "=+IF(Z5*Z84=0,0.5*LN(1+Z5^2+Z84^2)/LN(10),0.5*LN((Z5/Z84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AA163",
+      "formula": "=+IF(AA5*AA84=0,0.5*LN(1+AA5^2+AA84^2)/LN(10),0.5*LN((AA5/AA84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AB163",
+      "formula": "=+IF(AB5*AB84=0,0.5*LN(1+AB5^2+AB84^2)/LN(10),0.5*LN((AB5/AB84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AC163",
+      "formula": "=+IF(AC5*AC84=0,0.5*LN(1+AC5^2+AC84^2)/LN(10),0.5*LN((AC5/AC84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AD163",
+      "formula": "=+IF(AD5*AD84=0,0.5*LN(1+AD5^2+AD84^2)/LN(10),0.5*LN((AD5/AD84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AE163",
+      "formula": "=+IF(AE5*AE84=0,0.5*LN(1+AE5^2+AE84^2)/LN(10),0.5*LN((AE5/AE84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AF163",
+      "formula": "=+IF(AF5*AF84=0,0.5*LN(1+AF5^2+AF84^2)/LN(10),0.5*LN((AF5/AF84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AG163",
+      "formula": "=+IF(AG5*AG84=0,0.5*LN(1+AG5^2+AG84^2)/LN(10),0.5*LN((AG5/AG84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AH163",
+      "formula": "=+IF(AH5*AH84=0,0.5*LN(1+AH5^2+AH84^2)/LN(10),0.5*LN((AH5/AH84)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D164",
+      "formula": "=+IF(D6*D85=0,0.5*LN(1+D6^2+D85^2)/LN(10),0.5*LN((D6/D85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E164",
+      "formula": "=+IF(E6*E85=0,0.5*LN(1+E6^2+E85^2)/LN(10),0.5*LN((E6/E85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F164",
+      "formula": "=+IF(F6*F85=0,0.5*LN(1+F6^2+F85^2)/LN(10),0.5*LN((F6/F85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G164",
+      "formula": "=+IF(G6*G85=0,0.5*LN(1+G6^2+G85^2)/LN(10),0.5*LN((G6/G85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H164",
+      "formula": "=+IF(H6*H85=0,0.5*LN(1+H6^2+H85^2)/LN(10),0.5*LN((H6/H85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I164",
+      "formula": "=+IF(I6*I85=0,0.5*LN(1+I6^2+I85^2)/LN(10),0.5*LN((I6/I85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J164",
+      "formula": "=+IF(J6*J85=0,0.5*LN(1+J6^2+J85^2)/LN(10),0.5*LN((J6/J85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K164",
+      "formula": "=+IF(K6*K85=0,0.5*LN(1+K6^2+K85^2)/LN(10),0.5*LN((K6/K85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L164",
+      "formula": "=+IF(L6*L85=0,0.5*LN(1+L6^2+L85^2)/LN(10),0.5*LN((L6/L85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M164",
+      "formula": "=+IF(M6*M85=0,0.5*LN(1+M6^2+M85^2)/LN(10),0.5*LN((M6/M85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N164",
+      "formula": "=+IF(N6*N85=0,0.5*LN(1+N6^2+N85^2)/LN(10),0.5*LN((N6/N85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O164",
+      "formula": "=+IF(O6*O85=0,0.5*LN(1+O6^2+O85^2)/LN(10),0.5*LN((O6/O85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P164",
+      "formula": "=+IF(P6*P85=0,0.5*LN(1+P6^2+P85^2)/LN(10),0.5*LN((P6/P85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Q164",
+      "formula": "=+IF(Q6*Q85=0,0.5*LN(1+Q6^2+Q85^2)/LN(10),0.5*LN((Q6/Q85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "R164",
+      "formula": "=+IF(R6*R85=0,0.5*LN(1+R6^2+R85^2)/LN(10),0.5*LN((R6/R85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "S164",
+      "formula": "=+IF(S6*S85=0,0.5*LN(1+S6^2+S85^2)/LN(10),0.5*LN((S6/S85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "T164",
+      "formula": "=+IF(T6*T85=0,0.5*LN(1+T6^2+T85^2)/LN(10),0.5*LN((T6/T85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "U164",
+      "formula": "=+IF(U6*U85=0,0.5*LN(1+U6^2+U85^2)/LN(10),0.5*LN((U6/U85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "V164",
+      "formula": "=+IF(V6*V85=0,0.5*LN(1+V6^2+V85^2)/LN(10),0.5*LN((V6/V85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "W164",
+      "formula": "=+IF(W6*W85=0,0.5*LN(1+W6^2+W85^2)/LN(10),0.5*LN((W6/W85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "X164",
+      "formula": "=+IF(X6*X85=0,0.5*LN(1+X6^2+X85^2)/LN(10),0.5*LN((X6/X85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Y164",
+      "formula": "=+IF(Y6*Y85=0,0.5*LN(1+Y6^2+Y85^2)/LN(10),0.5*LN((Y6/Y85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Z164",
+      "formula": "=+IF(Z6*Z85=0,0.5*LN(1+Z6^2+Z85^2)/LN(10),0.5*LN((Z6/Z85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AA164",
+      "formula": "=+IF(AA6*AA85=0,0.5*LN(1+AA6^2+AA85^2)/LN(10),0.5*LN((AA6/AA85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AB164",
+      "formula": "=+IF(AB6*AB85=0,0.5*LN(1+AB6^2+AB85^2)/LN(10),0.5*LN((AB6/AB85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AC164",
+      "formula": "=+IF(AC6*AC85=0,0.5*LN(1+AC6^2+AC85^2)/LN(10),0.5*LN((AC6/AC85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AD164",
+      "formula": "=+IF(AD6*AD85=0,0.5*LN(1+AD6^2+AD85^2)/LN(10),0.5*LN((AD6/AD85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AE164",
+      "formula": "=+IF(AE6*AE85=0,0.5*LN(1+AE6^2+AE85^2)/LN(10),0.5*LN((AE6/AE85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AF164",
+      "formula": "=+IF(AF6*AF85=0,0.5*LN(1+AF6^2+AF85^2)/LN(10),0.5*LN((AF6/AF85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AG164",
+      "formula": "=+IF(AG6*AG85=0,0.5*LN(1+AG6^2+AG85^2)/LN(10),0.5*LN((AG6/AG85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AH164",
+      "formula": "=+IF(AH6*AH85=0,0.5*LN(1+AH6^2+AH85^2)/LN(10),0.5*LN((AH6/AH85)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D165",
+      "formula": "=+IF(D7*D86=0,0.5*LN(1+D7^2+D86^2)/LN(10),0.5*LN((D7/D86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E165",
+      "formula": "=+IF(E7*E86=0,0.5*LN(1+E7^2+E86^2)/LN(10),0.5*LN((E7/E86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F165",
+      "formula": "=+IF(F7*F86=0,0.5*LN(1+F7^2+F86^2)/LN(10),0.5*LN((F7/F86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G165",
+      "formula": "=+IF(G7*G86=0,0.5*LN(1+G7^2+G86^2)/LN(10),0.5*LN((G7/G86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H165",
+      "formula": "=+IF(H7*H86=0,0.5*LN(1+H7^2+H86^2)/LN(10),0.5*LN((H7/H86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I165",
+      "formula": "=+IF(I7*I86=0,0.5*LN(1+I7^2+I86^2)/LN(10),0.5*LN((I7/I86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J165",
+      "formula": "=+IF(J7*J86=0,0.5*LN(1+J7^2+J86^2)/LN(10),0.5*LN((J7/J86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K165",
+      "formula": "=+IF(K7*K86=0,0.5*LN(1+K7^2+K86^2)/LN(10),0.5*LN((K7/K86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L165",
+      "formula": "=+IF(L7*L86=0,0.5*LN(1+L7^2+L86^2)/LN(10),0.5*LN((L7/L86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M165",
+      "formula": "=+IF(M7*M86=0,0.5*LN(1+M7^2+M86^2)/LN(10),0.5*LN((M7/M86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N165",
+      "formula": "=+IF(N7*N86=0,0.5*LN(1+N7^2+N86^2)/LN(10),0.5*LN((N7/N86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O165",
+      "formula": "=+IF(O7*O86=0,0.5*LN(1+O7^2+O86^2)/LN(10),0.5*LN((O7/O86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P165",
+      "formula": "=+IF(P7*P86=0,0.5*LN(1+P7^2+P86^2)/LN(10),0.5*LN((P7/P86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Q165",
+      "formula": "=+IF(Q7*Q86=0,0.5*LN(1+Q7^2+Q86^2)/LN(10),0.5*LN((Q7/Q86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "R165",
+      "formula": "=+IF(R7*R86=0,0.5*LN(1+R7^2+R86^2)/LN(10),0.5*LN((R7/R86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "S165",
+      "formula": "=+IF(S7*S86=0,0.5*LN(1+S7^2+S86^2)/LN(10),0.5*LN((S7/S86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "T165",
+      "formula": "=+IF(T7*T86=0,0.5*LN(1+T7^2+T86^2)/LN(10),0.5*LN((T7/T86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "U165",
+      "formula": "=+IF(U7*U86=0,0.5*LN(1+U7^2+U86^2)/LN(10),0.5*LN((U7/U86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "V165",
+      "formula": "=+IF(V7*V86=0,0.5*LN(1+V7^2+V86^2)/LN(10),0.5*LN((V7/V86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "W165",
+      "formula": "=+IF(W7*W86=0,0.5*LN(1+W7^2+W86^2)/LN(10),0.5*LN((W7/W86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "X165",
+      "formula": "=+IF(X7*X86=0,0.5*LN(1+X7^2+X86^2)/LN(10),0.5*LN((X7/X86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Y165",
+      "formula": "=+IF(Y7*Y86=0,0.5*LN(1+Y7^2+Y86^2)/LN(10),0.5*LN((Y7/Y86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Z165",
+      "formula": "=+IF(Z7*Z86=0,0.5*LN(1+Z7^2+Z86^2)/LN(10),0.5*LN((Z7/Z86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AA165",
+      "formula": "=+IF(AA7*AA86=0,0.5*LN(1+AA7^2+AA86^2)/LN(10),0.5*LN((AA7/AA86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AB165",
+      "formula": "=+IF(AB7*AB86=0,0.5*LN(1+AB7^2+AB86^2)/LN(10),0.5*LN((AB7/AB86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AC165",
+      "formula": "=+IF(AC7*AC86=0,0.5*LN(1+AC7^2+AC86^2)/LN(10),0.5*LN((AC7/AC86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AD165",
+      "formula": "=+IF(AD7*AD86=0,0.5*LN(1+AD7^2+AD86^2)/LN(10),0.5*LN((AD7/AD86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AE165",
+      "formula": "=+IF(AE7*AE86=0,0.5*LN(1+AE7^2+AE86^2)/LN(10),0.5*LN((AE7/AE86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AF165",
+      "formula": "=+IF(AF7*AF86=0,0.5*LN(1+AF7^2+AF86^2)/LN(10),0.5*LN((AF7/AF86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AG165",
+      "formula": "=+IF(AG7*AG86=0,0.5*LN(1+AG7^2+AG86^2)/LN(10),0.5*LN((AG7/AG86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AH165",
+      "formula": "=+IF(AH7*AH86=0,0.5*LN(1+AH7^2+AH86^2)/LN(10),0.5*LN((AH7/AH86)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D166",
+      "formula": "=+IF(D8*D87=0,0.5*LN(1+D8^2+D87^2)/LN(10),0.5*LN((D8/D87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E166",
+      "formula": "=+IF(E8*E87=0,0.5*LN(1+E8^2+E87^2)/LN(10),0.5*LN((E8/E87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F166",
+      "formula": "=+IF(F8*F87=0,0.5*LN(1+F8^2+F87^2)/LN(10),0.5*LN((F8/F87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G166",
+      "formula": "=+IF(G8*G87=0,0.5*LN(1+G8^2+G87^2)/LN(10),0.5*LN((G8/G87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H166",
+      "formula": "=+IF(H8*H87=0,0.5*LN(1+H8^2+H87^2)/LN(10),0.5*LN((H8/H87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I166",
+      "formula": "=+IF(I8*I87=0,0.5*LN(1+I8^2+I87^2)/LN(10),0.5*LN((I8/I87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J166",
+      "formula": "=+IF(J8*J87=0,0.5*LN(1+J8^2+J87^2)/LN(10),0.5*LN((J8/J87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K166",
+      "formula": "=+IF(K8*K87=0,0.5*LN(1+K8^2+K87^2)/LN(10),0.5*LN((K8/K87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L166",
+      "formula": "=+IF(L8*L87=0,0.5*LN(1+L8^2+L87^2)/LN(10),0.5*LN((L8/L87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M166",
+      "formula": "=+IF(M8*M87=0,0.5*LN(1+M8^2+M87^2)/LN(10),0.5*LN((M8/M87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N166",
+      "formula": "=+IF(N8*N87=0,0.5*LN(1+N8^2+N87^2)/LN(10),0.5*LN((N8/N87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O166",
+      "formula": "=+IF(O8*O87=0,0.5*LN(1+O8^2+O87^2)/LN(10),0.5*LN((O8/O87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P166",
+      "formula": "=+IF(P8*P87=0,0.5*LN(1+P8^2+P87^2)/LN(10),0.5*LN((P8/P87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Q166",
+      "formula": "=+IF(Q8*Q87=0,0.5*LN(1+Q8^2+Q87^2)/LN(10),0.5*LN((Q8/Q87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "R166",
+      "formula": "=+IF(R8*R87=0,0.5*LN(1+R8^2+R87^2)/LN(10),0.5*LN((R8/R87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "S166",
+      "formula": "=+IF(S8*S87=0,0.5*LN(1+S8^2+S87^2)/LN(10),0.5*LN((S8/S87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "T166",
+      "formula": "=+IF(T8*T87=0,0.5*LN(1+T8^2+T87^2)/LN(10),0.5*LN((T8/T87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "U166",
+      "formula": "=+IF(U8*U87=0,0.5*LN(1+U8^2+U87^2)/LN(10),0.5*LN((U8/U87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "V166",
+      "formula": "=+IF(V8*V87=0,0.5*LN(1+V8^2+V87^2)/LN(10),0.5*LN((V8/V87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "W166",
+      "formula": "=+IF(W8*W87=0,0.5*LN(1+W8^2+W87^2)/LN(10),0.5*LN((W8/W87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "X166",
+      "formula": "=+IF(X8*X87=0,0.5*LN(1+X8^2+X87^2)/LN(10),0.5*LN((X8/X87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Y166",
+      "formula": "=+IF(Y8*Y87=0,0.5*LN(1+Y8^2+Y87^2)/LN(10),0.5*LN((Y8/Y87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "Z166",
+      "formula": "=+IF(Z8*Z87=0,0.5*LN(1+Z8^2+Z87^2)/LN(10),0.5*LN((Z8/Z87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AA166",
+      "formula": "=+IF(AA8*AA87=0,0.5*LN(1+AA8^2+AA87^2)/LN(10),0.5*LN((AA8/AA87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AB166",
+      "formula": "=+IF(AB8*AB87=0,0.5*LN(1+AB8^2+AB87^2)/LN(10),0.5*LN((AB8/AB87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AC166",
+      "formula": "=+IF(AC8*AC87=0,0.5*LN(1+AC8^2+AC87^2)/LN(10),0.5*LN((AC8/AC87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AD166",
+      "formula": "=+IF(AD8*AD87=0,0.5*LN(1+AD8^2+AD87^2)/LN(10),0.5*LN((AD8/AD87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AE166",
+      "formula": "=+IF(AE8*AE87=0,0.5*LN(1+AE8^2+AE87^2)/LN(10),0.5*LN((AE8/AE87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AF166",
+      "formula": "=+IF(AF8*AF87=0,0.5*LN(1+AF8^2+AF87^2)/LN(10),0.5*LN((AF8/AF87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AG166",
+      "formula": "=+IF(AG8*AG87=0,0.5*LN(1+AG8^2+AG87^2)/LN(10),0.5*LN((AG8/AG87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "AH166",
+      "formula": "=+IF(AH8*AH87=0,0.5*LN(1+AH8^2+AH87^2)/LN(10),0.5*LN((AH8/AH87)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "D167",
+      "formula": "=+IF(D9*D88=0,0.5*LN(1+D9^2+D88^2)/LN(10),0.5*LN((D9/D88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "E167",
+      "formula": "=+IF(E9*E88=0,0.5*LN(1+E9^2+E88^2)/LN(10),0.5*LN((E9/E88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "F167",
+      "formula": "=+IF(F9*F88=0,0.5*LN(1+F9^2+F88^2)/LN(10),0.5*LN((F9/F88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "G167",
+      "formula": "=+IF(G9*G88=0,0.5*LN(1+G9^2+G88^2)/LN(10),0.5*LN((G9/G88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "H167",
+      "formula": "=+IF(H9*H88=0,0.5*LN(1+H9^2+H88^2)/LN(10),0.5*LN((H9/H88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "I167",
+      "formula": "=+IF(I9*I88=0,0.5*LN(1+I9^2+I88^2)/LN(10),0.5*LN((I9/I88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "J167",
+      "formula": "=+IF(J9*J88=0,0.5*LN(1+J9^2+J88^2)/LN(10),0.5*LN((J9/J88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "K167",
+      "formula": "=+IF(K9*K88=0,0.5*LN(1+K9^2+K88^2)/LN(10),0.5*LN((K9/K88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "L167",
+      "formula": "=+IF(L9*L88=0,0.5*LN(1+L9^2+L88^2)/LN(10),0.5*LN((L9/L88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "M167",
+      "formula": "=+IF(M9*M88=0,0.5*LN(1+M9^2+M88^2)/LN(10),0.5*LN((M9/M88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "N167",
+      "formula": "=+IF(N9*N88=0,0.5*LN(1+N9^2+N88^2)/LN(10),0.5*LN((N9/N88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "O167",
+      "formula": "=+IF(O9*O88=0,0.5*LN(1+O9^2+O88^2)/LN(10),0.5*LN((O9/O88)^2)/LN(10))"
+    },
+    {
+      "sheet": "Numerical results",
+      "cell": "P167",
+      "formula": "=+IF(P9*P88=0,0.5*LN(1+P9^2+P88^2)/LN(10),0.5*LN((P9/P88)^2)/LN(10))"
+    }
+  ],
+  "external_link_parts": [
+    "xl/externalLinks/_rels/externalLink1.xml.rels",
+    "xl/externalLinks/_rels/externalLink10.xml.rels",
+    "xl/externalLinks/_rels/externalLink2.xml.rels",
+    "xl/externalLinks/_rels/externalLink3.xml.rels",
+    "xl/externalLinks/_rels/externalLink4.xml.rels",
+    "xl/externalLinks/_rels/externalLink5.xml.rels",
+    "xl/externalLinks/_rels/externalLink6.xml.rels",
+    "xl/externalLinks/_rels/externalLink7.xml.rels",
+    "xl/externalLinks/_rels/externalLink8.xml.rels",
+    "xl/externalLinks/_rels/externalLink9.xml.rels",
+    "xl/externalLinks/externalLink1.xml",
+    "xl/externalLinks/externalLink10.xml",
+    "xl/externalLinks/externalLink2.xml",
+    "xl/externalLinks/externalLink3.xml",
+    "xl/externalLinks/externalLink4.xml",
+    "xl/externalLinks/externalLink5.xml",
+    "xl/externalLinks/externalLink6.xml",
+    "xl/externalLinks/externalLink7.xml",
+    "xl/externalLinks/externalLink8.xml",
+    "xl/externalLinks/externalLink9.xml"
+  ],
+  "external_link_targets": [
+    "file:///G:\\1.Budget\\Bulletin\\2014\\BUDGET\\YEARSBUD\\Bud-2002_Draft2-1.xls",
+    "file:///G:\\1.Budget\\Bulletin\\2014\\Documents%20and%20Settings\\nyam\\My%20Documents\\Sharav\\My%20Documents\\EXCEL\\Bud-2002_Draft%20-%20Final%20Approved%20Budget.xls",
+    "file:///G:\\BUDGET\\YEARSBUD\\Bud-2002_Draft2-1.xls",
+    "file:///G:\\Documents%20and%20Settings\\enkhzaya\\Desktop\\BUDGET\\YEARSBUD\\Bud-2002_Draft2-1.xls",
+    "file:///G:\\Documents%20and%20Settings\\enkhzaya\\Desktop\\Documents%20and%20Settings\\nyam\\My%20Documents\\Sharav\\My%20Documents\\EXCEL\\Bud-2002_Draft%20-%20Final%20Approved%20Budget.xls",
+    "file:///G:\\Documents%20and%20Settings\\nyam\\My%20Documents\\Sharav\\My%20Documents\\EXCEL\\Bud-2002_Draft%20-%20Final%20Approved%20Budget.xls",
+    "file:///G:\\ШИНЭ\\1.%20EXTERNAL%20LOAN\\External%20Loan\\06.Gadaad%20zeeliin%20medee\\2012\\End%20of%20the%202012\\Government%20year%20data%202012%20Q4.xlsx",
+    "file:///X:\\BUDGET\\YEARSBUD\\Bud-2002_Draft2-1.xls",
+    "file:///\\\\Bayarsaikhan\\d$\\BUDGET\\YEARSBUD\\Bud-2002_Draft2-1.xls",
+    "file:///\\\\Bayarsaikhan\\d$\\Documents%20and%20Settings\\nyam\\My%20Documents\\Sharav\\My%20Documents\\EXCEL\\Bud-2002_Draft%20-%20Final%20Approved%20Budget.xls"
+  ]
+}

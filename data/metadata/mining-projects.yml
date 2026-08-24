@@ -1,0 +1,57 @@
+schema_version: 1
+projects:
+  - project_id: oyu_tolgoi
+    display_name_mn: Оюу толгой
+    display_name_en: Oyu Tolgoi
+    commodity: copper
+    operator: Oyu Tolgoi LLC
+    state_interest: Erdenes Oyu Tolgoi LLC / Government of Mongolia interest; exact share terms are time-varying
+    status: producing
+    production_start: 2013
+    macro_materiality: high
+    contract_analysis_relevance: high
+    source_notes: Public company and government disclosures required for dated ownership and contract terms.
+  - project_id: erdenet
+    display_name_mn: Эрдэнэт
+    display_name_en: Erdenet
+    commodity: copper
+    operator: Erdenet Mining Corporation
+    state_interest: state-owned enterprise
+    status: producing
+    production_start: 1978
+    macro_materiality: high
+    contract_analysis_relevance: medium
+    source_notes: Production and ownership definitions must align with NSO/EITI series.
+  - project_id: erdenes_tavan_tolgoi
+    display_name_mn: Эрдэнэс Тавантолгой
+    display_name_en: Erdenes Tavan Tolgoi
+    commodity: coal
+    operator: Erdenes Tavan Tolgoi JSC
+    state_interest: state-owned
+    status: producing
+    production_start: 2010
+    macro_materiality: high
+    contract_analysis_relevance: high
+    source_notes: Keep distinct from other Tavan Tolgoi operations where source definitions allow.
+  - project_id: energy_resources_ukhaa_khudag
+    display_name_mn: Энержи Ресурс / Ухаа худаг
+    display_name_en: Energy Resources / Ukhaa Khudag
+    commodity: coal
+    operator: Mongolian Mining Corporation / Energy Resources
+    state_interest: verify current interest from company filings
+    status: producing
+    production_start: 2009
+    macro_materiality: high
+    contract_analysis_relevance: high
+    source_notes: Operator/project naming differs across datasets; preserve aliases in Phase 1B.
+  - project_id: badrakh_energy_zuuvch_ovoo
+    display_name_mn: Бадрах Энержи / Зөөвч-Овоо
+    display_name_en: Badrakh Energy / Zuuvch Ovoo
+    commodity: uranium
+    operator: Badrakh Energy LLC
+    state_interest: verify from public project disclosures
+    status: development
+    production_start: null
+    macro_materiality: not_established
+    contract_analysis_relevance: high
+    source_notes: Registry inclusion supports later contract comparison; do not assign historical macro weight without observed production.

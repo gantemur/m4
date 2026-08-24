@@ -1,0 +1,32 @@
+{
+  "snapshot_date": "2026-08-23T115504Z",
+  "snapshots": [
+    {
+      "snapshot_id": "bom-2026-08-23T115504Z-currency-rates-daily",
+      "source_url": "https://www.mongolbank.mn/en/currency-rate-movement",
+      "endpoint": "/en/currency-rate-movement/data POST",
+      "unit": "MNT per USD",
+      "frequency": "daily",
+      "transformation": "quarterly mean and last observation",
+      "coverage": [
+        "2001-01-02",
+        "2026-08-23"
+      ],
+      "raw_checksum": "e47caeb5dd9e23f81a363987348a7c886a067b39d0543ae2ec3f2d67e04f42f4"
+    }
+  ],
+  "failed_endpoints": [
+    {
+      "series": "reserves",
+      "endpoint": "/en/international-reserves/data",
+      "status": "FAILED",
+      "reason": "Тохирох үр дүн олдсонгүй."
+    },
+    {
+      "series": "policy_rate",
+      "endpoint": "/en/policy-interest-rate/data",
+      "status": "FAILED",
+      "reason": "Тохирох үр дүн олдсонгүй."
+    }
+  ]
+}

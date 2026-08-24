@@ -1,0 +1,17 @@
+{
+  "dataset_id": "m4-quarterly-v4",
+  "status": "corrected-successor-to-v3",
+  "created_at_utc": "2026-08-24",
+  "source_dataset": "m4-quarterly-v2 plus Phase 3B official NSO additions",
+  "source_snapshot": "nso-2026-08-24T034018Z",
+  "correction": "Removed duplicate quarter.1 field at generator level; v3 is retained unchanged.",
+  "variables_added_in_phase3b": [
+    "industry_gva_nominal_mnt_million",
+    "other_industry_gva_nominal_mnt_million",
+    "taxes_less_subsidies_nominal_mnt_million",
+    "coal_production_thousand_t",
+    "copper_concentrate_production_thousand_t",
+    "gold_production_kg",
+    "iron_ore_production_thousand_t"
+  ]
+}

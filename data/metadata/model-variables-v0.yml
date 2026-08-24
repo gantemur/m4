@@ -1,0 +1,86 @@
+schema_version: 1
+variables:
+  - symbol: X_M
+    code_name: mining_exports_usd_million
+    description: Sum of recorded commodity export values
+    unit: USD million
+    frequency: quarterly
+    type: nominal
+    stock_flow: flow
+    source_data_column: commodity export value columns
+    status_default_closure: derived
+    transformation: USD thousand divided by 1000 then summed
+    usable_sample: 2011-Q1 onward
+    sign_convention: positive export revenue
+  - symbol: Q_coal
+    code_name: coal_export_quantity_thousand_t
+    description: Coal export quantity
+    unit: thousand tonnes
+    frequency: quarterly
+    type: quantity
+    stock_flow: flow
+    source_data_column: coal_export_quantity_thousand_t
+    status_default_closure: exogenous
+    transformation: cumulative months de-cumulated then summed
+    usable_sample: 2011-Q1 onward
+    sign_convention: positive production/export quantity
+  - symbol: e
+    code_name: mnt_per_usd_quarterly_average
+    description: MNT per USD exchange rate
+    unit: MNT/USD
+    frequency: quarterly
+    type: index
+    stock_flow: average
+    source_data_column: mnt_per_usd_quarterly_average
+    status_default_closure: exogenous
+    transformation: daily average
+    usable_sample: 2001-Q1 onward
+    sign_convention: increase equals MNT depreciation
+  - symbol: Y_A
+    code_name: gdp_real2015_agriculture
+    description: Agriculture real output
+    unit: million MNT, 2015 prices
+    frequency: quarterly
+    type: real
+    stock_flow: flow
+    source_data_column: gdp_real2015_agriculture
+    status_default_closure: exogenous
+    transformation: official vintage retained
+    usable_sample: 2015-Q1 onward
+    sign_convention: positive output
+  - symbol: CRED
+    code_name: depository_loans_outstanding_quarter_end
+    description: Total depository-corporation loans outstanding
+    unit: official table unit, million MNT
+    frequency: quarterly
+    type: nominal
+    stock_flow: stock
+    source_data_column: depository_loans_outstanding_quarter_end
+    status_default_closure: exogenous
+    transformation: monthly stock to quarter-end
+    usable_sample: 1997-Q1 onward
+    sign_convention: positive outstanding loans
+  - symbol: Y_C
+    code_name: gdp_real2015_construction
+    description: Construction real output
+    unit: million MNT, 2015 prices
+    frequency: quarterly
+    type: real
+    stock_flow: flow
+    source_data_column: gdp_real2015_construction
+    status_default_closure: candidate_endogenous
+    transformation: official vintage retained
+    usable_sample: 2015-Q1 onward
+    sign_convention: positive output
+  - symbol: R
+    code_name: government_revenue_mnt_million
+    description: Government revenue and grants
+    unit: million MNT
+    frequency: quarterly
+    type: nominal
+    stock_flow: flow
+    source_data_column: government_revenue_mnt_million
+    status_default_closure: candidate_endogenous
+    transformation: monthly flows summed
+    usable_sample: 2000-Q1 onward
+    sign_convention: positive receipts

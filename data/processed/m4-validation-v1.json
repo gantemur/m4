@@ -1,0 +1,97 @@
+{
+  "dataset": "m4-quarterly-v1",
+  "rows": 106,
+  "period_start": "2000-Q1",
+  "period_end": "2026-Q2",
+  "checks": {
+    "duplicate_quarters": [],
+    "quarters_non_decreasing": true,
+    "negative_merchandise_exports": [],
+    "negative_merchandise_imports": [],
+    "negative_government_revenue": [],
+    "negative_government_expenditure": [],
+    "negative_government_capital_expenditure": [],
+    "trade_turnover_identity_failures": [],
+    "trade_balance_identity_failures": [],
+    "commodity_negative_quantities": [],
+    "commodity_negative_values": [],
+    "commodity_unit_value_nonfinite": [],
+    "missing_gdp_nominal_total": [],
+    "coverage_nonmissing": {
+      "gdp_real2005_total": {
+        "start": "2000-Q1",
+        "end": "2014-Q1",
+        "count": 57
+      },
+      "gdp_real2010_total": {
+        "start": "2010-Q1",
+        "end": "2021-Q1",
+        "count": 45
+      },
+      "gdp_real2015_total": {
+        "start": "2015-Q1",
+        "end": "2026-Q2",
+        "count": 46
+      },
+      "cpi_index_2015": {
+        "start": "2006-Q1",
+        "end": "2022-Q3",
+        "count": 67
+      },
+      "cpi_index_2020": {
+        "start": "2010-Q1",
+        "end": "2026-Q2",
+        "count": 66
+      },
+      "cpi_index_2023": {
+        "start": "2010-Q1",
+        "end": "2026-Q2",
+        "count": 66
+      }
+    },
+    "construction_cross_check": {
+      "annual_growth_pct": {
+        "2016": -0.39104051062476275,
+        "2017": -1.3233323308104783,
+        "2018": 1.7686198379857743,
+        "2019": 20.324007138372767,
+        "2020": -3.1947249973110714,
+        "2021": -22.848242478581106,
+        "2022": 8.171364554706706,
+        "2023": 3.140904040760928,
+        "2024": 14.044996096090777,
+        "2025": 15.927219034567663,
+        "2026": -72.82240766538382
+      },
+      "annual_share_pct": {
+        "2015": 4.011030393398974,
+        "2016": 3.936697332481651,
+        "2017": 3.677315987242771,
+        "2018": 3.4733471393127804,
+        "2019": 3.9575583735077484,
+        "2020": 4.014076937790104,
+        "2021": 3.0470575971048333,
+        "2022": 3.1381117273261787,
+        "2023": 3.013045188298971,
+        "2024": 3.268797958194568,
+        "2025": 3.5466938818183222,
+        "2026": 2.014378532938568
+      },
+      "average_quarter_share_pct": {
+        "Q1": 1.1477871948293548,
+        "Q2": 2.9670438182414163,
+        "Q3": 3.0083919267381494,
+        "Q4": 6.125914600929239
+      }
+    },
+    "seasonal_adjustment": "none",
+    "interpolation": "none"
+  },
+  "warnings": [
+    "m4-quarterly-v0.csv is deprecated and invalid for analysis; it retained incorrect trade mappings/units and de-cumulated direct fiscal flows.",
+    "GDP constant-price vintages are kept as separate series; no cross-base concatenation or linked level is constructed.",
+    "CPI bases are kept separately; no casual splice is performed.",
+    "Commodity cumulative observations are de-cumulated within calendar year before quarterly summation.",
+    "Official GDP and construction series are not seasonally adjusted."
+  ]
+}

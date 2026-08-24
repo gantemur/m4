@@ -1,0 +1,19 @@
+{
+  "dataset": "m4-quarterly-v2",
+  "rows": 119,
+  "period_start": "1997-Q1",
+  "period_end": "2026-Q3",
+  "checks": {
+    "quarters_non_decreasing": true,
+    "fx_positive": true,
+    "fx_average_min": 1093.75,
+    "fx_average_max": 3590.2039130434796,
+    "expenditure_identity_failures": [],
+    "chain_linked_is_growth_measure": true,
+    "annual_gfcf_interpolated": false
+  },
+  "notes": [
+    "BoM reserves and policy-rate endpoints returned no-result responses; no substitute was used.",
+    "Employment 2019-2023 sampling-weight revision is recorded in the source manifest."
+  ]
+}

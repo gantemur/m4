@@ -1,0 +1,64 @@
+{
+  "snapshot_date": "2026-08-23T115416Z",
+  "snapshots": [
+    {
+      "snapshot_id": "bom-2026-08-23T115416Z-currency-rates-daily",
+      "source_url": "https://www.mongolbank.mn/en/currency-rates",
+      "endpoint": "/en/currency-rates/data POST",
+      "unit": "MNT per USD",
+      "frequency": "daily",
+      "transformation": "quarterly mean and last observation",
+      "coverage": [
+        "2026-08-23",
+        "2026-08-23"
+      ],
+      "raw_checksum": "2598e9aa011f04b8c4f638c72fc44e8cbc729e2f6ad1699dc9e1c8840ad684c3"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T115416Z-gdp_chainlinked_growth_quarterly",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/National%20Accounts/DT_NSO_0500_001V4.px",
+      "unit": "percent / percentage-point measure",
+      "native_frequency": "quarterly",
+      "transformation": "official chain-linked YoY indicator retained; no level reconstruction",
+      "checksum": "704ea7126d0b521d21acdbbfded76c3d960769560f80d448b45ed7ae10905100",
+      "file": "data/snapshots/nso/2026-08-23T115416Z/gdp_chainlinked_growth_quarterly.csv"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T115416Z-gdp_expenditure_current_quarterly",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/National%20Accounts/DT_NSO_0500_003V1_quarter.px",
+      "unit": "million MNT",
+      "native_frequency": "quarterly flow",
+      "transformation": "official current-price expenditure components retained",
+      "checksum": "4222c048d5203df75eb02269c683ccebaddc104d11b3c4f2cb6f5f4067573023",
+      "file": "data/snapshots/nso/2026-08-23T115416Z/gdp_expenditure_current_quarterly.csv"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T115416Z-gfcf_annual_by_activity",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/National%20Accounts/DT_NSO_0500_020V1.px",
+      "unit": "million MNT",
+      "native_frequency": "annual stock/flow as published",
+      "transformation": "annual values retained; not interpolated to quarters",
+      "checksum": "8c5f85ef108117cfc084245000a0fec6a55bd831547c6e25195f570c36a3aa81",
+      "file": "data/snapshots/nso/2026-08-23T115416Z/gfcf_annual_by_activity.csv"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T115416Z-employment_quarterly_by_activity",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Labour%2C%20business/Labour/EMPLOYMENT%2C%20by%20economic%20activities%2C%20sex%2C%20age%20group%2C%20aimags%20and%20the%20Capital/DT_NSO_0400_035V7_2.px",
+      "unit": "persons",
+      "native_frequency": "quarterly stock",
+      "transformation": "official quarterly employment; 2019-2023 sampling-weight revision documented",
+      "checksum": "190e2dd13b05ea9ef2c13d1f707021d9007d27d547c0e30d0bf3d263ca4bbb11",
+      "file": "data/snapshots/nso/2026-08-23T115416Z/employment_quarterly_by_activity.csv",
+      "known_break": "NSO revised 2019-2023 observations in 2024 due to updated sampling weights"
+    },
+    {
+      "snapshot_id": "nso-2026-08-23T115416Z-depository_loans_outstanding_monthly",
+      "source_url": "https://data.1212.mn/api/v1/en/NSO/Economy%2C%20environment/Money%20and%20Finance/DT_NSO_0700_002V2.px",
+      "unit": "million MNT (official table unit)",
+      "native_frequency": "monthly stock",
+      "transformation": "total depository-corporation loans outstanding; quarter-end observation",
+      "checksum": "36e37f81c5aa9a9b8aa1f4f36af4d2da01b65943222539f57edcad6618dda6d6",
+      "file": "data/snapshots/nso/2026-08-23T115416Z/depository_loans_outstanding_monthly.csv"
+    }
+  ]
+}

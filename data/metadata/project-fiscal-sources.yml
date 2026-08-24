@@ -1,0 +1,163 @@
+schema_version: 1
+retrieved_at_utc: 2026-08-24
+sources:
+  - source_id: minerals_law_current_en
+    title: Law of Mongolia on Minerals, current English translation
+    institution: Legalinfo.mn / National Legal Institute
+    url: https://www.legalinfo.mn/en/edtl/16389997472991
+    publication_or_effective_date: current consolidated law; verify amendments in Mongolian original
+    language: English
+    primary: true
+    legal_status: current law; English translation marked unofficial
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: minerals_law_current_mn
+    title: Ашигт малтмалын тухай
+    institution: Legalinfo.mn / National Legal Institute
+    url: https://legalinfo.mn/mn/edtl/16532346138581
+    publication_or_effective_date: current consolidated law
+    language: Mongolian
+    primary: true
+    legal_status: current law
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: cit_law_current_en
+    title: Business Entity/Corporate Income Tax Law
+    institution: Legalinfo.mn / National Legal Institute
+    url: https://legalinfo.mn/en/edtl/16532350672621
+    publication_or_effective_date: 2019-03-22, consolidated translation
+    language: English
+    primary: true
+    legal_status: current law; English translation marked unofficial
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: cit_law_current_mn
+    title: Аж ахуйн нэгжийн орлогын албан татварын тухай
+    institution: Legalinfo.mn / National Legal Institute
+    url: https://legalinfo.mn/mn/detail?lawId=14407
+    publication_or_effective_date: current consolidated law
+    language: Mongolian
+    primary: true
+    legal_status: current law
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: ott_ia_2009_en
+    title: Oyu Tolgoi Investment Agreement
+    institution: Government of Mongolia and Oyu Tolgoi parties; hosted by Oyu Tolgoi
+    url: https://admin.ot.mn/wp-content/uploads/ot/content/about_us/IA/Oyu_Tolgoi_IA_EN.pdf
+    publication_or_effective_date: 2009
+    language: English
+    primary: true
+    legal_status: signed agreement; amendments and current applicability require provision-by-provision confirmation
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: ott_2022_government_agreements
+    title: Turquoise Hill 2021 annual report disclosure of 2022 Government of Mongolia agreements
+    institution: Turquoise Hill Resources / SEC
+    url: https://www.sec.gov/Archives/edgar/data/1158041/000119312522063123/d272981dex991.htm
+    publication_or_effective_date: 2022-03-18
+    language: English
+    primary: true
+    legal_status: issuer disclosure describing agreements; not the agreements themselves
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: ott_technical_report_2022
+    title: Oyu Tolgoi Operations Technical Report Summary
+    institution: Turquoise Hill Resources / SEC
+    url: https://www.sec.gov/Archives/edgar/data/863064/000162828023004989/exhibits-963otsxk1300trs.htm
+    publication_or_effective_date: 2023-03-31
+    language: English
+    primary: true
+    legal_status: issuer technical disclosure
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: ett_report_archive
+    title: Erdenes Tavan Tolgoi operational report archive, 2019–2025
+    institution: Erdenes Tavan Tolgoi JSC
+    url: https://www.ett.mn/report
+    publication_or_effective_date: annual reports, archive current at retrieval
+    language: Mongolian
+    primary: true
+    legal_status: company reporting
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: eiti_mongolia_2024
+    title: Mongolia 2024 EITI reconciliation report
+    institution: Mongolia EITI
+    url: https://api.eiti.org/sites/default/files/SICA_EITI_Final%20report_20251201%20ENG.pdf
+    publication_or_effective_date: 2025-12-01
+    language: English
+    primary: true
+    legal_status: reconciled government/company reporting
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: badrakh_ia_2025
+    title: Investment Agreement between Government of Mongolia and Orano Mining SAS
+    institution: Government of Mongolia and Orano Mining SAS; hosted by Badrakh Energy
+    url: https://badrakhenergy.com/wp-content/uploads/2026/05/Investment-Agreement_2025.01.17.pdf
+    publication_or_effective_date: 2025-01-17
+    language: Mongolian and English
+    primary: true
+    legal_status: signed agreement; implementation inputs remain to be verified
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: royalty_regulation_465_2019
+    title: Ашигт малтмалын нөөц ашигласны төлбөрийн хувийг тооцох, төлбөр ногдуулах, тайлагнах, төлөх журам
+    institution: Government of Mongolia / Legalinfo.mn
+    url: https://legalinfo.mn/mn/detail?lawId=210505
+    publication_or_effective_date: Government Resolution 465, 2019-12-25
+    language: Mongolian
+    primary: true
+    legal_status: current consolidated regulation
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: price_sources_81_2016
+    title: Биржийн болон зах зээлийн үнийн эх сурвалжийн нэр зарлах тухай
+    institution: Government of Mongolia / Legalinfo.mn
+    url: https://legalinfo.mn/mn/detail?lawId=11688&type=3
+    publication_or_effective_date: Government Resolution 81, 2016-02-01
+    language: Mongolian
+    primary: true
+    legal_status: current consolidated resolution
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: export_coal_valuation_342_2019
+    title: Гадаадын зах зээлд борлуулсан нүүрс, төмрийн хүдэр, төмрийн хүдрийн баяжмалд АМНАТ ногдуулах борлуулалтын үнэлгээ тооцох журам
+    institution: Government of Mongolia / Legalinfo.mn
+    url: https://legalinfo.mn/mn/detail?lawId=210089
+    publication_or_effective_date: Government Resolution 342, 2019-09-18
+    language: Mongolian
+    primary: true
+    legal_status: current consolidated regulation
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: resolution_55_2025
+    title: Тогтоолын хавсралтад нэмэлт оруулах тухай
+    institution: Government of Mongolia / Legalinfo.mn
+    url: https://legalinfo.mn/mn/detail?lawId=17432738537662
+    publication_or_effective_date: Government Resolution 55, 2025-08-20
+    language: Mongolian
+    primary: true
+    legal_status: temporary provision through 2025-12-31
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: mrpam_export_prices
+    title: International Market Price Information for Exported Mineral Products
+    institution: Mineral Resources and Petroleum Authority of Mongolia
+    url: https://mrpam.gov.mn/news/international-market-price-information-for-exported-mineral-products-59
+    publication_or_effective_date: monthly notices; example 2026-03-09 notice
+    language: Mongolian and English
+    primary: true
+    legal_status: official published reference-price information
+    retrieval_date: 2026-08-24
+    checksum: null
+  - source_id: mse_ett_1_3_coking_2025
+    title: ETT 1/3 coking coal forward trading advertisement
+    institution: Mongolian Stock Exchange
+    url: https://mse.mn/uploads/auction_schedules/en-ETT-25-54-1-3-CO.pdf
+    publication_or_effective_date: 2025-08-14
+    language: English
+    primary: true
+    legal_status: exchange product advertisement; not proof of a statutory valuation classification by itself
+    retrieval_date: 2026-08-24
+    checksum: null

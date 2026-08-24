@@ -1,0 +1,62 @@
+project_id: erdenes_tavan_tolgoi
+rules:
+  - effective_from: 2019-11-22
+    effective_to: null
+    fiscal_stream: royalty
+    rule_type: piecewise_schedule
+    tax_base: sales assessment of minerals sold, shipped for sale, exported, or used
+    rate: {base_percent: 5}
+    thresholds: coal product and benchmark-price schedule in Minerals Law Article 47.17
+    reference_price_rule: Government commodity-exchange-price list under Article 47.14; product classification and applicable price observations required
+    deductible_cost_rule: not applicable
+    ownership_share: null
+    payout_rule: null
+    source_id: minerals_law_current_mn
+    evidence_status: EXACT_STATUTORY_RULE
+    implementation_status: COMPUTABLE_GIVEN_ADDITIONAL_USER_INPUT
+    notes: Implemented only through the explicit exported-coal evaluator with sourced processing class, reference price, sales assessment, FX, and effective-date mapping; no default propagation.
+  - effective_from: 2025-08-20
+    effective_to: 2025-12-31
+    fiscal_stream: royalty
+    rule_type: contractual
+    tax_base: total exports of an eligible product after an exporter meets the temporary MSE threshold
+    rate: {base_percent: 5, additional_rate: Article 47.17 schedule}
+    thresholds: at least one quarter of the relevant export product traded through the Mining Products Exchange
+    reference_price_rule: temporary MSE transaction-price provision; source semantics not fully resolved
+    deductible_cost_rule: not applicable
+    ownership_share: null
+    payout_rule: null
+    source_id: resolution_55_2025
+    evidence_status: EXACT_STATUTORY_RULE
+    implementation_status: USER_INPUT_REQUIRED
+    notes: Expired on 2025-12-31 and intentionally not automated; it cannot apply to 2026 transactions.
+  - effective_from: 2020-01-01
+    effective_to: null
+    fiscal_stream: corporate_income_tax
+    rule_type: profit_based
+    tax_base: annual taxable income after statutory deductions and permitted loss carry-forward
+    rate: {up_to_mnt_billion: 6, rate_percent: 10, above_threshold_marginal_rate_percent: 25}
+    thresholds: annual taxable-income threshold
+    reference_price_rule: null
+    deductible_cost_rule: statutory deductions, license-level reporting, and tax-loss rules required
+    ownership_share: null
+    payout_rule: null
+    source_id: cit_law_current_mn
+    evidence_status: EXACT_STATUTORY_RULE
+    implementation_status: NOT_CURRENTLY_COMPUTABLE
+    notes: Published sales/net profit are not taxable income; audited tax return, deductions, depreciation, and loss carry-forward are not in the compact model.
+  - effective_from: unresolved
+    effective_to: null
+    fiscal_stream: dividend
+    rule_type: declaration_based
+    tax_base: distributable profit and shareholder resolution
+    rate: null
+    thresholds: null
+    reference_price_rule: null
+    deductible_cost_rule: null
+    ownership_share: unresolved
+    payout_rule: shareholder declaration required
+    source_id: ett_report_archive
+    evidence_status: COMPANY_REPORTED_ACTUAL
+    implementation_status: REPORTED_ACTUAL_ONLY
+    notes: Ownership alone is not a mechanical payout rule.

@@ -1,0 +1,1421 @@
+period,series_id,series_label,value
+1997-01,1,Total turnover,39.29
+1997-01,11,Exports,23.38
+1997-01,12,Imports,15.92
+1997-01,2,Balance,7.46
+1997-02,1,Total turnover,43.28
+1997-02,11,Exports,23.42
+1997-02,12,Imports,19.86
+1997-02,2,Balance,3.55
+1997-03,1,Total turnover,90.12
+1997-03,11,Exports,55.18
+1997-03,12,Imports,34.94
+1997-03,2,Balance,20.25
+1997-04,1,Total turnover,69.27
+1997-04,11,Exports,36.28
+1997-04,12,Imports,32.99
+1997-04,2,Balance,3.29
+1997-05,1,Total turnover,64.67
+1997-05,11,Exports,42.09
+1997-05,12,Imports,22.58
+1997-05,2,Balance,19.51
+1997-06,1,Total turnover,105.69
+1997-06,11,Exports,51.84
+1997-06,12,Imports,53.84
+1997-06,2,Balance,-2
+1997-07,1,Total turnover,74.09
+1997-07,11,Exports,33.5
+1997-07,12,Imports,40.58
+1997-07,2,Balance,-7.08
+1997-08,1,Total turnover,88.19
+1997-08,11,Exports,43.51
+1997-08,12,Imports,44.68
+1997-08,2,Balance,-1.17
+1997-09,1,Total turnover,95.54
+1997-09,11,Exports,57.28
+1997-09,12,Imports,38.26
+1997-09,2,Balance,19.02
+1997-10,1,Total turnover,91.36
+1997-10,11,Exports,51.76
+1997-10,12,Imports,39.6
+1997-10,2,Balance,12.16
+1997-11,1,Total turnover,105.59
+1997-11,11,Exports,44.43
+1997-11,12,Imports,61.15
+1997-11,2,Balance,-16.72
+1997-12,1,Total turnover,169.7
+1997-12,11,Exports,105.84
+1997-12,12,Imports,63.86
+1997-12,2,Balance,41.98
+1998-01,1,Total turnover,50.61
+1998-01,11,Exports,25.65
+1998-01,12,Imports,24.96
+1998-01,2,Balance,0.69
+1998-02,1,Total turnover,57.2
+1998-02,11,Exports,28.11
+1998-02,12,Imports,29.09
+1998-02,2,Balance,-0.98
+1998-03,1,Total turnover,74.45
+1998-03,11,Exports,33.32
+1998-03,12,Imports,41.13
+1998-03,2,Balance,-7.8
+1998-04,1,Total turnover,73.41
+1998-04,11,Exports,21.96
+1998-04,12,Imports,51.45
+1998-04,2,Balance,-29.5
+1998-05,1,Total turnover,67.2
+1998-05,11,Exports,27.6
+1998-05,12,Imports,39.6
+1998-05,2,Balance,-12
+1998-06,1,Total turnover,96.41
+1998-06,11,Exports,52.02
+1998-06,12,Imports,44.39
+1998-06,2,Balance,7.62
+1998-07,1,Total turnover,65.13
+1998-07,11,Exports,33.54
+1998-07,12,Imports,31.59
+1998-07,2,Balance,1.95
+1998-08,1,Total turnover,72.14
+1998-08,11,Exports,34.95
+1998-08,12,Imports,37.19
+1998-08,2,Balance,-2.24
+1998-09,1,Total turnover,91.95
+1998-09,11,Exports,54.04
+1998-09,12,Imports,37.91
+1998-09,2,Balance,16.13
+1998-10,1,Total turnover,87.49
+1998-10,11,Exports,41.36
+1998-10,12,Imports,46.13
+1998-10,2,Balance,-4.77
+1998-11,1,Total turnover,87.73
+1998-11,11,Exports,37.47
+1998-11,12,Imports,50.26
+1998-11,2,Balance,-12.79
+1998-12,1,Total turnover,141.85
+1998-12,11,Exports,72.3
+1998-12,12,Imports,69.55
+1998-12,2,Balance,2.75
+1999-01,1,Total turnover,30.11
+1999-01,11,Exports,15.44
+1999-01,12,Imports,14.66
+1999-01,2,Balance,0.78
+1999-02,1,Total turnover,51.64
+1999-02,11,Exports,21.75
+1999-02,12,Imports,29.88
+1999-02,2,Balance,-8.13
+1999-03,1,Total turnover,63.53
+1999-03,11,Exports,25.96
+1999-03,12,Imports,37.57
+1999-03,2,Balance,-11.61
+1999-04,1,Total turnover,62.55
+1999-04,11,Exports,30.31
+1999-04,12,Imports,32.24
+1999-04,2,Balance,-1.92
+1999-05,1,Total turnover,43.02
+1999-05,11,Exports,19.89
+1999-05,12,Imports,23.13
+1999-05,2,Balance,-3.23
+1999-06,1,Total turnover,104.43
+1999-06,11,Exports,48.28
+1999-06,12,Imports,56.15
+1999-06,2,Balance,-7.87
+1999-07,1,Total turnover,87.54
+1999-07,11,Exports,41.39
+1999-07,12,Imports,46.14
+1999-07,2,Balance,-4.75
+1999-08,1,Total turnover,86.07
+1999-08,11,Exports,53.83
+1999-08,12,Imports,32.24
+1999-08,2,Balance,21.59
+1999-09,1,Total turnover,66.37
+1999-09,11,Exports,29.79
+1999-09,12,Imports,36.57
+1999-09,2,Balance,-6.78
+1999-10,1,Total turnover,70.03
+1999-10,11,Exports,39.79
+1999-10,12,Imports,30.23
+1999-10,2,Balance,9.56
+1999-11,1,Total turnover,67.73
+1999-11,11,Exports,33.73
+1999-11,12,Imports,34
+1999-11,2,Balance,-0.26
+1999-12,1,Total turnover,233.98
+1999-12,11,Exports,94.02
+1999-12,12,Imports,139.95
+1999-12,2,Balance,-45.93
+2000-01,1,Total turnover,37.22
+2000-01,11,Exports,16.53
+2000-01,12,Imports,20.69
+2000-01,2,Balance,-4.16
+2000-02,1,Total turnover,62.8
+2000-02,11,Exports,28.56
+2000-02,12,Imports,34.24
+2000-02,2,Balance,-5.68
+2000-03,1,Total turnover,68.33
+2000-03,11,Exports,26.6
+2000-03,12,Imports,41.73
+2000-03,2,Balance,-15.12
+2000-04,1,Total turnover,103.11
+2000-04,11,Exports,42.95
+2000-04,12,Imports,60.15
+2000-04,2,Balance,-17.2
+2000-05,1,Total turnover,73
+2000-05,11,Exports,26.24
+2000-05,12,Imports,46.77
+2000-05,2,Balance,-20.53
+2000-06,1,Total turnover,137.29
+2000-06,11,Exports,78.8
+2000-06,12,Imports,58.48
+2000-06,2,Balance,20.32
+2000-07,1,Total turnover,72.04
+2000-07,11,Exports,32.57
+2000-07,12,Imports,39.47
+2000-07,2,Balance,-6.9
+2000-08,1,Total turnover,109.34
+2000-08,11,Exports,49.77
+2000-08,12,Imports,59.57
+2000-08,2,Balance,-9.8
+2000-09,1,Total turnover,100.44
+2000-09,11,Exports,45.93
+2000-09,12,Imports,54.51
+2000-09,2,Balance,-8.58
+2000-10,1,Total turnover,82.05
+2000-10,11,Exports,41.44
+2000-10,12,Imports,40.61
+2000-10,2,Balance,0.84
+2000-11,1,Total turnover,108.31
+2000-11,11,Exports,48.79
+2000-11,12,Imports,59.53
+2000-11,2,Balance,-10.74
+2000-12,1,Total turnover,196.41
+2000-12,11,Exports,97.65
+2000-12,12,Imports,98.76
+2000-12,2,Balance,-1.11
+2001-01,1,Total turnover,52.32
+2001-01,11,Exports,19.09
+2001-01,12,Imports,33.23
+2001-01,2,Balance,-14.15
+2001-02,1,Total turnover,50.19
+2001-02,11,Exports,19.27
+2001-02,12,Imports,30.92
+2001-02,2,Balance,-11.64
+2001-03,1,Total turnover,72.25
+2001-03,11,Exports,33.89
+2001-03,12,Imports,38.35
+2001-03,2,Balance,-4.46
+2001-04,1,Total turnover,57.26
+2001-04,11,Exports,18.22
+2001-04,12,Imports,39.04
+2001-04,2,Balance,-20.82
+2001-05,1,Total turnover,85.26
+2001-05,11,Exports,41.92
+2001-05,12,Imports,43.33
+2001-05,2,Balance,-1.41
+2001-06,1,Total turnover,80.36
+2001-06,11,Exports,26.06
+2001-06,12,Imports,54.3
+2001-06,2,Balance,-28.24
+2001-07,1,Total turnover,72.43
+2001-07,11,Exports,30.14
+2001-07,12,Imports,42.29
+2001-07,2,Balance,-12.15
+2001-08,1,Total turnover,133.8
+2001-08,11,Exports,65.43
+2001-08,12,Imports,68.37
+2001-08,2,Balance,-2.95
+2001-09,1,Total turnover,120.87
+2001-09,11,Exports,63.42
+2001-09,12,Imports,57.45
+2001-09,2,Balance,5.98
+2001-10,1,Total turnover,87.33
+2001-10,11,Exports,44.13
+2001-10,12,Imports,43.19
+2001-10,2,Balance,0.94
+2001-11,1,Total turnover,157.58
+2001-11,11,Exports,109.58
+2001-11,12,Imports,48.01
+2001-11,2,Balance,61.57
+2001-12,1,Total turnover,264.33
+2001-12,11,Exports,125.09
+2001-12,12,Imports,139.25
+2001-12,2,Balance,-14.16
+2002-01,1,Total turnover,72.55
+2002-01,11,Exports,39.98
+2002-01,12,Imports,32.57
+2002-01,2,Balance,7.41
+2002-02,1,Total turnover,78.91
+2002-02,11,Exports,40.08
+2002-02,12,Imports,38.83
+2002-02,2,Balance,1.26
+2002-03,1,Total turnover,78.36
+2002-03,11,Exports,34.89
+2002-03,12,Imports,43.47
+2002-03,2,Balance,-8.58
+2002-04,1,Total turnover,93.06
+2002-04,11,Exports,41.22
+2002-04,12,Imports,51.84
+2002-04,2,Balance,-10.63
+2002-05,1,Total turnover,94.81
+2002-05,11,Exports,33.42
+2002-05,12,Imports,61.39
+2002-05,2,Balance,-27.97
+2002-06,1,Total turnover,110.52
+2002-06,11,Exports,36.48
+2002-06,12,Imports,74.04
+2002-06,2,Balance,-37.56
+2002-07,1,Total turnover,97.86
+2002-07,11,Exports,44.14
+2002-07,12,Imports,53.72
+2002-07,2,Balance,-9.58
+2002-08,1,Total turnover,120.6
+2002-08,11,Exports,46.44
+2002-08,12,Imports,74.17
+2002-08,2,Balance,-27.73
+2002-09,1,Total turnover,91.57
+2002-09,11,Exports,33.46
+2002-09,12,Imports,58.11
+2002-09,2,Balance,-24.66
+2002-10,1,Total turnover,119.72
+2002-10,11,Exports,60.26
+2002-10,12,Imports,59.46
+2002-10,2,Balance,0.8
+2002-11,1,Total turnover,108.27
+2002-11,11,Exports,54.58
+2002-11,12,Imports,53.69
+2002-11,2,Balance,0.89
+2002-12,1,Total turnover,148.12
+2002-12,11,Exports,59.03
+2002-12,12,Imports,89.09
+2002-12,2,Balance,-30.07
+2003-01,1,Total turnover,99.98
+2003-01,11,Exports,51.18
+2003-01,12,Imports,48.8
+2003-01,2,Balance,2.38
+2003-02,1,Total turnover,82.6
+2003-02,11,Exports,39.41
+2003-02,12,Imports,43.19
+2003-02,2,Balance,-3.78
+2003-03,1,Total turnover,91.33
+2003-03,11,Exports,38.63
+2003-03,12,Imports,52.7
+2003-03,2,Balance,-14.07
+2003-04,1,Total turnover,75.85
+2003-04,11,Exports,19
+2003-04,12,Imports,56.85
+2003-04,2,Balance,-37.85
+2003-05,1,Total turnover,114.1
+2003-05,11,Exports,40.23
+2003-05,12,Imports,73.86
+2003-05,2,Balance,-33.63
+2003-06,1,Total turnover,114.24
+2003-06,11,Exports,35.28
+2003-06,12,Imports,78.95
+2003-06,2,Balance,-43.67
+2003-07,1,Total turnover,144.92
+2003-07,11,Exports,59.01
+2003-07,12,Imports,85.91
+2003-07,2,Balance,-26.9
+2003-08,1,Total turnover,135.12
+2003-08,11,Exports,61.43
+2003-08,12,Imports,73.69
+2003-08,2,Balance,-12.26
+2003-09,1,Total turnover,127.92
+2003-09,11,Exports,61.51
+2003-09,12,Imports,66.41
+2003-09,2,Balance,-4.9
+2003-10,1,Total turnover,115.26
+2003-10,11,Exports,49.66
+2003-10,12,Imports,65.6
+2003-10,2,Balance,-15.94
+2003-11,1,Total turnover,134.45
+2003-11,11,Exports,65.06
+2003-11,12,Imports,69.39
+2003-11,2,Balance,-4.33
+2003-12,1,Total turnover,170.56
+2003-12,11,Exports,94.98
+2003-12,12,Imports,75.58
+2003-12,2,Balance,19.39
+2004-01,1,Total turnover,85.86
+2004-01,11,Exports,35.03
+2004-01,12,Imports,50.83
+2004-01,2,Balance,-15.8
+2004-02,1,Total turnover,91.88
+2004-02,11,Exports,35.38
+2004-02,12,Imports,56.5
+2004-02,2,Balance,-21.12
+2004-03,1,Total turnover,137.48
+2004-03,11,Exports,61.04
+2004-03,12,Imports,76.44
+2004-03,2,Balance,-15.4
+2004-04,1,Total turnover,142.89
+2004-04,11,Exports,52.51
+2004-04,12,Imports,90.39
+2004-04,2,Balance,-37.88
+2004-05,1,Total turnover,167.3
+2004-05,11,Exports,60.79
+2004-05,12,Imports,106.51
+2004-05,2,Balance,-45.72
+2004-06,1,Total turnover,159.8
+2004-06,11,Exports,62.34
+2004-06,12,Imports,97.46
+2004-06,2,Balance,-35.11
+2004-07,1,Total turnover,162.81
+2004-07,11,Exports,70.8
+2004-07,12,Imports,92.01
+2004-07,2,Balance,-21.21
+2004-08,1,Total turnover,191.13
+2004-08,11,Exports,97.98
+2004-08,12,Imports,93.15
+2004-08,2,Balance,4.83
+2004-09,1,Total turnover,170.64
+2004-09,11,Exports,83.15
+2004-09,12,Imports,87.49
+2004-09,2,Balance,-4.34
+2004-10,1,Total turnover,181.35
+2004-10,11,Exports,89.99
+2004-10,12,Imports,91.35
+2004-10,2,Balance,-1.36
+2004-11,1,Total turnover,154.63
+2004-11,11,Exports,66.76
+2004-11,12,Imports,87.87
+2004-11,2,Balance,-21.1
+2004-12,1,Total turnover,242.65
+2004-12,11,Exports,153.31
+2004-12,12,Imports,89.34
+2004-12,2,Balance,63.97
+2005-01,1,Total turnover,118.63
+2005-01,11,Exports,56.47
+2005-01,12,Imports,62.16
+2005-01,2,Balance,-5.68
+2005-02,1,Total turnover,92.15
+2005-02,11,Exports,36.72
+2005-02,12,Imports,55.43
+2005-02,2,Balance,-18.7
+2005-03,1,Total turnover,164.49
+2005-03,11,Exports,74.97
+2005-03,12,Imports,89.52
+2005-03,2,Balance,-14.55
+2005-04,1,Total turnover,131.91
+2005-04,11,Exports,57.94
+2005-04,12,Imports,73.96
+2005-04,2,Balance,-16.02
+2005-05,1,Total turnover,153.69
+2005-05,11,Exports,65.76
+2005-05,12,Imports,87.93
+2005-05,2,Balance,-22.18
+2005-06,1,Total turnover,217.29
+2005-06,11,Exports,91.28
+2005-06,12,Imports,126.01
+2005-06,2,Balance,-34.73
+2005-07,1,Total turnover,216.96
+2005-07,11,Exports,97.05
+2005-07,12,Imports,119.91
+2005-07,2,Balance,-22.87
+2005-08,1,Total turnover,172.9
+2005-08,11,Exports,81.16
+2005-08,12,Imports,91.74
+2005-08,2,Balance,-10.58
+2005-09,1,Total turnover,195.23
+2005-09,11,Exports,106.21
+2005-09,12,Imports,89.02
+2005-09,2,Balance,17.18
+2005-10,1,Total turnover,246.01
+2005-10,11,Exports,119.67
+2005-10,12,Imports,126.35
+2005-10,2,Balance,-6.68
+2005-11,1,Total turnover,221.38
+2005-11,11,Exports,110.33
+2005-11,12,Imports,111.04
+2005-11,2,Balance,-0.71
+2005-12,1,Total turnover,310.52
+2005-12,11,Exports,166.33
+2005-12,12,Imports,144.19
+2005-12,2,Balance,22.13
+2006-01,1,Total turnover,118.93
+2006-01,11,Exports,52.92
+2006-01,12,Imports,66.01
+2006-01,2,Balance,-13.09
+2006-02,1,Total turnover,145.22
+2006-02,11,Exports,74.61
+2006-02,12,Imports,70.6
+2006-02,2,Balance,4.01
+2006-03,1,Total turnover,193.74
+2006-03,11,Exports,101.92
+2006-03,12,Imports,91.82
+2006-03,2,Balance,10.1
+2006-04,1,Total turnover,207.54
+2006-04,11,Exports,101.13
+2006-04,12,Imports,106.41
+2006-04,2,Balance,-5.29
+2006-05,1,Total turnover,251.92
+2006-05,11,Exports,127.63
+2006-05,12,Imports,124.29
+2006-05,2,Balance,3.35
+2006-06,1,Total turnover,281.26
+2006-06,11,Exports,152.86
+2006-06,12,Imports,128.4
+2006-06,2,Balance,24.45
+2006-07,1,Total turnover,282.97
+2006-07,11,Exports,144.58
+2006-07,12,Imports,138.39
+2006-07,2,Balance,6.19
+2006-08,1,Total turnover,318.49
+2006-08,11,Exports,143.72
+2006-08,12,Imports,174.77
+2006-08,2,Balance,-31.05
+2006-09,1,Total turnover,305.39
+2006-09,11,Exports,180.26
+2006-09,12,Imports,125.13
+2006-09,2,Balance,55.13
+2006-10,1,Total turnover,250.71
+2006-10,11,Exports,123.12
+2006-10,12,Imports,127.58
+2006-10,2,Balance,-4.46
+2006-11,1,Total turnover,309.53
+2006-11,11,Exports,174.06
+2006-11,12,Imports,135.47
+2006-11,2,Balance,38.59
+2006-12,1,Total turnover,311.32
+2006-12,11,Exports,165.15
+2006-12,12,Imports,146.17
+2006-12,2,Balance,18.99
+2007-01,1,Total turnover,278.33
+2007-01,11,Exports,167.67
+2007-01,12,Imports,110.66
+2007-01,2,Balance,57.01
+2007-02,1,Total turnover,208.07
+2007-02,11,Exports,106.47
+2007-02,12,Imports,101.6
+2007-02,2,Balance,4.86
+2007-03,1,Total turnover,219.82
+2007-03,11,Exports,96.79
+2007-03,12,Imports,123.03
+2007-03,2,Balance,-26.24
+2007-04,1,Total turnover,283.77
+2007-04,11,Exports,132.02
+2007-04,12,Imports,151.75
+2007-04,2,Balance,-19.74
+2007-05,1,Total turnover,311.69
+2007-05,11,Exports,159.93
+2007-05,12,Imports,151.76
+2007-05,2,Balance,8.16
+2007-06,1,Total turnover,354.67
+2007-06,11,Exports,172.6
+2007-06,12,Imports,182.07
+2007-06,2,Balance,-9.48
+2007-07,1,Total turnover,329.36
+2007-07,11,Exports,141.3
+2007-07,12,Imports,188.06
+2007-07,2,Balance,-46.76
+2007-08,1,Total turnover,353
+2007-08,11,Exports,165.74
+2007-08,12,Imports,187.25
+2007-08,2,Balance,-21.51
+2007-09,1,Total turnover,350.89
+2007-09,11,Exports,156.28
+2007-09,12,Imports,194.62
+2007-09,2,Balance,-38.34
+2007-10,1,Total turnover,356.56
+2007-10,11,Exports,169.04
+2007-10,12,Imports,187.52
+2007-10,2,Balance,-18.47
+2007-11,1,Total turnover,377.36
+2007-11,11,Exports,188.35
+2007-11,12,Imports,189.01
+2007-11,2,Balance,-0.66
+2007-12,1,Total turnover,585.79
+2007-12,11,Exports,291.29
+2007-12,12,Imports,294.5
+2007-12,2,Balance,-3.2
+2008-01,1,Total turnover,415.47
+2008-01,11,Exports,216.51
+2008-01,12,Imports,198.96
+2008-01,2,Balance,17.56
+2008-02,1,Total turnover,394.11
+2008-02,11,Exports,216.92
+2008-02,12,Imports,177.19
+2008-02,2,Balance,39.73
+2008-03,1,Total turnover,369.46
+2008-03,11,Exports,146.33
+2008-03,12,Imports,223.13
+2008-03,2,Balance,-76.8
+2008-04,1,Total turnover,456.6
+2008-04,11,Exports,191.32
+2008-04,12,Imports,265.27
+2008-04,2,Balance,-73.95
+2008-05,1,Total turnover,510.13
+2008-05,11,Exports,225.08
+2008-05,12,Imports,285.05
+2008-05,2,Balance,-59.97
+2008-06,1,Total turnover,596.57
+2008-06,11,Exports,274.48
+2008-06,12,Imports,322.09
+2008-06,2,Balance,-47.61
+2008-07,1,Total turnover,542.98
+2008-07,11,Exports,191.97
+2008-07,12,Imports,351.01
+2008-07,2,Balance,-159.04
+2008-08,1,Total turnover,495.28
+2008-08,11,Exports,210.09
+2008-08,12,Imports,285.19
+2008-08,2,Balance,-75.09
+2008-09,1,Total turnover,603.45
+2008-09,11,Exports,286.12
+2008-09,12,Imports,317.33
+2008-09,2,Balance,-31.22
+2008-10,1,Total turnover,439.01
+2008-10,11,Exports,191.75
+2008-10,12,Imports,247.25
+2008-10,2,Balance,-55.5
+2008-11,1,Total turnover,471.3
+2008-11,11,Exports,164.91
+2008-11,12,Imports,306.38
+2008-11,2,Balance,-141.47
+2008-12,1,Total turnover,484.65
+2008-12,11,Exports,218.97
+2008-12,12,Imports,265.68
+2008-12,2,Balance,-46.71
+2009-01,1,Total turnover,289.84
+2009-01,11,Exports,170.37
+2009-01,12,Imports,119.46
+2009-01,2,Balance,50.91
+2009-02,1,Total turnover,148.33
+2009-02,11,Exports,61.98
+2009-02,12,Imports,86.35
+2009-02,2,Balance,-24.37
+2009-03,1,Total turnover,278
+2009-03,11,Exports,89.96
+2009-03,12,Imports,188.04
+2009-03,2,Balance,-98.07
+2009-04,1,Total turnover,265.72
+2009-04,11,Exports,121.94
+2009-04,12,Imports,143.78
+2009-04,2,Balance,-21.84
+2009-05,1,Total turnover,305.11
+2009-05,11,Exports,148.66
+2009-05,12,Imports,156.45
+2009-05,2,Balance,-7.8
+2009-06,1,Total turnover,368.69
+2009-06,11,Exports,170
+2009-06,12,Imports,198.69
+2009-06,2,Balance,-28.68
+2009-07,1,Total turnover,353.11
+2009-07,11,Exports,159.46
+2009-07,12,Imports,193.65
+2009-07,2,Balance,-34.19
+2009-08,1,Total turnover,343.01
+2009-08,11,Exports,160.36
+2009-08,12,Imports,182.66
+2009-08,2,Balance,-22.3
+2009-09,1,Total turnover,426.33
+2009-09,11,Exports,211.07
+2009-09,12,Imports,215.26
+2009-09,2,Balance,-4.19
+2009-10,1,Total turnover,413.97
+2009-10,11,Exports,193.16
+2009-10,12,Imports,220.82
+2009-10,2,Balance,-27.66
+2009-11,1,Total turnover,398.34
+2009-11,11,Exports,191.38
+2009-11,12,Imports,206.96
+2009-11,2,Balance,-15.59
+2009-12,1,Total turnover,432.6
+2009-12,11,Exports,207.05
+2009-12,12,Imports,225.56
+2009-12,2,Balance,-18.51
+2010-01,1,Total turnover,295.47
+2010-01,11,Exports,163.5
+2010-01,12,Imports,131.97
+2010-01,2,Balance,31.53
+2010-02,1,Total turnover,312.11
+2010-02,11,Exports,148.25
+2010-02,12,Imports,163.86
+2010-02,2,Balance,-15.62
+2010-03,1,Total turnover,468.61
+2010-03,11,Exports,187.26
+2010-03,12,Imports,281.35
+2010-03,2,Balance,-94.1
+2010-04,1,Total turnover,476.02
+2010-04,11,Exports,230.36
+2010-04,12,Imports,245.66
+2010-04,2,Balance,-15.29
+2010-05,1,Total turnover,487.6
+2010-05,11,Exports,260.46
+2010-05,12,Imports,227.13
+2010-05,2,Balance,33.33
+2010-06,1,Total turnover,625.1
+2010-06,11,Exports,318.84
+2010-06,12,Imports,306.27
+2010-06,2,Balance,12.57
+2010-07,1,Total turnover,542.76
+2010-07,11,Exports,229.83
+2010-07,12,Imports,312.93
+2010-07,2,Balance,-83.1
+2010-08,1,Total turnover,551.11
+2010-08,11,Exports,255.09
+2010-08,12,Imports,296.02
+2010-08,2,Balance,-40.92
+2010-09,1,Total turnover,497.62
+2010-09,11,Exports,214.54
+2010-09,12,Imports,283.08
+2010-09,2,Balance,-68.53
+2010-10,1,Total turnover,553.46
+2010-10,11,Exports,267.8
+2010-10,12,Imports,285.66
+2010-10,2,Balance,-17.86
+2010-11,1,Total turnover,611.88
+2010-11,11,Exports,274.71
+2010-11,12,Imports,337.17
+2010-11,2,Balance,-62.46
+2010-12,1,Total turnover,686.8
+2010-12,11,Exports,357.85
+2010-12,12,Imports,328.95
+2010-12,2,Balance,28.91
+2011-01,1,Total turnover,564.2
+2011-01,11,Exports,214.3
+2011-01,12,Imports,349.9
+2011-01,2,Balance,-135.5
+2011-02,1,Total turnover,475
+2011-02,11,Exports,209
+2011-02,12,Imports,266.1
+2011-02,2,Balance,-57.1
+2011-03,1,Total turnover,790
+2011-03,11,Exports,318
+2011-03,12,Imports,472
+2011-03,2,Balance,-154
+2011-04,1,Total turnover,915.2
+2011-04,11,Exports,419.7
+2011-04,12,Imports,495.5
+2011-04,2,Balance,-75.7
+2011-05,1,Total turnover,945.2
+2011-05,11,Exports,414.7
+2011-05,12,Imports,530.6
+2011-05,2,Balance,-115.9
+2011-06,1,Total turnover,1017.8
+2011-06,11,Exports,413.2
+2011-06,12,Imports,604.6
+2011-06,2,Balance,-191.3
+2011-07,1,Total turnover,1070.2
+2011-07,11,Exports,349.6
+2011-07,12,Imports,720.7
+2011-07,2,Balance,-371.1
+2011-08,1,Total turnover,1246.2
+2011-08,11,Exports,498.9
+2011-08,12,Imports,747.3
+2011-08,2,Balance,-248.4
+2011-09,1,Total turnover,1144.1
+2011-09,11,Exports,482.6
+2011-09,12,Imports,661.5
+2011-09,2,Balance,-178.9
+2011-10,1,Total turnover,964.5
+2011-10,11,Exports,435.8
+2011-10,12,Imports,528.7
+2011-10,2,Balance,-92.9
+2011-11,1,Total turnover,1131.3
+2011-11,11,Exports,518.5
+2011-11,12,Imports,612.7
+2011-11,2,Balance,-94.2
+2011-12,1,Total turnover,1152
+2011-12,11,Exports,543.2
+2011-12,12,Imports,608.8
+2011-12,2,Balance,-65.7
+2012-01,1,Total turnover,738.8
+2012-01,11,Exports,243
+2012-01,12,Imports,495.8
+2012-01,2,Balance,-252.7
+2012-02,1,Total turnover,767.6
+2012-02,11,Exports,289.5
+2012-02,12,Imports,478.1
+2012-02,2,Balance,-188.6
+2012-03,1,Total turnover,903
+2012-03,11,Exports,359.8
+2012-03,12,Imports,543.2
+2012-03,2,Balance,-183.4
+2012-04,1,Total turnover,994.5
+2012-04,11,Exports,406.8
+2012-04,12,Imports,587.7
+2012-04,2,Balance,-180.9
+2012-05,1,Total turnover,1141.8
+2012-05,11,Exports,485.7
+2012-05,12,Imports,656.1
+2012-05,2,Balance,-170.4
+2012-06,1,Total turnover,1066.8
+2012-06,11,Exports,484.4
+2012-06,12,Imports,582.5
+2012-06,2,Balance,-98.1
+2012-07,1,Total turnover,942.8
+2012-07,11,Exports,285.1
+2012-07,12,Imports,657.7
+2012-07,2,Balance,-372.5
+2012-08,1,Total turnover,1008.5
+2012-08,11,Exports,327.3
+2012-08,12,Imports,681.2
+2012-08,2,Balance,-353.9
+2012-09,1,Total turnover,915.5
+2012-09,11,Exports,350.6
+2012-09,12,Imports,564.9
+2012-09,2,Balance,-214.3
+2012-10,1,Total turnover,929.6
+2012-10,11,Exports,434.8
+2012-10,12,Imports,494.8
+2012-10,2,Balance,-60
+2012-11,1,Total turnover,887.7
+2012-11,11,Exports,361.5
+2012-11,12,Imports,526.2
+2012-11,2,Balance,-164.6
+2012-12,1,Total turnover,826.2
+2012-12,11,Exports,356
+2012-12,12,Imports,470.2
+2012-12,2,Balance,-114.2
+2013-01,1,Total turnover,778.9
+2013-01,11,Exports,281.6
+2013-01,12,Imports,497.3
+2013-01,2,Balance,-215.7
+2013-02,1,Total turnover,538.2
+2013-02,11,Exports,224.7
+2013-02,12,Imports,313.5
+2013-02,2,Balance,-88.8
+2013-03,1,Total turnover,697.8
+2013-03,11,Exports,303.2
+2013-03,12,Imports,394.6
+2013-03,2,Balance,-91.5
+2013-04,1,Total turnover,942.6
+2013-04,11,Exports,406.8
+2013-04,12,Imports,535.8
+2013-04,2,Balance,-129.1
+2013-05,1,Total turnover,1120.5
+2013-05,11,Exports,375.4
+2013-05,12,Imports,745.1
+2013-05,2,Balance,-369.7
+2013-06,1,Total turnover,956.4
+2013-06,11,Exports,371
+2013-06,12,Imports,585.3
+2013-06,2,Balance,-214.3
+2013-07,1,Total turnover,1009.1
+2013-07,11,Exports,391.2
+2013-07,12,Imports,617.8
+2013-07,2,Balance,-226.6
+2013-08,1,Total turnover,921
+2013-08,11,Exports,349.3
+2013-08,12,Imports,571.7
+2013-08,2,Balance,-222.4
+2013-09,1,Total turnover,962.5
+2013-09,11,Exports,394.6
+2013-09,12,Imports,567.9
+2013-09,2,Balance,-173.3
+2013-10,1,Total turnover,937.9
+2013-10,11,Exports,400.1
+2013-10,12,Imports,537.8
+2013-10,2,Balance,-137.8
+2013-11,1,Total turnover,855.8
+2013-11,11,Exports,363.8
+2013-11,12,Imports,492
+2013-11,2,Balance,-128.2
+2013-12,1,Total turnover,906.2
+2013-12,11,Exports,407.5
+2013-12,12,Imports,498.7
+2013-12,2,Balance,-91.3
+2014-01,1,Total turnover,695.5
+2014-01,11,Exports,363.5
+2014-01,12,Imports,332
+2014-01,2,Balance,31.5
+2014-02,1,Total turnover,555.3
+2014-02,11,Exports,273.4
+2014-02,12,Imports,281.9
+2014-02,2,Balance,-8.5
+2014-03,1,Total turnover,765.3
+2014-03,11,Exports,382.2
+2014-03,12,Imports,383.2
+2014-03,2,Balance,-1
+2014-04,1,Total turnover,984.1
+2014-04,11,Exports,455.9
+2014-04,12,Imports,528.2
+2014-04,2,Balance,-72.3
+2014-05,1,Total turnover,1082.9
+2014-05,11,Exports,506.7
+2014-05,12,Imports,576.2
+2014-05,2,Balance,-69.6
+2014-06,1,Total turnover,1042.1
+2014-06,11,Exports,544.1
+2014-06,12,Imports,498.1
+2014-06,2,Balance,46
+2014-07,1,Total turnover,943.2
+2014-07,11,Exports,418.2
+2014-07,12,Imports,525.1
+2014-07,2,Balance,-106.9
+2014-08,1,Total turnover,1082.4
+2014-08,11,Exports,632
+2014-08,12,Imports,450.5
+2014-08,2,Balance,181.5
+2014-09,1,Total turnover,916.1
+2014-09,11,Exports,445.5
+2014-09,12,Imports,470.5
+2014-09,2,Balance,-25
+2014-10,1,Total turnover,1009.2
+2014-10,11,Exports,581.6
+2014-10,12,Imports,427.6
+2014-10,2,Balance,154.1
+2014-11,1,Total turnover,953.4
+2014-11,11,Exports,587.4
+2014-11,12,Imports,366
+2014-11,2,Balance,221.5
+2014-12,1,Total turnover,981.4
+2014-12,11,Exports,583.9
+2014-12,12,Imports,397.5
+2014-12,2,Balance,186.3
+2015-01,1,Total turnover,720.1
+2015-01,11,Exports,472.8
+2015-01,12,Imports,247.3
+2015-01,2,Balance,225.5
+2015-02,1,Total turnover,495.7
+2015-02,11,Exports,280.5
+2015-02,12,Imports,215.2
+2015-02,2,Balance,65.3
+2015-03,1,Total turnover,562
+2015-03,11,Exports,322.2
+2015-03,12,Imports,239.8
+2015-03,2,Balance,82.5
+2015-04,1,Total turnover,708.8
+2015-04,11,Exports,376.5
+2015-04,12,Imports,332.3
+2015-04,2,Balance,44.2
+2015-05,1,Total turnover,830
+2015-05,11,Exports,417.4
+2015-05,12,Imports,412.6
+2015-05,2,Balance,4.8
+2015-06,1,Total turnover,892.8
+2015-06,11,Exports,500.7
+2015-06,12,Imports,392
+2015-06,2,Balance,108.7
+2015-07,1,Total turnover,812.5
+2015-07,11,Exports,442.7
+2015-07,12,Imports,369.8
+2015-07,2,Balance,72.8
+2015-08,1,Total turnover,776.4
+2015-08,11,Exports,438.5
+2015-08,12,Imports,338
+2015-08,2,Balance,100.5
+2015-09,1,Total turnover,599.4
+2015-09,11,Exports,289.4
+2015-09,12,Imports,309.9
+2015-09,2,Balance,-20.5
+2015-10,1,Total turnover,692.8
+2015-10,11,Exports,385.8
+2015-10,12,Imports,307
+2015-10,2,Balance,78.8
+2015-11,1,Total turnover,648.5
+2015-11,11,Exports,317.1
+2015-11,12,Imports,331.4
+2015-11,2,Balance,-14.3
+2015-12,1,Total turnover,727.8
+2015-12,11,Exports,425.7
+2015-12,12,Imports,302.1
+2015-12,2,Balance,123.6
+2016-01,1,Total turnover,1261
+2016-01,11,Exports,1061.9
+2016-01,12,Imports,199.1
+2016-01,2,Balance,862.7
+2016-02,1,Total turnover,399.4
+2016-02,11,Exports,246.3
+2016-02,12,Imports,153
+2016-02,2,Balance,93.3
+2016-03,1,Total turnover,544.9
+2016-03,11,Exports,298
+2016-03,12,Imports,246.9
+2016-03,2,Balance,51
+2016-04,1,Total turnover,594.9
+2016-04,11,Exports,331.6
+2016-04,12,Imports,263.3
+2016-04,2,Balance,68.3
+2016-05,1,Total turnover,698.5
+2016-05,11,Exports,389.6
+2016-05,12,Imports,308.8
+2016-05,2,Balance,80.8
+2016-06,1,Total turnover,700.9
+2016-06,11,Exports,352.3
+2016-06,12,Imports,348.6
+2016-06,2,Balance,3.6
+2016-07,1,Total turnover,597.5
+2016-07,11,Exports,289
+2016-07,12,Imports,308.5
+2016-07,2,Balance,-19.4
+2016-08,1,Total turnover,695
+2016-08,11,Exports,394.3
+2016-08,12,Imports,300.8
+2016-08,2,Balance,93.5
+2016-09,1,Total turnover,637.5
+2016-09,11,Exports,328.4
+2016-09,12,Imports,309.1
+2016-09,2,Balance,19.3
+2016-10,1,Total turnover,666.4
+2016-10,11,Exports,347.7
+2016-10,12,Imports,318.7
+2016-10,2,Balance,29
+2016-11,1,Total turnover,729.7
+2016-11,11,Exports,421.9
+2016-11,12,Imports,307.7
+2016-11,2,Balance,114.2
+2016-12,1,Total turnover,730.2
+2016-12,11,Exports,455.3
+2016-12,12,Imports,274.9
+2016-12,2,Balance,180.4
+2017-01,1,Total turnover,1279.6
+2017-01,11,Exports,1005.4
+2017-01,12,Imports,274.2
+2017-01,2,Balance,731.2
+2017-02,1,Total turnover,596.6
+2017-02,11,Exports,384
+2017-02,12,Imports,212.6
+2017-02,2,Balance,171.3
+2017-03,1,Total turnover,773.1
+2017-03,11,Exports,476.9
+2017-03,12,Imports,296.2
+2017-03,2,Balance,180.8
+2017-04,1,Total turnover,902.5
+2017-04,11,Exports,569.2
+2017-04,12,Imports,333.3
+2017-04,2,Balance,236
+2017-05,1,Total turnover,905.3
+2017-05,11,Exports,523.8
+2017-05,12,Imports,381.6
+2017-05,2,Balance,142.2
+2017-06,1,Total turnover,988.4
+2017-06,11,Exports,561.3
+2017-06,12,Imports,427.1
+2017-06,2,Balance,134.2
+2017-07,1,Total turnover,782.2
+2017-07,11,Exports,377
+2017-07,12,Imports,405.2
+2017-07,2,Balance,-28.1
+2017-08,1,Total turnover,876.4
+2017-08,11,Exports,458.2
+2017-08,12,Imports,418.2
+2017-08,2,Balance,40
+2017-09,1,Total turnover,796.7
+2017-09,11,Exports,419.4
+2017-09,12,Imports,377.3
+2017-09,2,Balance,42.1
+2017-10,1,Total turnover,878.3
+2017-10,11,Exports,494
+2017-10,12,Imports,384.2
+2017-10,2,Balance,109.8
+2017-11,1,Total turnover,868.1
+2017-11,11,Exports,471.7
+2017-11,12,Imports,396.4
+2017-11,2,Balance,75.3
+2017-12,1,Total turnover,890.7
+2017-12,11,Exports,459.6
+2017-12,12,Imports,431.1
+2017-12,2,Balance,28.5
+2018-01,1,Total turnover,784.7
+2018-01,11,Exports,423.6
+2018-01,12,Imports,361.1
+2018-01,2,Balance,62.5
+2018-02,1,Total turnover,779.9
+2018-02,11,Exports,414.8
+2018-02,12,Imports,365.1
+2018-02,2,Balance,49.7
+2018-03,1,Total turnover,1048.5
+2018-03,11,Exports,644.2
+2018-03,12,Imports,404.3
+2018-03,2,Balance,240
+2018-04,1,Total turnover,1092.3
+2018-04,11,Exports,640.7
+2018-04,12,Imports,451.6
+2018-04,2,Balance,189
+2018-05,1,Total turnover,1354.4
+2018-05,11,Exports,757.6
+2018-05,12,Imports,596.8
+2018-05,2,Balance,160.8
+2018-06,1,Total turnover,1236.2
+2018-06,11,Exports,698.5
+2018-06,12,Imports,537.7
+2018-06,2,Balance,160.9
+2018-07,1,Total turnover,1085
+2018-07,11,Exports,535.5
+2018-07,12,Imports,549.4
+2018-07,2,Balance,-13.9
+2018-08,1,Total turnover,1089.1
+2018-08,11,Exports,552.9
+2018-08,12,Imports,536.2
+2018-08,2,Balance,16.7
+2018-09,1,Total turnover,1155.6
+2018-09,11,Exports,606.8
+2018-09,12,Imports,548.8
+2018-09,2,Balance,57.9
+2018-10,1,Total turnover,1185.7
+2018-10,11,Exports,661.2
+2018-10,12,Imports,524.4
+2018-10,2,Balance,136.8
+2018-11,1,Total turnover,1023.4
+2018-11,11,Exports,527.5
+2018-11,12,Imports,495.9
+2018-11,2,Balance,31.6
+2018-12,1,Total turnover,1051.9
+2018-12,11,Exports,548.4
+2018-12,12,Imports,503.5
+2018-12,2,Balance,45
+2019-01,1,Total turnover,1111.8
+2019-01,11,Exports,607
+2019-01,12,Imports,504.8
+2019-01,2,Balance,102.3
+2019-02,1,Total turnover,819.4
+2019-02,11,Exports,486.5
+2019-02,12,Imports,332.8
+2019-02,2,Balance,153.7
+2019-03,1,Total turnover,1126.3
+2019-03,11,Exports,678.2
+2019-03,12,Imports,448.1
+2019-03,2,Balance,230.1
+2019-04,1,Total turnover,1220.8
+2019-04,11,Exports,740.1
+2019-04,12,Imports,480.7
+2019-04,2,Balance,259.3
+2019-05,1,Total turnover,1300.4
+2019-05,11,Exports,751.2
+2019-05,12,Imports,549.1
+2019-05,2,Balance,202.1
+2019-06,1,Total turnover,1254.2
+2019-06,11,Exports,676.1
+2019-06,12,Imports,578.1
+2019-06,2,Balance,97.9
+2019-07,1,Total turnover,1246.1
+2019-07,11,Exports,632.7
+2019-07,12,Imports,613.3
+2019-07,2,Balance,19.4
+2019-08,1,Total turnover,1400.3
+2019-08,11,Exports,816.2
+2019-08,12,Imports,584.2
+2019-08,2,Balance,232
+2019-09,1,Total turnover,1065
+2019-09,11,Exports,557.4
+2019-09,12,Imports,507.7
+2019-09,2,Balance,49.7
+2019-10,1,Total turnover,1154.5
+2019-10,11,Exports,617.9
+2019-10,12,Imports,536.6
+2019-10,2,Balance,81.2
+2019-11,1,Total turnover,940.9
+2019-11,11,Exports,491.8
+2019-11,12,Imports,449.1
+2019-11,2,Balance,42.8
+2019-12,1,Total turnover,1107.6
+2019-12,11,Exports,564.6
+2019-12,12,Imports,543
+2019-12,2,Balance,21.6
+2020-01,1,Total turnover,935.1
+2020-01,11,Exports,459
+2020-01,12,Imports,476.1
+2020-01,2,Balance,-17.1
+2020-02,1,Total turnover,590.4
+2020-02,11,Exports,311.8
+2020-02,12,Imports,278.5
+2020-02,2,Balance,33.3
+2020-03,1,Total turnover,667.6
+2020-03,11,Exports,265.5
+2020-03,12,Imports,402
+2020-03,2,Balance,-136.5
+2020-04,1,Total turnover,754.1
+2020-04,11,Exports,337.8
+2020-04,12,Imports,416.3
+2020-04,2,Balance,-78.5
+2020-05,1,Total turnover,1060.5
+2020-05,11,Exports,632.6
+2020-05,12,Imports,427.9
+2020-05,2,Balance,204.7
+2020-06,1,Total turnover,1280.6
+2020-06,11,Exports,821.4
+2020-06,12,Imports,459.2
+2020-06,2,Balance,362.2
+2020-07,1,Total turnover,1442.3
+2020-07,11,Exports,960.5
+2020-07,12,Imports,481.9
+2020-07,2,Balance,478.6
+2020-08,1,Total turnover,1202.7
+2020-08,11,Exports,690.1
+2020-08,12,Imports,512.5
+2020-08,2,Balance,177.6
+2020-09,1,Total turnover,1143.2
+2020-09,11,Exports,668.2
+2020-09,12,Imports,474.9
+2020-09,2,Balance,193.3
+2020-10,1,Total turnover,1395.7
+2020-10,11,Exports,877.3
+2020-10,12,Imports,518.4
+2020-10,2,Balance,358.9
+2020-11,1,Total turnover,1271
+2020-11,11,Exports,830.7
+2020-11,12,Imports,440.3
+2020-11,2,Balance,390.4
+2020-12,1,Total turnover,1132.1
+2020-12,11,Exports,721.3
+2020-12,12,Imports,410.8
+2020-12,2,Balance,310.5
+2021-01,1,Total turnover,1098.5
+2021-01,11,Exports,639.7
+2021-01,12,Imports,458.9
+2021-01,2,Balance,180.8
+2021-02,1,Total turnover,1155.6
+2021-02,11,Exports,694.6
+2021-02,12,Imports,460.9
+2021-02,2,Balance,233.7
+2021-03,1,Total turnover,1268.3
+2021-03,11,Exports,665.4
+2021-03,12,Imports,602.9
+2021-03,2,Balance,62.5
+2021-04,1,Total turnover,933.5
+2021-04,11,Exports,496.2
+2021-04,12,Imports,437.3
+2021-04,2,Balance,58.9
+2021-05,1,Total turnover,1466.5
+2021-05,11,Exports,825.1
+2021-05,12,Imports,641.4
+2021-05,2,Balance,183.8
+2021-06,1,Total turnover,1411.7
+2021-06,11,Exports,751.6
+2021-06,12,Imports,660.1
+2021-06,2,Balance,91.6
+2021-07,1,Total turnover,1207.1
+2021-07,11,Exports,629.6
+2021-07,12,Imports,577.6
+2021-07,2,Balance,52
+2021-08,1,Total turnover,1514.5
+2021-08,11,Exports,879.5
+2021-08,12,Imports,635
+2021-08,2,Balance,244.6
+2021-09,1,Total turnover,1454.9
+2021-09,11,Exports,801.8
+2021-09,12,Imports,653.2
+2021-09,2,Balance,148.6
+2021-10,1,Total turnover,1629
+2021-10,11,Exports,1110.5
+2021-10,12,Imports,518.5
+2021-10,2,Balance,592
+2021-11,1,Total turnover,1843.4
+2021-11,11,Exports,1300.9
+2021-11,12,Imports,542.5
+2021-11,2,Balance,758.4
+2021-12,1,Total turnover,1103.5
+2021-12,11,Exports,446.2
+2021-12,12,Imports,657.3
+2021-12,2,Balance,-211.1
+2022-01,1,Total turnover,1096
+2022-01,11,Exports,539.4
+2022-01,12,Imports,556.5
+2022-01,2,Balance,-17.1
+2022-02,1,Total turnover,1118.3
+2022-02,11,Exports,637.3
+2022-02,12,Imports,481
+2022-02,2,Balance,156.3
+2022-03,1,Total turnover,1382.4
+2022-03,11,Exports,729.2
+2022-03,12,Imports,653.2
+2022-03,2,Balance,76
+2022-04,1,Total turnover,1550.2
+2022-04,11,Exports,891.1
+2022-04,12,Imports,659.1
+2022-04,2,Balance,231.9
+2022-05,1,Total turnover,2073.4
+2022-05,11,Exports,1286.1
+2022-05,12,Imports,787.3
+2022-05,2,Balance,498.8
+2022-06,1,Total turnover,2036.9
+2022-06,11,Exports,1226
+2022-06,12,Imports,810.9
+2022-06,2,Balance,415.1
+2022-07,1,Total turnover,1970.7
+2022-07,11,Exports,1156
+2022-07,12,Imports,814.7
+2022-07,2,Balance,341.3
+2022-08,1,Total turnover,2112.4
+2022-08,11,Exports,1275.6
+2022-08,12,Imports,836.9
+2022-08,2,Balance,438.7
+2022-09,1,Total turnover,1940.4
+2022-09,11,Exports,1183.6
+2022-09,12,Imports,756.7
+2022-09,2,Balance,426.9
+2022-10,1,Total turnover,1854.4
+2022-10,11,Exports,1109.7
+2022-10,12,Imports,744.7
+2022-10,2,Balance,365
+2022-11,1,Total turnover,1886
+2022-11,11,Exports,1114.6
+2022-11,12,Imports,771.4
+2022-11,2,Balance,343.1
+2022-12,1,Total turnover,2222
+2022-12,11,Exports,1390.1
+2022-12,12,Imports,831.9
+2022-12,2,Balance,558.3
+2023-01,1,Total turnover,1769.1
+2023-01,11,Exports,1080.1
+2023-01,12,Imports,689
+2023-01,2,Balance,391.1
+2023-02,1,Total turnover,1678.7
+2023-02,11,Exports,1169.1
+2023-02,12,Imports,509.6
+2023-02,2,Balance,659.4
+2023-03,1,Total turnover,2258.2
+2023-03,11,Exports,1517.2
+2023-03,12,Imports,740.9
+2023-03,2,Balance,776.3
+2023-04,1,Total turnover,2039.8
+2023-04,11,Exports,1319.3
+2023-04,12,Imports,720.6
+2023-04,2,Balance,598.7
+2023-05,1,Total turnover,1997.9
+2023-05,11,Exports,1195.4
+2023-05,12,Imports,802.5
+2023-05,2,Balance,392.9
+2023-06,1,Total turnover,2083.3
+2023-06,11,Exports,1272.5
+2023-06,12,Imports,810.7
+2023-06,2,Balance,461.8
+2023-07,1,Total turnover,1894.7
+2023-07,11,Exports,1145
+2023-07,12,Imports,749.8
+2023-07,2,Balance,395.2
+2023-08,1,Total turnover,2229.5
+2023-08,11,Exports,1306.6
+2023-08,12,Imports,922.9
+2023-08,2,Balance,383.7
+2023-09,1,Total turnover,2099.3
+2023-09,11,Exports,1294.8
+2023-09,12,Imports,804.5
+2023-09,2,Balance,490.3
+2023-10,1,Total turnover,1978.9
+2023-10,11,Exports,1174.5
+2023-10,12,Imports,804.4
+2023-10,2,Balance,370.1
+2023-11,1,Total turnover,2160.7
+2023-11,11,Exports,1340.3
+2023-11,12,Imports,820.4
+2023-11,2,Balance,519.8
+2023-12,1,Total turnover,2247
+2023-12,11,Exports,1372.2
+2023-12,12,Imports,874.8
+2023-12,2,Balance,497.4
+2024-01,1,Total turnover,2200.91
+2024-01,11,Exports,1266.39
+2024-01,12,Imports,934.51
+2024-01,2,Balance,331.88
+2024-02,1,Total turnover,1576.6
+2024-02,11,Exports,916.01
+2024-02,12,Imports,660.59
+2024-02,2,Balance,255.42
+2024-03,1,Total turnover,2287.59
+2024-03,11,Exports,1468.15
+2024-03,12,Imports,819.44
+2024-03,2,Balance,648.72
+2024-04,1,Total turnover,2298.94
+2024-04,11,Exports,1287.01
+2024-04,12,Imports,1011.93
+2024-04,2,Balance,275.08
+2024-05,1,Total turnover,2388.7
+2024-05,11,Exports,1419.95
+2024-05,12,Imports,968.75
+2024-05,2,Balance,451.2
+2024-06,1,Total turnover,2514.69
+2024-06,11,Exports,1531.76
+2024-06,12,Imports,982.93
+2024-06,2,Balance,548.83
+2024-07,1,Total turnover,2413.04
+2024-07,11,Exports,1379.3
+2024-07,12,Imports,1033.74
+2024-07,2,Balance,345.55
+2024-08,1,Total turnover,2446.35
+2024-08,11,Exports,1356.87
+2024-08,12,Imports,1089.48
+2024-08,2,Balance,267.4
+2024-09,1,Total turnover,2269.88
+2024-09,11,Exports,1160.3
+2024-09,12,Imports,1109.58
+2024-09,2,Balance,50.71
+2024-10,1,Total turnover,2394.19
+2024-10,11,Exports,1411.45
+2024-10,12,Imports,982.74
+2024-10,2,Balance,428.71
+2024-11,1,Total turnover,2397.7
+2024-11,11,Exports,1401.82
+2024-11,12,Imports,995.88
+2024-11,2,Balance,405.94
+2024-12,1,Total turnover,2209.45
+2024-12,11,Exports,1184.36
+2024-12,12,Imports,1025.09
+2024-12,2,Balance,159.28
+2025-01,1,Total turnover,1992.33
+2025-01,11,Exports,1019.26
+2025-01,12,Imports,973.07
+2025-01,2,Balance,46.2
+2025-02,1,Total turnover,1723.88
+2025-02,11,Exports,985.39
+2025-02,12,Imports,738.5
+2025-02,2,Balance,246.89
+2025-03,1,Total turnover,1842.09
+2025-03,11,Exports,1008.04
+2025-03,12,Imports,834.05
+2025-03,2,Balance,173.99
+2025-04,1,Total turnover,2240.69
+2025-04,11,Exports,1229.57
+2025-04,12,Imports,1011.12
+2025-04,2,Balance,218.45
+2025-05,1,Total turnover,2137.05
+2025-05,11,Exports,1156.08
+2025-05,12,Imports,980.98
+2025-05,2,Balance,175.1
+2025-06,1,Total turnover,2174.03
+2025-06,11,Exports,1182.98
+2025-06,12,Imports,991.05
+2025-06,2,Balance,191.92
+2025-07,1,Total turnover,2124.67
+2025-07,11,Exports,1170.88
+2025-07,12,Imports,953.8
+2025-07,2,Balance,217.08
+2025-08,1,Total turnover,2408.04
+2025-08,11,Exports,1408.27
+2025-08,12,Imports,999.76
+2025-08,2,Balance,408.51
+2025-09,1,Total turnover,2614.1
+2025-09,11,Exports,1550.78
+2025-09,12,Imports,1063.32
+2025-09,2,Balance,487.46
+2025-10,1,Total turnover,2459.05
+2025-10,11,Exports,1574.2
+2025-10,12,Imports,884.85
+2025-10,2,Balance,689.35
+2025-11,1,Total turnover,2367.53
+2025-11,11,Exports,1511.14
+2025-11,12,Imports,856.39
+2025-11,2,Balance,654.75
+2025-12,1,Total turnover,3071.5
+2025-12,11,Exports,1964.56
+2025-12,12,Imports,1106.93
+2025-12,2,Balance,857.63
+2026-01,1,Total turnover,2603.5
+2026-01,11,Exports,1760.52
+2026-01,12,Imports,842.98
+2026-01,2,Balance,917.54
+2026-02,1,Total turnover,2018.68
+2026-02,11,Exports,1285.87
+2026-02,12,Imports,732.81
+2026-02,2,Balance,553.07
+2026-03,1,Total turnover,2746.14
+2026-03,11,Exports,1842.83
+2026-03,12,Imports,903.31
+2026-03,2,Balance,939.52
+2026-04,1,Total turnover,3112.23
+2026-04,11,Exports,1923.81
+2026-04,12,Imports,1188.42
+2026-04,2,Balance,735.39
+2026-05,1,Total turnover,2867.21
+2026-05,11,Exports,1657.46
+2026-05,12,Imports,1209.74
+2026-05,2,Balance,447.72
+2026-06,1,Total turnover,3159.12
+2026-06,11,Exports,1923.38
+2026-06,12,Imports,1235.73
+2026-06,2,Balance,687.65
+2026-07,1,Total turnover,2857.11
+2026-07,11,Exports,1812.04
+2026-07,12,Imports,1045.07
+2026-07,2,Balance,766.97

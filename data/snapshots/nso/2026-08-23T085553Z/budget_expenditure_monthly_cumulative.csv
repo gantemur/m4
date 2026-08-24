@@ -1,0 +1,639 @@
+period,series_id,series_label,value
+2000-01,0,Total expenditure and net lending,21399
+2000-01,43,Capital expenditure,827
+2000-02,0,Total expenditure and net lending,23258
+2000-02,43,Capital expenditure,841
+2000-03,0,Total expenditure and net lending,40660
+2000-03,43,Capital expenditure,1543
+2000-04,0,Total expenditure and net lending,19896
+2000-04,43,Capital expenditure,3223
+2000-05,0,Total expenditure and net lending,35344
+2000-05,43,Capital expenditure,2274
+2000-06,0,Total expenditure and net lending,40180
+2000-06,43,Capital expenditure,4334
+2000-07,0,Total expenditure and net lending,26124
+2000-07,43,Capital expenditure,1620
+2000-08,0,Total expenditure and net lending,31399
+2000-08,43,Capital expenditure,6546
+2000-09,0,Total expenditure and net lending,20178
+2000-09,43,Capital expenditure,5933
+2000-10,0,Total expenditure and net lending,43590
+2000-10,43,Capital expenditure,7667
+2000-11,0,Total expenditure and net lending,29701
+2000-11,43,Capital expenditure,1389
+2000-12,0,Total expenditure and net lending,102518
+2000-12,43,Capital expenditure,16368
+2001-01,0,Total expenditure and net lending,22346
+2001-01,43,Capital expenditure,253
+2001-02,0,Total expenditure and net lending,27183
+2001-02,43,Capital expenditure,690
+2001-03,0,Total expenditure and net lending,31774
+2001-03,43,Capital expenditure,826
+2001-04,0,Total expenditure and net lending,27580
+2001-04,43,Capital expenditure,3003
+2001-05,0,Total expenditure and net lending,33818
+2001-05,43,Capital expenditure,3133
+2001-06,0,Total expenditure and net lending,49733
+2001-06,43,Capital expenditure,6347
+2001-07,0,Total expenditure and net lending,32912
+2001-07,43,Capital expenditure,2254
+2001-08,0,Total expenditure and net lending,47218
+2001-08,43,Capital expenditure,4745
+2001-09,0,Total expenditure and net lending,33291
+2001-09,43,Capital expenditure,3413
+2001-10,0,Total expenditure and net lending,40574
+2001-10,43,Capital expenditure,7389
+2001-11,0,Total expenditure and net lending,40127
+2001-11,43,Capital expenditure,3004
+2001-12,0,Total expenditure and net lending,103175
+2001-12,43,Capital expenditure,24078
+2002-01,0,Total expenditure and net lending,32181
+2002-01,43,Capital expenditure,598
+2002-02,0,Total expenditure and net lending,29519
+2002-02,43,Capital expenditure,931
+2002-03,0,Total expenditure and net lending,35624
+2002-03,43,Capital expenditure,2385
+2002-04,0,Total expenditure and net lending,35106
+2002-04,43,Capital expenditure,1211
+2002-05,0,Total expenditure and net lending,43101
+2002-05,43,Capital expenditure,5224
+2002-06,0,Total expenditure and net lending,57542
+2002-06,43,Capital expenditure,5166
+2002-07,0,Total expenditure and net lending,39915
+2002-07,43,Capital expenditure,5570
+2002-08,0,Total expenditure and net lending,34561
+2002-08,43,Capital expenditure,5505
+2002-09,0,Total expenditure and net lending,46875
+2002-09,43,Capital expenditure,10604
+2002-10,0,Total expenditure and net lending,51852
+2002-10,43,Capital expenditure,6048
+2002-11,0,Total expenditure and net lending,42609
+2002-11,43,Capital expenditure,5313
+2002-12,0,Total expenditure and net lending,99753
+2002-12,43,Capital expenditure,19547
+2003-01,0,Total expenditure and net lending,31370
+2003-01,43,Capital expenditure,718
+2003-02,0,Total expenditure and net lending,37076
+2003-02,43,Capital expenditure,1285
+2003-03,0,Total expenditure and net lending,42991
+2003-03,43,Capital expenditure,2905
+2003-04,0,Total expenditure and net lending,55331
+2003-04,43,Capital expenditure,6730
+2003-05,0,Total expenditure and net lending,39999
+2003-05,43,Capital expenditure,3196
+2003-06,0,Total expenditure and net lending,54980
+2003-06,43,Capital expenditure,5008
+2003-07,0,Total expenditure and net lending,37133
+2003-07,43,Capital expenditure,7412
+2003-08,0,Total expenditure and net lending,53267
+2003-08,43,Capital expenditure,11208
+2003-09,0,Total expenditure and net lending,54719
+2003-09,43,Capital expenditure,7382
+2003-10,0,Total expenditure and net lending,60340
+2003-10,43,Capital expenditure,11619
+2003-11,0,Total expenditure and net lending,59343
+2003-11,43,Capital expenditure,8304
+2003-12,0,Total expenditure and net lending,89223
+2003-12,43,Capital expenditure,24698
+2004-01,0,Total expenditure and net lending,36288
+2004-01,43,Capital expenditure,1230
+2004-02,0,Total expenditure and net lending,47356
+2004-02,43,Capital expenditure,2940
+2004-03,0,Total expenditure and net lending,49120
+2004-03,43,Capital expenditure,735
+2004-04,0,Total expenditure and net lending,63725
+2004-04,43,Capital expenditure,6504
+2004-05,0,Total expenditure and net lending,53641
+2004-05,43,Capital expenditure,5477
+2004-06,0,Total expenditure and net lending,63991
+2004-06,43,Capital expenditure,10052
+2004-07,0,Total expenditure and net lending,47399
+2004-07,43,Capital expenditure,8130
+2004-08,0,Total expenditure and net lending,51190
+2004-08,43,Capital expenditure,11167
+2004-09,0,Total expenditure and net lending,70025
+2004-09,43,Capital expenditure,20381
+2004-10,0,Total expenditure and net lending,65295
+2004-10,43,Capital expenditure,8261
+2004-11,0,Total expenditure and net lending,53164
+2004-11,43,Capital expenditure,6597
+2004-12,0,Total expenditure and net lending,151292
+2004-12,43,Capital expenditure,23415
+2005-01,0,Total expenditure and net lending,41658
+2005-01,43,Capital expenditure,609
+2005-02,0,Total expenditure and net lending,51085
+2005-02,43,Capital expenditure,1798
+2005-03,0,Total expenditure and net lending,69151
+2005-03,43,Capital expenditure,981
+2005-04,0,Total expenditure and net lending,53662
+2005-04,43,Capital expenditure,2883
+2005-05,0,Total expenditure and net lending,54247
+2005-05,43,Capital expenditure,3153
+2005-06,0,Total expenditure and net lending,61629
+2005-06,43,Capital expenditure,7330
+2005-07,0,Total expenditure and net lending,52783
+2005-07,43,Capital expenditure,5528
+2005-08,0,Total expenditure and net lending,63831
+2005-08,43,Capital expenditure,10530
+2005-09,0,Total expenditure and net lending,63834
+2005-09,43,Capital expenditure,8735
+2005-10,0,Total expenditure and net lending,68647
+2005-10,43,Capital expenditure,10539
+2005-11,0,Total expenditure and net lending,65408
+2005-11,43,Capital expenditure,8660
+2005-12,0,Total expenditure and net lending,118663
+2005-12,43,Capital expenditure,29073
+2006-01,0,Total expenditure and net lending,56485
+2006-01,43,Capital expenditure,1579
+2006-02,0,Total expenditure and net lending,61168
+2006-02,43,Capital expenditure,3152
+2006-03,0,Total expenditure and net lending,61422
+2006-03,43,Capital expenditure,5007
+2006-04,0,Total expenditure and net lending,73743
+2006-04,43,Capital expenditure,6795
+2006-05,0,Total expenditure and net lending,63761
+2006-05,43,Capital expenditure,6284
+2006-06,0,Total expenditure and net lending,88465
+2006-06,43,Capital expenditure,12005
+2006-07,0,Total expenditure and net lending,65151
+2006-07,43,Capital expenditure,10546
+2006-08,0,Total expenditure and net lending,74665
+2006-08,43,Capital expenditure,11095
+2006-09,0,Total expenditure and net lending,91087
+2006-09,43,Capital expenditure,9512
+2006-10,0,Total expenditure and net lending,150219
+2006-10,43,Capital expenditure,34296
+2006-11,0,Total expenditure and net lending,98345
+2006-11,43,Capital expenditure,21018
+2006-12,0,Total expenditure and net lending,352499
+2006-12,43,Capital expenditure,54383
+2007-01,0,Total expenditure and net lending,78832
+2007-01,43,Capital expenditure,564
+2007-02,0,Total expenditure and net lending,71980
+2007-02,43,Capital expenditure,3714
+2007-03,0,Total expenditure and net lending,118691
+2007-03,43,Capital expenditure,7116
+2007-04,0,Total expenditure and net lending,117184
+2007-04,43,Capital expenditure,16467
+2007-05,0,Total expenditure and net lending,146052
+2007-05,43,Capital expenditure,39968
+2007-06,0,Total expenditure and net lending,106675
+2007-06,43,Capital expenditure,13582
+2007-07,0,Total expenditure and net lending,108739
+2007-07,43,Capital expenditure,34376
+2007-08,0,Total expenditure and net lending,92449
+2007-08,43,Capital expenditure,-26978
+2007-09,0,Total expenditure and net lending,315833
+2007-09,43,Capital expenditure,28345
+2007-10,0,Total expenditure and net lending,64830
+2007-10,43,Capital expenditure,30682
+2007-11,0,Total expenditure and net lending,190691
+2007-11,43,Capital expenditure,27689
+2007-12,0,Total expenditure and net lending,335356
+2007-12,43,Capital expenditure,123973
+2008-01,0,Total expenditure and net lending,136992
+2008-01,43,Capital expenditure,2031
+2008-02,0,Total expenditure and net lending,131153
+2008-02,43,Capital expenditure,10505
+2008-03,0,Total expenditure and net lending,171542
+2008-03,43,Capital expenditure,16614
+2008-04,0,Total expenditure and net lending,196125
+2008-04,43,Capital expenditure,27951
+2008-05,0,Total expenditure and net lending,177145
+2008-05,43,Capital expenditure,24767
+2008-06,0,Total expenditure and net lending,225099
+2008-06,43,Capital expenditure,68317
+2008-07,0,Total expenditure and net lending,189402
+2008-07,43,Capital expenditure,47432
+2008-08,0,Total expenditure and net lending,173984
+2008-08,43,Capital expenditure,36502
+2008-09,0,Total expenditure and net lending,220731
+2008-09,43,Capital expenditure,47301
+2008-10,0,Total expenditure and net lending,223480
+2008-10,43,Capital expenditure,54856
+2008-11,0,Total expenditure and net lending,231202
+2008-11,43,Capital expenditure,107273
+2008-12,0,Total expenditure and net lending,389920
+2008-12,43,Capital expenditure,180842
+2009-01,0,Total expenditure and net lending,112488
+2009-01,43,Capital expenditure,9482
+2009-02,0,Total expenditure and net lending,176840
+2009-02,43,Capital expenditure,7896
+2009-03,0,Total expenditure and net lending,151525
+2009-03,43,Capital expenditure,10342
+2009-04,0,Total expenditure and net lending,172130
+2009-04,43,Capital expenditure,25630
+2009-05,0,Total expenditure and net lending,211912
+2009-05,43,Capital expenditure,23869
+2009-06,0,Total expenditure and net lending,262690
+2009-06,43,Capital expenditure,32644
+2009-07,0,Total expenditure and net lending,184153
+2009-07,43,Capital expenditure,55763
+2009-08,0,Total expenditure and net lending,200623
+2009-08,43,Capital expenditure,49784
+2009-09,0,Total expenditure and net lending,191562
+2009-09,43,Capital expenditure,48880
+2009-10,0,Total expenditure and net lending,191726
+2009-10,43,Capital expenditure,45222
+2009-11,0,Total expenditure and net lending,207613
+2009-11,43,Capital expenditure,36426
+2009-12,0,Total expenditure and net lending,273369
+2009-12,43,Capital expenditure,114628
+2010-01,0,Total expenditure and net lending,220135
+2010-01,43,Capital expenditure,10426
+2010-02,0,Total expenditure and net lending,157922
+2010-02,43,Capital expenditure,13171
+2010-03,0,Total expenditure and net lending,285982
+2010-03,43,Capital expenditure,17758
+2010-04,0,Total expenditure and net lending,307072
+2010-04,43,Capital expenditure,51755
+2010-05,0,Total expenditure and net lending,200756
+2010-05,43,Capital expenditure,39885
+2010-06,0,Total expenditure and net lending,235272
+2010-06,43,Capital expenditure,39502
+2010-07,0,Total expenditure and net lending,206236
+2010-07,43,Capital expenditure,41830
+2010-08,0,Total expenditure and net lending,192140
+2010-08,43,Capital expenditure,63577
+2010-09,0,Total expenditure and net lending,272723
+2010-09,43,Capital expenditure,53876
+2010-10,0,Total expenditure and net lending,222968
+2010-10,43,Capital expenditure,50611
+2010-11,0,Total expenditure and net lending,270989
+2010-11,43,Capital expenditure,32189
+2010-12,0,Total expenditure and net lending,508490
+2010-12,43,Capital expenditure,176460
+2011-01,0,Total expenditure and net lending,246558
+2011-01,43,Capital expenditure,13373
+2011-02,0,Total expenditure and net lending,223368
+2011-02,43,Capital expenditure,15694
+2011-03,0,Total expenditure and net lending,351552
+2011-03,43,Capital expenditure,44490
+2011-04,0,Total expenditure and net lending,328002
+2011-04,43,Capital expenditure,51938
+2011-05,0,Total expenditure and net lending,332483
+2011-05,43,Capital expenditure,73668
+2011-06,0,Total expenditure and net lending,386271
+2011-06,43,Capital expenditure,81792
+2011-07,0,Total expenditure and net lending,312057
+2011-07,43,Capital expenditure,77745
+2011-08,0,Total expenditure and net lending,349723
+2011-08,43,Capital expenditure,69006
+2011-09,0,Total expenditure and net lending,399181
+2011-09,43,Capital expenditure,76314
+2011-10,0,Total expenditure and net lending,355418
+2011-10,43,Capital expenditure,48189
+2011-11,0,Total expenditure and net lending,528695
+2011-11,43,Capital expenditure,196779
+2011-12,0,Total expenditure and net lending,1183731
+2011-12,43,Capital expenditure,531932
+2012-01,0,Total expenditure and net lending,260031
+2012-01,43,Capital expenditure,7250
+2012-02,0,Total expenditure and net lending,422113
+2012-02,43,Capital expenditure,111117
+2012-03,0,Total expenditure and net lending,422680
+2012-03,43,Capital expenditure,99476
+2012-04,0,Total expenditure and net lending,408929
+2012-04,43,Capital expenditure,37549
+2012-05,0,Total expenditure and net lending,710732
+2012-05,43,Capital expenditure,148356
+2012-06,0,Total expenditure and net lending,705591
+2012-06,43,Capital expenditure,202708
+2012-07,0,Total expenditure and net lending,414059
+2012-07,43,Capital expenditure,115389
+2012-08,0,Total expenditure and net lending,238506
+2012-08,43,Capital expenditure,58098
+2012-09,0,Total expenditure and net lending,461069
+2012-09,43,Capital expenditure,130325
+2012-10,0,Total expenditure and net lending,477806
+2012-10,43,Capital expenditure,147113
+2012-11,0,Total expenditure and net lending,507262
+2012-11,43,Capital expenditure,97948
+2012-12,0,Total expenditure and net lending,989022
+2012-12,43,Capital expenditure,370028
+2013-01,0,Total expenditure and net lending,267192
+2013-01,43,Capital expenditure,876
+2013-02,0,Total expenditure and net lending,348147
+2013-02,43,Capital expenditure,21642
+2013-03,0,Total expenditure and net lending,404380
+2013-03,43,Capital expenditure,14701
+2013-04,0,Total expenditure and net lending,433643
+2013-04,43,Capital expenditure,66633
+2013-05,0,Total expenditure and net lending,418723
+2013-05,43,Capital expenditure,69785
+2013-06,0,Total expenditure and net lending,765811
+2013-06,43,Capital expenditure,79253
+2013-07,0,Total expenditure and net lending,547785
+2013-07,43,Capital expenditure,332601
+2013-08,0,Total expenditure and net lending,395734
+2013-08,43,Capital expenditure,132549
+2013-09,0,Total expenditure and net lending,486218
+2013-09,43,Capital expenditure,80035
+2013-10,0,Total expenditure and net lending,574173
+2013-10,43,Capital expenditure,178833
+2013-11,0,Total expenditure and net lending,485754
+2013-11,43,Capital expenditure,107556
+2013-12,0,Total expenditure and net lending,1037126
+2013-12,43,Capital expenditure,406278
+2014-01,0,Total expenditure and net lending,413117
+2014-01,43,Capital expenditure,66388
+2014-02,0,Total expenditure and net lending,388551
+2014-02,43,Capital expenditure,39235
+2014-03,0,Total expenditure and net lending,485338
+2014-03,43,Capital expenditure,30870
+2014-04,0,Total expenditure and net lending,494485
+2014-04,43,Capital expenditure,39760
+2014-05,0,Total expenditure and net lending,502964
+2014-05,43,Capital expenditure,89650
+2014-06,0,Total expenditure and net lending,685529
+2014-06,43,Capital expenditure,120180
+2014-07,0,Total expenditure and net lending,496136
+2014-07,43,Capital expenditure,150608
+2014-08,0,Total expenditure and net lending,484893
+2014-08,43,Capital expenditure,172039
+2014-09,0,Total expenditure and net lending,553152
+2014-09,43,Capital expenditure,140714
+2014-10,0,Total expenditure and net lending,624483
+2014-10,43,Capital expenditure,130985
+2014-11,0,Total expenditure and net lending,579650
+2014-11,43,Capital expenditure,187691
+2014-12,0,Total expenditure and net lending,1436269
+2014-12,43,Capital expenditure,602950
+2015-01,0,Total expenditure and net lending,366357
+2015-01,43,Capital expenditure,70419
+2015-02,0,Total expenditure and net lending,564549
+2015-02,43,Capital expenditure,91893
+2015-03,0,Total expenditure and net lending,443095
+2015-03,43,Capital expenditure,-26556
+2015-04,0,Total expenditure and net lending,545817
+2015-04,43,Capital expenditure,55193
+2015-05,0,Total expenditure and net lending,525740
+2015-05,43,Capital expenditure,96461
+2015-06,0,Total expenditure and net lending,729465
+2015-06,43,Capital expenditure,102212
+2015-07,0,Total expenditure and net lending,605693
+2015-07,43,Capital expenditure,191819
+2015-08,0,Total expenditure and net lending,565213
+2015-08,43,Capital expenditure,132086
+2015-09,0,Total expenditure and net lending,567319
+2015-09,43,Capital expenditure,147328
+2015-10,0,Total expenditure and net lending,571323
+2015-10,43,Capital expenditure,100340
+2015-11,0,Total expenditure and net lending,647810
+2015-11,43,Capital expenditure,178560
+2015-12,0,Total expenditure and net lending,1005595
+2015-12,43,Capital expenditure,256949
+2016-01,0,Total expenditure and net lending,415004
+2016-01,43,Capital expenditure,17321.2
+2016-02,0,Total expenditure and net lending,552276.3
+2016-02,43,Capital expenditure,71773.3
+2016-03,0,Total expenditure and net lending,743611.3
+2016-03,43,Capital expenditure,180999.3
+2016-04,0,Total expenditure and net lending,608981.6
+2016-04,43,Capital expenditure,58617.3
+2016-05,0,Total expenditure and net lending,642244
+2016-05,43,Capital expenditure,87799.7
+2016-06,0,Total expenditure and net lending,1425645.6
+2016-06,43,Capital expenditure,110158.3
+2016-07,0,Total expenditure and net lending,626514.9
+2016-07,43,Capital expenditure,175124.7
+2016-08,0,Total expenditure and net lending,357104.5
+2016-08,43,Capital expenditure,50383.6
+2016-09,0,Total expenditure and net lending,693044.4
+2016-09,43,Capital expenditure,180676.2
+2016-10,0,Total expenditure and net lending,750265.2
+2016-10,43,Capital expenditure,158796.5
+2016-11,0,Total expenditure and net lending,922011.7
+2016-11,43,Capital expenditure,314751
+2016-12,0,Total expenditure and net lending,1758629.5
+2016-12,43,Capital expenditure,953809.2
+2017-01,0,Total expenditure and net lending,465881.6
+2017-01,43,Capital expenditure,49110.9
+2017-02,0,Total expenditure and net lending,709201.6
+2017-02,43,Capital expenditure,74629.9
+2017-03,0,Total expenditure and net lending,584154.1
+2017-03,43,Capital expenditure,48179.7
+2017-04,0,Total expenditure and net lending,440930.8
+2017-04,43,Capital expenditure,-89191
+2017-05,0,Total expenditure and net lending,878963.7
+2017-05,43,Capital expenditure,227017
+2017-06,0,Total expenditure and net lending,1346720.3
+2017-06,43,Capital expenditure,205875.1
+2017-07,0,Total expenditure and net lending,63013.1
+2017-07,43,Capital expenditure,49566.1
+2017-08,0,Total expenditure and net lending,555901
+2017-08,43,Capital expenditure,92168.1
+2017-09,0,Total expenditure and net lending,728214.5
+2017-09,43,Capital expenditure,148882
+2017-10,0,Total expenditure and net lending,731571
+2017-10,43,Capital expenditure,126112.7
+2017-11,0,Total expenditure and net lending,934769.8
+2017-11,43,Capital expenditure,227803.6
+2017-12,0,Total expenditure and net lending,1577996.9
+2017-12,43,Capital expenditure,497986.7
+2018-01,0,Total expenditure and net lending,416170
+2018-01,43,Capital expenditure,6617
+2018-02,0,Total expenditure and net lending,700807
+2018-02,43,Capital expenditure,105566
+2018-03,0,Total expenditure and net lending,719647
+2018-03,43,Capital expenditure,97861
+2018-04,0,Total expenditure and net lending,557775
+2018-04,43,Capital expenditure,-21584
+2018-05,0,Total expenditure and net lending,718767
+2018-05,43,Capital expenditure,41553
+2018-06,0,Total expenditure and net lending,1011994
+2018-06,43,Capital expenditure,165180
+2018-07,0,Total expenditure and net lending,635650
+2018-07,43,Capital expenditure,166411
+2018-08,0,Total expenditure and net lending,645431
+2018-08,43,Capital expenditure,104422
+2018-09,0,Total expenditure and net lending,868732
+2018-09,43,Capital expenditure,177155
+2018-10,0,Total expenditure and net lending,902612
+2018-10,43,Capital expenditure,202498
+2018-11,0,Total expenditure and net lending,784348
+2018-11,43,Capital expenditure,177459
+2018-12,0,Total expenditure and net lending,1260995
+2018-12,43,Capital expenditure,384648
+2019-01,0,Total expenditure and net lending,558235
+2019-01,43,Capital expenditure,30505
+2019-02,0,Total expenditure and net lending,594048
+2019-02,43,Capital expenditure,26061
+2019-03,0,Total expenditure and net lending,816796
+2019-03,43,Capital expenditure,111426
+2019-04,0,Total expenditure and net lending,876409
+2019-04,43,Capital expenditure,145211
+2019-05,0,Total expenditure and net lending,960330
+2019-05,43,Capital expenditure,210798
+2019-06,0,Total expenditure and net lending,902440
+2019-06,43,Capital expenditure,112078
+2019-07,0,Total expenditure and net lending,791499
+2019-07,43,Capital expenditure,231808
+2019-08,0,Total expenditure and net lending,826781
+2019-08,43,Capital expenditure,258550
+2019-09,0,Total expenditure and net lending,937837
+2019-09,43,Capital expenditure,193870
+2019-10,0,Total expenditure and net lending,1034192
+2019-10,43,Capital expenditure,242376
+2019-11,0,Total expenditure and net lending,901671
+2019-11,43,Capital expenditure,221687
+2019-12,0,Total expenditure and net lending,2461465
+2019-12,43,Capital expenditure,1232302
+2020-01,0,Total expenditure and net lending,641273
+2020-01,43,Capital expenditure,80196
+2020-02,0,Total expenditure and net lending,847977
+2020-02,43,Capital expenditure,91395
+2020-03,0,Total expenditure and net lending,860549
+2020-03,43,Capital expenditure,69359
+2020-04,0,Total expenditure and net lending,970452
+2020-04,43,Capital expenditure,140942
+2020-05,0,Total expenditure and net lending,1602002
+2020-05,43,Capital expenditure,443904
+2020-06,0,Total expenditure and net lending,1376046
+2020-06,43,Capital expenditure,403061
+2020-07,0,Total expenditure and net lending,1067586
+2020-07,43,Capital expenditure,252867
+2020-08,0,Total expenditure and net lending,990066
+2020-08,43,Capital expenditure,274328
+2020-09,0,Total expenditure and net lending,1084772
+2020-09,43,Capital expenditure,174257
+2020-10,0,Total expenditure and net lending,1374606
+2020-10,43,Capital expenditure,220047
+2020-11,0,Total expenditure and net lending,1146515
+2020-11,43,Capital expenditure,212023
+2020-12,0,Total expenditure and net lending,1942429
+2020-12,43,Capital expenditure,671860
+2021-01,0,Total expenditure and net lending,784512
+2021-01,43,Capital expenditure,93594
+2021-02,0,Total expenditure and net lending,955829
+2021-02,43,Capital expenditure,117789
+2021-03,0,Total expenditure and net lending,983806
+2021-03,43,Capital expenditure,91040
+2021-04,0,Total expenditure and net lending,2211247
+2021-04,43,Capital expenditure,248931
+2021-05,0,Total expenditure and net lending,1236710
+2021-05,43,Capital expenditure,120946
+2021-06,0,Total expenditure and net lending,1326060
+2021-06,43,Capital expenditure,187332
+2021-07,0,Total expenditure and net lending,991435
+2021-07,43,Capital expenditure,133645
+2021-08,0,Total expenditure and net lending,1074217
+2021-08,43,Capital expenditure,223899
+2021-09,0,Total expenditure and net lending,1380764
+2021-09,43,Capital expenditure,354354
+2021-10,0,Total expenditure and net lending,1258248
+2021-10,43,Capital expenditure,207230
+2021-11,0,Total expenditure and net lending,1358532
+2021-11,43,Capital expenditure,247638
+2021-12,0,Total expenditure and net lending,2069085
+2021-12,43,Capital expenditure,955843
+2022-01,0,Total expenditure and net lending,1304687
+2022-01,43,Capital expenditure,190012
+2022-02,0,Total expenditure and net lending,1131444
+2022-02,43,Capital expenditure,111250
+2022-03,0,Total expenditure and net lending,1386549
+2022-03,43,Capital expenditure,166815
+2022-04,0,Total expenditure and net lending,1285919
+2022-04,43,Capital expenditure,190844
+2022-05,0,Total expenditure and net lending,1370149
+2022-05,43,Capital expenditure,181873
+2022-06,0,Total expenditure and net lending,1713149
+2022-06,43,Capital expenditure,318150
+2022-07,0,Total expenditure and net lending,1305031
+2022-07,43,Capital expenditure,278214
+2022-08,0,Total expenditure and net lending,1430684
+2022-08,43,Capital expenditure,410051
+2022-09,0,Total expenditure and net lending,1547273
+2022-09,43,Capital expenditure,324286
+2022-10,0,Total expenditure and net lending,1510841
+2022-10,43,Capital expenditure,287534
+2022-11,0,Total expenditure and net lending,1577061
+2022-11,43,Capital expenditure,370179
+2022-12,0,Total expenditure and net lending,2596883
+2022-12,43,Capital expenditure,974198
+2023-01,0,Total expenditure and net lending,1119212
+2023-01,43,Capital expenditure,44298
+2023-02,0,Total expenditure and net lending,1645179
+2023-02,43,Capital expenditure,176967
+2023-03,0,Total expenditure and net lending,1373779
+2023-03,43,Capital expenditure,266767
+2023-04,0,Total expenditure and net lending,1474461
+2023-04,43,Capital expenditure,183160
+2023-05,0,Total expenditure and net lending,1495844
+2023-05,43,Capital expenditure,258721
+2023-06,0,Total expenditure and net lending,1925358
+2023-06,43,Capital expenditure,513967
+2023-07,0,Total expenditure and net lending,2045151
+2023-07,43,Capital expenditure,556241
+2023-08,0,Total expenditure and net lending,1711848
+2023-08,43,Capital expenditure,383415
+2023-09,0,Total expenditure and net lending,1959071
+2023-09,43,Capital expenditure,443194
+2023-10,0,Total expenditure and net lending,2150507
+2023-10,43,Capital expenditure,490481
+2023-11,0,Total expenditure and net lending,1851725
+2023-11,43,Capital expenditure,363063
+2023-12,0,Total expenditure and net lending,3756864
+2023-12,43,Capital expenditure,1507945
+2024-01,0,Total expenditure and net lending,2054462.3
+2024-01,43,Capital expenditure,458903
+2024-02,0,Total expenditure and net lending,1704715
+2024-02,43,Capital expenditure,187365
+2024-03,0,Total expenditure and net lending,1936163
+2024-03,43,Capital expenditure,196637
+2024-04,0,Total expenditure and net lending,2090867
+2024-04,43,Capital expenditure,213328
+2024-05,0,Total expenditure and net lending,2257730
+2024-05,43,Capital expenditure,399805
+2024-06,0,Total expenditure and net lending,2867360
+2024-06,43,Capital expenditure,839960
+2024-07,0,Total expenditure and net lending,2350396
+2024-07,43,Capital expenditure,594320
+2024-08,0,Total expenditure and net lending,2055907.9
+2024-08,43,Capital expenditure,462557.5
+2024-09,0,Total expenditure and net lending,2503648.8
+2024-09,43,Capital expenditure,613648.8
+2024-10,0,Total expenditure and net lending,2522405.5
+2024-10,43,Capital expenditure,690830.5
+2024-11,0,Total expenditure and net lending,2360470
+2024-11,43,Capital expenditure,521615
+2024-12,0,Total expenditure and net lending,5886667
+2024-12,43,Capital expenditure,2791781
+2025-01,0,Total expenditure and net lending,2160894
+2025-01,43,Capital expenditure,296278
+2025-02,0,Total expenditure and net lending,2428695
+2025-02,43,Capital expenditure,212608
+2025-03,0,Total expenditure and net lending,1913079
+2025-03,43,Capital expenditure,83513
+2025-04,0,Total expenditure and net lending,2043045
+2025-04,43,Capital expenditure,116376
+2025-05,0,Total expenditure and net lending,2425766
+2025-05,43,Capital expenditure,373558
+2025-06,0,Total expenditure and net lending,3001961
+2025-06,43,Capital expenditure,671701
+2025-07,0,Total expenditure and net lending,2914130
+2025-07,43,Capital expenditure,947804
+2025-08,0,Total expenditure and net lending,2432026
+2025-08,43,Capital expenditure,532557
+2025-09,0,Total expenditure and net lending,2738572.5
+2025-09,43,Capital expenditure,887728.8
+2025-10,0,Total expenditure and net lending,2816435.6
+2025-10,43,Capital expenditure,795732
+2025-11,0,Total expenditure and net lending,2504233.1
+2025-11,43,Capital expenditure,849407.5
+2025-12,0,Total expenditure and net lending,3910366.4
+2025-12,43,Capital expenditure,1323171
+2026-01,0,Total expenditure and net lending,2130610.1
+2026-01,43,Capital expenditure,257932.7
+2026-02,0,Total expenditure and net lending,2557194.4
+2026-02,43,Capital expenditure,317938.9
+2026-03,0,Total expenditure and net lending,2975626.3
+2026-03,43,Capital expenditure,514055.4
+2026-04,0,Total expenditure and net lending,2708547.1
+2026-04,43,Capital expenditure,496591.1
+2026-05,0,Total expenditure and net lending,2650857.5
+2026-05,43,Capital expenditure,279999.7
+2026-06,0,Total expenditure and net lending,3750471.5
+2026-06,43,Capital expenditure,908016
+2026-07,0,Total expenditure and net lending,2733905.6
+2026-07,43,Capital expenditure,786096.9

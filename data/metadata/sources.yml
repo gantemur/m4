@@ -1,0 +1,26 @@
+schema_version: 1
+sources:
+  nso:
+    institution: National Statistics Office of Mongolia
+    base_url: https://data.1212.mn/api/v1/en/NSO
+    terms_url: https://www.nso.mn/en/terms_of_use
+    status: ACCESSED
+  bom:
+    institution: Bank of Mongolia
+    base_url: https://www.mongolbank.mn/en/currency-rates
+    status: PARTIAL
+    endpoints:
+      exchange_rates: /en/currency-rates/data (POST)
+      reserves: /en/international-reserves/data (POST; discovered, returned no-result for tested ranges)
+      policy_rate: /en/policy-interest-rate/data (POST; discovered, returned no-result for tested ranges)
+    note: Daily official MNT/USD connected; reserves and policy-rate histories remain unresolved without substitution.
+  nso_phase1c:
+    institution: National Statistics Office of Mongolia
+    base_url: https://data.1212.mn/api/v1/en/NSO
+    status: ACCESSED
+    tables: [DT_NSO_0500_001V4, DT_NSO_0500_003V1_quarter, DT_NSO_0500_020V1, DT_NSO_0400_035V7_2, DT_NSO_0700_002V2]
+  world_bank_commodity:
+    institution: World Bank
+    base_url: https://www.worldbank.org/en/research/commodity-markets
+    status: DEFERRED
+    note: The benchmark download endpoint and coal-grade choice require a separate provenance check; no benchmark was used in the canonical panel.

@@ -1,0 +1,20 @@
+{
+  "snapshot": "2026-08-23T115117Z",
+  "bom_failures": [
+    {
+      "series": "reserves",
+      "endpoint": "/en/international-reserves/data",
+      "status": "FAILED",
+      "reason": "Тохирох үр дүн олдсонгүй."
+    },
+    {
+      "series": "policy_rate",
+      "endpoint": "/en/policy-interest-rate/data",
+      "status": "FAILED",
+      "reason": "Тохирох үр дүн олдсонгүй."
+    }
+  ],
+  "notes": [
+    "China demand candidates and international benchmarks remain deferred; no substitutes used."
+  ]
+}

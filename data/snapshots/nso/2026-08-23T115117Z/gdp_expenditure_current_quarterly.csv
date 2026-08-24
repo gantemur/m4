@@ -1,0 +1,517 @@
+period,series_id,series_label,value
+2026-2,0,GDP,30981030.67
+2026-1,0,GDP,24981324.17
+2025-4,0,GDP,30634734.4
+2025-3,0,GDP,21646226.19
+2025-2,0,GDP,22396121.23
+2025-1,0,GDP,17911048.42
+2024-4,0,GDP,23504039.84
+2024-3,0,GDP,19913952.37
+2024-2,0,GDP,20131815.52
+2024-1,0,GDP,16658565.46
+2023-4,0,GDP,22698947.55
+2023-3,0,GDP,17962227.98
+2023-2,0,GDP,15845307.21
+2023-1,0,GDP,14695100.73
+2022-4,0,GDP,16851624.5
+2022-3,0,GDP,15279265.5
+2022-2,0,GDP,13046160.4
+2022-1,0,GDP,9700765.2
+2021-4,0,GDP,13796361.4
+2021-3,0,GDP,11342501.6
+2021-2,0,GDP,10478924.7
+2021-1,0,GDP,9084945.6
+2020-4,0,GDP,10603698.9
+2020-3,0,GDP,10145189.5
+2020-2,0,GDP,10000547.7
+2020-1,0,GDP,7133605.6
+2019-4,0,GDP,10439954.4
+2019-3,0,GDP,9746672.3
+2019-2,0,GDP,9987420.1
+2019-1,0,GDP,7665178.6
+2018-4,0,GDP,9412985.9
+2018-3,0,GDP,8083798.4
+2018-2,0,GDP,8569585.8
+2018-1,0,GDP,6516259
+2017-4,0,GDP,7950641.8
+2017-3,0,GDP,6924893
+2017-2,0,GDP,7677259.3
+2017-1,0,GDP,5457916.4
+2016-4,0,GDP,7045113.8
+2016-3,0,GDP,6178534.1
+2016-2,0,GDP,6111159
+2016-1,0,GDP,4596535.7
+2015-4,0,GDP,6125860.6
+2015-3,0,GDP,6421996.9
+2015-2,0,GDP,5988710.6
+2015-1,0,GDP,4358212.8
+2014-4,0,GDP,6054719.8
+2014-3,0,GDP,6164711.8
+2014-2,0,GDP,5843536.1
+2014-1,0,GDP,4164086.5
+2013-4,0,GDP,5765635.7
+2013-3,0,GDP,4999228.7
+2013-2,0,GDP,5075523.7
+2013-1,0,GDP,3333854.5
+2012-4,0,GDP,4788115
+2012-3,0,GDP,4228449.8
+2012-2,0,GDP,4595194.9
+2012-1,0,GDP,3076659.9
+2011-4,0,GDP,3643599.1
+2011-3,0,GDP,3484974.7
+2011-2,0,GDP,3582731.5
+2011-1,0,GDP,2462458
+2010-4,0,GDP,2826718.2
+2010-3,0,GDP,2622554
+2010-2,0,GDP,2596158.8
+2010-1,0,GDP,1711157.4
+2009-4,0,GDP,2065428.1
+2009-3,0,GDP,1684283.7
+2009-2,0,GDP,1643946.1
+2009-1,0,GDP,1174745.4
+2008-4,0,GDP,1921040.8
+2008-3,0,GDP,1719333.8
+2008-2,0,GDP,1828528.5
+2008-1,0,GDP,1170417.2
+2007-4,0,GDP,1564175.7
+2007-3,0,GDP,1275137.5
+2007-2,0,GDP,1380855.5
+2007-1,0,GDP,822320
+2006-4,0,GDP,1226121.9
+2006-3,0,GDP,1049119.5
+2006-2,0,GDP,1127040.6
+2006-1,0,GDP,658619
+2005-4,0,GDP,931149
+2005-3,0,GDP,839779.9
+2005-2,0,GDP,790967.3
+2005-1,0,GDP,479509.5
+2026-2,2,"Household consumption, NPISHs consumption",12399293.84
+2026-1,2,"Household consumption, NPISHs consumption",12781479.67
+2025-4,2,"Household consumption, NPISHs consumption",11755136.21
+2025-3,2,"Household consumption, NPISHs consumption",11652742.98
+2025-2,2,"Household consumption, NPISHs consumption",11662946.75
+2025-1,2,"Household consumption, NPISHs consumption",11232820.25
+2024-4,2,"Household consumption, NPISHs consumption",10409565.49
+2024-3,2,"Household consumption, NPISHs consumption",10526360.77
+2024-2,2,"Household consumption, NPISHs consumption",9927555.29
+2024-1,2,"Household consumption, NPISHs consumption",9009172.82
+2023-4,2,"Household consumption, NPISHs consumption",8250212.67
+2023-3,2,"Household consumption, NPISHs consumption",8416810.61
+2023-2,2,"Household consumption, NPISHs consumption",7516338.59
+2023-1,2,"Household consumption, NPISHs consumption",7178792.35
+2022-4,2,"Household consumption, NPISHs consumption",7298957.3
+2022-3,2,"Household consumption, NPISHs consumption",7152915.8
+2022-2,2,"Household consumption, NPISHs consumption",7050355.2
+2022-1,2,"Household consumption, NPISHs consumption",6425274.6
+2021-4,2,"Household consumption, NPISHs consumption",6404973
+2021-3,2,"Household consumption, NPISHs consumption",5847755.4
+2021-2,2,"Household consumption, NPISHs consumption",5638804.1
+2021-1,2,"Household consumption, NPISHs consumption",5193997.3
+2020-4,2,"Household consumption, NPISHs consumption",5367560.4
+2020-3,2,"Household consumption, NPISHs consumption",5856201.6
+2020-2,2,"Household consumption, NPISHs consumption",5717179.6
+2020-1,2,"Household consumption, NPISHs consumption",5707645.9
+2019-4,2,"Household consumption, NPISHs consumption",5781352.2
+2019-3,2,"Household consumption, NPISHs consumption",5513983.9
+2019-2,2,"Household consumption, NPISHs consumption",5296839.2
+2019-1,2,"Household consumption, NPISHs consumption",5075412.1
+2018-4,2,"Household consumption, NPISHs consumption",5131940.4
+2018-3,2,"Household consumption, NPISHs consumption",4643240.5
+2018-2,2,"Household consumption, NPISHs consumption",4602894.4
+2018-1,2,"Household consumption, NPISHs consumption",4505316.6
+2017-4,2,"Household consumption, NPISHs consumption",4048213.5
+2017-3,2,"Household consumption, NPISHs consumption",4224768.4
+2017-2,2,"Household consumption, NPISHs consumption",4001681.3
+2017-1,2,"Household consumption, NPISHs consumption",3485401.4
+2016-4,2,"Household consumption, NPISHs consumption",3661546.9
+2016-3,2,"Household consumption, NPISHs consumption",3727965.2
+2016-2,2,"Household consumption, NPISHs consumption",3768291.5
+2016-1,2,"Household consumption, NPISHs consumption",3374778
+2015-4,2,"Household consumption, NPISHs consumption",3281646.4
+2015-3,2,"Household consumption, NPISHs consumption",3786031.5
+2015-2,2,"Household consumption, NPISHs consumption",4001083.3
+2015-1,2,"Household consumption, NPISHs consumption",3103094.5
+2014-4,2,"Household consumption, NPISHs consumption",2789333.3
+2014-3,2,"Household consumption, NPISHs consumption",3499946.7
+2014-2,2,"Household consumption, NPISHs consumption",3641702.7
+2014-1,2,"Household consumption, NPISHs consumption",2656644.1
+2013-4,2,"Household consumption, NPISHs consumption",2927080.4
+2013-3,2,"Household consumption, NPISHs consumption",2617459.4
+2013-2,2,"Household consumption, NPISHs consumption",2930891.4
+2013-1,2,"Household consumption, NPISHs consumption",2223543.2
+2012-4,2,"Household consumption, NPISHs consumption",2263012.9
+2012-3,2,"Household consumption, NPISHs consumption",2212328.1
+2012-2,2,"Household consumption, NPISHs consumption",2287804.8
+2012-1,2,"Household consumption, NPISHs consumption",2084859.2
+2011-4,2,"Household consumption, NPISHs consumption",1731160.9
+2011-3,2,"Household consumption, NPISHs consumption",1716121.1
+2011-2,2,"Household consumption, NPISHs consumption",1730349.2
+2011-1,2,"Household consumption, NPISHs consumption",1605033.1
+2010-4,2,"Household consumption, NPISHs consumption",1311722.5
+2010-3,2,"Household consumption, NPISHs consumption",1495106.1
+2010-2,2,"Household consumption, NPISHs consumption",1299649.7
+2010-1,2,"Household consumption, NPISHs consumption",1280815.7
+2009-4,2,"Household consumption, NPISHs consumption",976810.7
+2009-3,2,"Household consumption, NPISHs consumption",939319.6
+2009-2,2,"Household consumption, NPISHs consumption",923826.9
+2009-1,2,"Household consumption, NPISHs consumption",1011308.4
+2008-4,2,"Household consumption, NPISHs consumption",977430
+2008-3,2,"Household consumption, NPISHs consumption",988663.2
+2008-2,2,"Household consumption, NPISHs consumption",912982.9
+2008-1,2,"Household consumption, NPISHs consumption",807326.5
+2007-4,2,"Household consumption, NPISHs consumption",751931.5
+2007-3,2,"Household consumption, NPISHs consumption",740290.3
+2007-2,2,"Household consumption, NPISHs consumption",478780.8
+2007-1,2,"Household consumption, NPISHs consumption",487604
+2006-4,2,"Household consumption, NPISHs consumption",547200
+2006-3,2,"Household consumption, NPISHs consumption",504268.4
+2006-2,2,"Household consumption, NPISHs consumption",423162.9
+2006-1,2,"Household consumption, NPISHs consumption",474776.5
+2005-4,2,"Household consumption, NPISHs consumption",490722.6
+2005-3,2,"Household consumption, NPISHs consumption",461037.9
+2005-2,2,"Household consumption, NPISHs consumption",367253
+2005-1,2,"Household consumption, NPISHs consumption",383794.5
+2026-2,3,Government consumption,4372424.7
+2026-1,3,Government consumption,3403272.68
+2025-4,3,Government consumption,3673653.16
+2025-3,3,Government consumption,2870938.07
+2025-2,3,Government consumption,3555908.01
+2025-1,3,Government consumption,3047399.88
+2024-4,3,Government consumption,3868531.08
+2024-3,3,Government consumption,2592292.71
+2024-2,3,Government consumption,3205297.54
+2024-1,3,Government consumption,2816637.74
+2023-4,3,Government consumption,3203959.7
+2023-3,3,Government consumption,1902982.54
+2023-2,3,Government consumption,2197321.74
+2023-1,3,Government consumption,1857630.97
+2022-4,3,Government consumption,3242297
+2022-3,3,Government consumption,1309803.5
+2022-2,3,Government consumption,1600285.2
+2022-1,3,Government consumption,1343048.3
+2021-4,3,Government consumption,2749609
+2021-3,3,Government consumption,1196420.6
+2021-2,3,Government consumption,1427228.9
+2021-1,3,Government consumption,1122056.1
+2020-4,3,Government consumption,1880730.4
+2020-3,3,Government consumption,1296077.1
+2020-2,3,Government consumption,1476580.7
+2020-1,3,Government consumption,1268065.8
+2019-4,3,Government consumption,1510524.3
+2019-3,3,Government consumption,1050199.2
+2019-2,3,Government consumption,1308322.1
+2019-1,3,Government consumption,1090906.9
+2018-4,3,Government consumption,1310488.8
+2018-3,3,Government consumption,851334
+2018-2,3,Government consumption,1061750.6
+2018-1,3,Government consumption,912134.8
+2017-4,3,Government consumption,1196472.7
+2017-3,3,Government consumption,832755
+2017-2,3,Government consumption,1045379.9
+2017-1,3,Government consumption,826966.7
+2016-4,3,Government consumption,1046657.1
+2016-3,3,Government consumption,966228.5
+2016-2,3,Government consumption,961109.8
+2016-1,3,Government consumption,844321
+2015-4,3,Government consumption,1007532.1
+2015-3,3,Government consumption,745823
+2015-2,3,Government consumption,912228.4
+2015-1,3,Government consumption,739276.6
+2014-4,3,Government consumption,952272.4
+2014-3,3,Government consumption,598054.8
+2014-2,3,Government consumption,765939.6
+2014-1,3,Government consumption,577031.2
+2013-4,3,Government consumption,807613.4
+2013-3,3,Government consumption,611219.7
+2013-2,3,Government consumption,625060.9
+2013-1,3,Government consumption,536407.8
+2012-4,3,Government consumption,800724.2
+2012-3,3,Government consumption,461049.6
+2012-2,3,Government consumption,583777.2
+2012-1,3,Government consumption,411860.1
+2011-4,3,Government consumption,559334.8
+2011-3,3,Government consumption,324530.3
+2011-2,3,Government consumption,397528.7
+2011-1,3,Government consumption,333082.2
+2010-4,3,Government consumption,421747.2
+2010-3,3,Government consumption,244037.9
+2010-2,3,Government consumption,309688
+2010-1,3,Government consumption,262455.1
+2009-4,3,Government consumption,271628.6
+2009-3,3,Government consumption,190322.6
+2009-2,3,Government consumption,249707.6
+2009-1,3,Government consumption,218547.2
+2008-4,3,Government consumption,314373.2
+2008-3,3,Government consumption,198418.2
+2008-2,3,Government consumption,246058.5
+2008-1,3,Government consumption,201030.6
+2007-4,3,Government consumption,233420.3
+2007-3,3,Government consumption,101711.3
+2007-2,3,Government consumption,139836.5
+2007-1,3,Government consumption,123598.1
+2006-4,3,Government consumption,136902.3
+2006-3,3,Government consumption,84817.4
+2006-2,3,Government consumption,110128.7
+2006-1,3,Government consumption,94444.5
+2005-4,3,Government consumption,109101.6
+2005-3,3,Government consumption,68525.1
+2005-2,3,Government consumption,86908.1
+2005-1,3,Government consumption,79953.1
+2026-2,4,Gross capital formation,9778062.11
+2026-1,4,Gross capital formation,3956676.84
+2025-4,4,Gross capital formation,10175547.14
+2025-3,4,Gross capital formation,5092416.59
+2025-2,4,Gross capital formation,7478474.56
+2025-1,4,Gross capital formation,5505900.17
+2024-4,4,Gross capital formation,10269942.83
+2024-3,4,Gross capital formation,7407739.52
+2024-2,4,Gross capital formation,5815419.3
+2024-1,4,Gross capital formation,5178792.72
+2023-4,4,Gross capital formation,10122227.09
+2023-3,4,Gross capital formation,5695513.96
+2023-2,4,Gross capital formation,4556485.32
+2023-1,4,Gross capital formation,3505710.35
+2022-4,4,Gross capital formation,6234342.7
+2022-3,4,Gross capital formation,7074434
+2022-2,4,Gross capital formation,6078412.2
+2022-1,4,Gross capital formation,3409300.8
+2021-4,4,Gross capital formation,3795921.4
+2021-3,4,Gross capital formation,5644405
+2021-2,4,Gross capital formation,4061805.1
+2021-1,4,Gross capital formation,2491019.7
+2020-4,4,Gross capital formation,1952481.1
+2020-3,4,Gross capital formation,1919392.6
+2020-2,4,Gross capital formation,2507956.7
+2020-1,4,Gross capital formation,2003560
+2019-4,4,Gross capital formation,4683077.3
+2019-3,4,Gross capital formation,3508871.8
+2019-2,4,Gross capital formation,3294866.2
+2019-1,4,Gross capital formation,1980863.3
+2018-4,4,Gross capital formation,4365560.8
+2018-3,4,Gross capital formation,3523811.8
+2018-2,4,Gross capital formation,3099295
+2018-1,4,Gross capital formation,1841696.5
+2017-4,4,Gross capital formation,2997042.2
+2017-3,4,Gross capital formation,1781575.9
+2017-2,4,Gross capital formation,1979481
+2017-1,4,Gross capital formation,918587.5
+2016-4,4,Gross capital formation,1678545.1
+2016-3,4,Gross capital formation,1693764.3
+2016-2,4,Gross capital formation,1759277.1
+2016-1,4,Gross capital formation,283935.2
+2015-4,4,Gross capital formation,2089809.1
+2015-3,4,Gross capital formation,1821470.7
+2015-2,4,Gross capital formation,1475352.4
+2015-1,4,Gross capital formation,225759.6
+2014-4,4,Gross capital formation,1979554
+2014-3,4,Gross capital formation,2240105.8
+2014-2,4,Gross capital formation,2166096
+2014-1,4,Gross capital formation,1432676.6
+2013-4,4,Gross capital formation,2931947.1
+2013-3,4,Gross capital formation,3238865.5
+2013-2,4,Gross capital formation,2681441.9
+2013-1,4,Gross capital formation,1362959.1
+2012-4,4,Gross capital formation,2231039.9
+2012-3,4,Gross capital formation,3032266.9
+2012-2,4,Gross capital formation,2518335.6
+2012-1,4,Gross capital formation,1546953.7
+2011-4,4,Gross capital formation,1889763.4
+2011-3,4,Gross capital formation,2602204.2
+2011-2,4,Gross capital formation,2116807.9
+2011-1,4,Gross capital formation,1051863.3
+2010-4,4,Gross capital formation,1382898.9
+2010-3,4,Gross capital formation,1225264
+2010-2,4,Gross capital formation,1088300.1
+2010-1,4,Gross capital formation,409788
+2009-4,4,Gross capital formation,936370.5
+2009-3,4,Gross capital formation,657627.8
+2009-2,4,Gross capital formation,586194.6
+2009-1,4,Gross capital formation,85071.4
+2008-4,4,Gross capital formation,942801.2
+2008-3,4,Gross capital formation,842380.5
+2008-2,4,Gross capital formation,866762.6
+2008-1,4,Gross capital formation,204064.3
+2007-4,4,Gross capital formation,529203.2
+2007-3,4,Gross capital formation,474309
+2007-2,4,Gross capital formation,740420.7
+2007-1,4,Gross capital formation,174544.2
+2006-4,4,Gross capital formation,471379.1
+2006-3,4,Gross capital formation,345171.4
+2006-2,4,Gross capital formation,545452.6
+2006-1,4,Gross capital formation,83293.8
+2005-4,4,Gross capital formation,291049.3
+2005-3,4,Gross capital formation,332623.4
+2005-2,4,Gross capital formation,441273.6
+2005-1,4,Gross capital formation,76449.4
+2026-2,5,Gross fixed capital formation,7871303.2
+2026-1,5,Gross fixed capital formation,4516175.79
+2025-4,5,Gross fixed capital formation,7465215.27
+2025-3,5,Gross fixed capital formation,6230038.88
+2025-2,5,Gross fixed capital formation,6465624.8
+2025-1,5,Gross fixed capital formation,5038636.92
+2024-4,5,Gross fixed capital formation,7303477.07
+2024-3,5,Gross fixed capital formation,5598299.83
+2024-2,5,Gross fixed capital formation,4936613.05
+2024-1,5,Gross fixed capital formation,4075267.78
+2023-4,5,Gross fixed capital formation,5302890.78
+2023-3,5,Gross fixed capital formation,5314167.03
+2023-2,5,Gross fixed capital formation,4215768.09
+2023-1,5,Gross fixed capital formation,3006967.69
+2022-4,5,Gross fixed capital formation,5521847.1
+2022-3,5,Gross fixed capital formation,4874086.2
+2022-2,5,Gross fixed capital formation,3294580
+2022-1,5,Gross fixed capital formation,2364549.2
+2021-4,5,Gross fixed capital formation,3632823.3
+2021-3,5,Gross fixed capital formation,3203829
+2021-2,5,Gross fixed capital formation,2822969
+2021-1,5,Gross fixed capital formation,2028642.6
+2020-4,5,Gross fixed capital formation,1899563.3
+2020-3,5,Gross fixed capital formation,2999193.8
+2020-2,5,Gross fixed capital formation,2163395.1
+2020-1,5,Gross fixed capital formation,1768647.9
+2019-4,5,Gross fixed capital formation,2931388.3
+2019-3,5,Gross fixed capital formation,3020983.8
+2019-2,5,Gross fixed capital formation,2686573.5
+2019-1,5,Gross fixed capital formation,1949776.9
+2018-4,5,Gross fixed capital formation,2652780.9
+2018-3,5,Gross fixed capital formation,2472796.3
+2018-2,5,Gross fixed capital formation,2241776.7
+2018-1,5,Gross fixed capital formation,1379592
+2017-4,5,Gross fixed capital formation,2341414.1
+2017-3,5,Gross fixed capital formation,1471836.3
+2017-2,5,Gross fixed capital formation,1677271.4
+2017-1,5,Gross fixed capital formation,769580.6
+2016-4,5,Gross fixed capital formation,1564960.5
+2016-3,5,Gross fixed capital formation,1132539
+2016-2,5,Gross fixed capital formation,1151357.2
+2016-1,5,Gross fixed capital formation,617847.1
+2015-4,5,Gross fixed capital formation,1230606.2
+2015-3,5,Gross fixed capital formation,1403863.2
+2015-2,5,Gross fixed capital formation,1032487
+2015-1,5,Gross fixed capital formation,517500
+2014-4,5,Gross fixed capital formation,1795320.6
+2014-3,5,Gross fixed capital formation,1831284.3
+2014-2,5,Gross fixed capital formation,1565151.5
+2014-1,5,Gross fixed capital formation,1159348.5
+2013-4,5,Gross fixed capital formation,1645837.2
+2013-3,5,Gross fixed capital formation,2696721.2
+2013-2,5,Gross fixed capital formation,2054756.2
+2013-1,5,Gross fixed capital formation,1131192
+2012-4,5,Gross fixed capital formation,1740219.7
+2012-3,5,Gross fixed capital formation,2475092.7
+2012-2,5,Gross fixed capital formation,2053876.5
+2012-1,5,Gross fixed capital formation,1260004.8
+2011-4,5,Gross fixed capital formation,1590067.4
+2011-3,5,Gross fixed capital formation,2189199.1
+2011-2,5,Gross fixed capital formation,1759031.9
+2011-1,5,Gross fixed capital formation,839427.4
+2010-4,5,Gross fixed capital formation,1150189.8
+2010-3,5,Gross fixed capital formation,1013989.4
+2010-2,5,Gross fixed capital formation,871598.9
+2010-1,5,Gross fixed capital formation,328910.2
+2009-4,5,Gross fixed capital formation,787025.4
+2009-3,5,Gross fixed capital formation,552740.3
+2009-2,5,Gross fixed capital formation,492700.3
+2009-1,5,Gross fixed capital formation,71502.8
+2008-4,5,Gross fixed capital formation,783718.6
+2008-3,5,Gross fixed capital formation,700242.4
+2008-2,5,Gross fixed capital formation,720510.5
+2008-1,5,Gross fixed capital formation,169630.9
+2007-4,5,Gross fixed capital formation,479659.4
+2007-3,5,Gross fixed capital formation,429694.1
+2007-2,5,Gross fixed capital formation,670350
+2007-1,5,Gross fixed capital formation,160517
+2006-4,5,Gross fixed capital formation,437446.8
+2006-3,5,Gross fixed capital formation,320223
+2006-2,5,Gross fixed capital formation,506376.9
+2006-1,5,Gross fixed capital formation,77221.2
+2005-4,5,Gross fixed capital formation,216535.1
+2005-3,5,Gross fixed capital formation,247673.6
+2005-2,5,Gross fixed capital formation,328603.4
+2005-1,5,Gross fixed capital formation,56896.7
+2026-2,7,Net exports,4431250.03
+2026-1,7,Net exports,4839894.99
+2025-4,7,Net exports,5030397.89
+2025-3,7,Net exports,2030128.56
+2025-2,7,Net exports,-301208.1
+2025-1,7,Net exports,-1875071.87
+2024-4,7,Net exports,-1043999.56
+2024-3,7,Net exports,-612440.62
+2024-2,7,Net exports,1183543.39
+2024-1,7,Net exports,-346037.82
+2023-4,7,Net exports,1122548.1
+2023-3,7,Net exports,1946920.87
+2023-2,7,Net exports,1575161.56
+2023-1,7,Net exports,2152967.06
+2022-4,7,Net exports,76027.5
+2022-3,7,Net exports,-257887.8
+2022-2,7,Net exports,-1682892.14
+2022-1,7,Net exports,-1476858.41
+2021-4,7,Net exports,845858.1
+2021-3,7,Net exports,-1346079.4
+2021-2,7,Net exports,-648913.5
+2021-1,7,Net exports,277872.5
+2020-4,7,Net exports,1402927
+2020-3,7,Net exports,1073518.1
+2020-2,7,Net exports,298830.7
+2020-1,7,Net exports,-1845666
+2019-4,7,Net exports,-1534999.3
+2019-3,7,Net exports,-326382.6
+2019-2,7,Net exports,87392.6
+2019-1,7,Net exports,-482003.6
+2018-4,7,Net exports,-1395004
+2018-3,7,Net exports,-934587.9
+2018-2,7,Net exports,-194354.2
+2018-1,7,Net exports,-742888.9
+2017-4,7,Net exports,-291086.5
+2017-3,7,Net exports,85793.6
+2017-2,7,Net exports,650717.1
+2017-1,7,Net exports,226960.8
+2016-4,7,Net exports,658364.7
+2016-3,7,Net exports,-209423.9
+2016-2,7,Net exports,-377519.3
+2016-1,7,Net exports,93501.5
+2015-4,7,Net exports,-253127
+2015-3,7,Net exports,68671.7
+2015-2,7,Net exports,-399953.5
+2015-1,7,Net exports,290082
+2014-4,7,Net exports,333560
+2014-3,7,Net exports,-173395
+2014-2,7,Net exports,-730202
+2014-1,7,Net exports,-502265
+2013-4,7,Net exports,-901005.1
+2013-3,7,Net exports,-1468315.9
+2013-2,7,Net exports,-1161870.6
+2013-1,7,Net exports,-789055.7
+2012-4,7,Net exports,-506662
+2012-3,7,Net exports,-1477194.8
+2012-2,7,Net exports,-794722.7
+2012-1,7,Net exports,-967013.1
+2011-4,7,Net exports,-536660
+2011-3,7,Net exports,-1157880.9
+2011-2,7,Net exports,-661954.3
+2011-1,7,Net exports,-527520.7
+2010-4,7,Net exports,-289650.4
+2010-3,7,Net exports,-341854
+2010-2,7,Net exports,-101479
+2010-1,7,Net exports,-241901.4
+2009-4,7,Net exports,-119381.6
+2009-3,7,Net exports,-102986.3
+2009-2,7,Net exports,-115783
+2009-1,7,Net exports,-140181.6
+2008-4,7,Net exports,-313563.6
+2008-3,7,Net exports,-310128.1
+2008-2,7,Net exports,-197275.5
+2008-1,7,Net exports,-42004.1
+2007-4,7,Net exports,49620.8
+2007-3,7,Net exports,-41173
+2007-2,7,Net exports,21817.5
+2007-1,7,Net exports,36573.7
+2006-4,7,Net exports,70640.5
+2006-3,7,Net exports,114862.3
+2006-2,7,Net exports,48296.3
+2006-1,7,Net exports,6104.2
+2005-4,7,Net exports,40275.4
+2005-3,7,Net exports,-22406.5
+2005-2,7,Net exports,-104467.3
+2005-1,7,Net exports,-60687.5

@@ -1,0 +1,170 @@
+[
+  {
+    "file": "figures/01-exports-imports.png",
+    "variable_definition": "NSO exports and imports",
+    "unit": "USD million",
+    "frequency_transformation": "monthly flow summed to quarterly",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Trade begins before the GDP panel; no seasonal adjustment"
+  },
+  {
+    "file": "figures/02-trade-balance.png",
+    "variable_definition": "Exports minus imports",
+    "unit": "USD million",
+    "frequency_transformation": "monthly flow summed to quarterly",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Small identity differences reflect source rounding"
+  },
+  {
+    "file": "figures/03-mineral-export-decomposition.png",
+    "variable_definition": "Coal, copper concentrate, gold, iron ore, and total exports minus those four",
+    "unit": "USD million",
+    "frequency_transformation": "annual sums; commodity USD thousand converted to USD million",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Residual is not non-mining exports and may contain other minerals"
+  },
+  {
+    "file": "figures/04-four-mineral-export-share.png",
+    "variable_definition": "Four recorded commodity export values divided by total exports",
+    "unit": "percent",
+    "frequency_transformation": "annual ratio",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Commodity table starts in 2011; coverage is not a universal HS classification"
+  },
+  {
+    "file": "figures/05-coal-price-quantity.png",
+    "variable_definition": "Coal export quantity, value, and implied value/quantity",
+    "unit": "source units; USD/t for unit value",
+    "frequency_transformation": "cumulative monthly series de-cumulated then summed; unit value from quarterly totals",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Implied value is Mongolia-specific, not an international benchmark"
+  },
+  {
+    "file": "figures/06-copper-concentrate-price-quantity.png",
+    "variable_definition": "Copper concentrate export quantity, value, and implied value/quantity",
+    "unit": "source units; USD/t for unit value",
+    "frequency_transformation": "cumulative monthly series de-cumulated then summed; unit value from quarterly totals",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Implied value is Mongolia-specific, not an international benchmark"
+  },
+  {
+    "file": "figures/07-nominal-gdp-composition.png",
+    "variable_definition": "Mining, agriculture, construction, and remaining published GDP",
+    "unit": "percent",
+    "frequency_transformation": "annual sums and shares",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Remaining published GDP includes other industries and the published taxes-less-subsidies component; it is not core GVA"
+  },
+  {
+    "file": "figures/08-mining-share.png",
+    "variable_definition": "Mining GDP divided by total GDP",
+    "unit": "percent",
+    "frequency_transformation": "annual nominal ratio",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Annotations are broad historical periods, not causal breaks"
+  },
+  {
+    "file": "figures/09-real-gdp-vintage-yoy.png",
+    "variable_definition": "Total GDP YoY growth for 2005-, 2010-, and 2015-price vintages",
+    "unit": "percent",
+    "frequency_transformation": "quarterly YoY; no splicing",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Overlapping growth rates are comparable diagnostics, not a linked level"
+  },
+  {
+    "file": "figures/10-real-vintage-agreement.png",
+    "variable_definition": "Mean absolute difference in annual total-GDP growth",
+    "unit": "percentage points",
+    "frequency_transformation": "annual within-vintage growth comparison",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Differences are descriptive; NSO metadata do not establish a cause"
+  },
+  {
+    "file": "figures/11-agriculture-output-growth.png",
+    "variable_definition": "Agriculture GDP level and annual growth",
+    "unit": "million MNT; percent",
+    "frequency_transformation": "annual sums and YoY",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "No dzud attribution is made"
+  },
+  {
+    "file": "figures/12-agriculture-seasonality.png",
+    "variable_definition": "Average agriculture real GDP by quarter",
+    "unit": "index",
+    "frequency_transformation": "raw quarterly values; no adjustment",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Seasonality is a descriptive pattern"
+  },
+  {
+    "file": "figures/13-construction-output-growth.png",
+    "variable_definition": "Construction GDP level and annual growth",
+    "unit": "million MNT; percent",
+    "frequency_transformation": "annual sums and YoY",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Raw values are strongly seasonal"
+  },
+  {
+    "file": "figures/14-construction-shares.png",
+    "variable_definition": "Construction divided by real and nominal total GDP",
+    "unit": "percent",
+    "frequency_transformation": "annual ratios",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Real share uses 2015-price vintage; nominal share uses current prices"
+  },
+  {
+    "file": "figures/15-construction-seasonality.png",
+    "variable_definition": "Average real construction share of real GDP by quarter",
+    "unit": "percent",
+    "frequency_transformation": "raw quarterly ratio; no adjustment",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Seasonality is unusually strong"
+  },
+  {
+    "file": "figures/16-construction-capex-normalized.png",
+    "variable_definition": "Normalized annual real construction and public capex",
+    "unit": "index",
+    "frequency_transformation": "annual sums normalized within series",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Descriptive co-movement is not causal"
+  },
+  {
+    "file": "figures/17-construction-capex-growth.png",
+    "variable_definition": "Annual growth in real construction and public capex",
+    "unit": "percent",
+    "frequency_transformation": "annual sums and YoY growth",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Descriptive co-movement is not causal"
+  },
+  {
+    "file": "figures/18-construction-capex-leads-lags.png",
+    "variable_definition": "Construction output correlated with prior public capex",
+    "unit": "correlation",
+    "frequency_transformation": "quarterly raw levels; lags 0\u20134",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Correlations are not causal estimates"
+  },
+  {
+    "file": "figures/19-fiscal-levels-balance.png",
+    "variable_definition": "General-government revenue, expenditure, and revenue minus expenditure",
+    "unit": "million MNT",
+    "frequency_transformation": "monthly flows summed to annual totals",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Balance is a simple descriptive difference, not a full fiscal-accounting balance"
+  },
+  {
+    "file": "figures/20-fiscal-shares.png",
+    "variable_definition": "Revenue, expenditure, and capital expenditure relative to nominal GDP",
+    "unit": "percent",
+    "frequency_transformation": "annual flow/GDP ratios",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "No causal or procyclicality claim"
+  },
+  {
+    "file": "figures/21-seasonality-audit.png",
+    "variable_definition": "Quarterly mean relative to mean across quarters",
+    "unit": "index",
+    "frequency_transformation": "raw quarterly values; no seasonal adjustment",
+    "data_vintage": "m4-quarterly-v1; snapshots=nso-2026-08-23T091723Z-gdp_quarterly,nso-2026-08-23T091723Z-trade_total_monthly,nso-2026-08-23T091723Z-trade_main_commodities_monthly_cumulative,nso-2026-08-23T091723Z-budget_revenue_monthly_flow,nso-2026-08-23T091723Z-budget_expenditure_monthly_flow,nso-2026-08-23T091723Z-cpi_national_monthly_all_bases",
+    "limitation": "Treatment recommendation is block-specific"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "id": ["indicator", "sector", "time"],
+  "size": [1, 2, 2],
+  "dimension": {
+    "indicator": {"category": {"index": {"current": 0}, "label": {"current": "Current prices"}}},
+    "sector": {"category": {"index": {"total": 0, "construction": 1}, "label": {"total": "GDP", "construction": "Construction"}}},
+    "time": {"category": {"index": {"2025-Q1": 0, "2025-Q2": 1}, "label": {"2025-Q1": "2025-I", "2025-Q2": "2025-II"}}}
+  },
+  "value": [100, 20, 120, 30]
+}

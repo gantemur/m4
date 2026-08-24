@@ -1,0 +1,165 @@
+{
+  "dataset_id": "m4-quarterly-v0",
+  "created_at_utc": "2026-08-23T08:58:52.362559+00:00",
+  "period_start": "2000-Q1",
+  "period_end": "2026-Q2",
+  "seasonal_adjustment": "none",
+  "source_snapshots": [
+    "nso-2026-08-23T085851Z-gdp_quarterly",
+    "nso-2026-08-23T085851Z-trade_total_monthly",
+    "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+    "nso-2026-08-23T085851Z-budget_revenue_monthly_cumulative",
+    "nso-2026-08-23T085851Z-budget_expenditure_monthly_cumulative",
+    "nso-2026-08-23T085851Z-cpi_national_monthly_2020_base"
+  ],
+  "variables": {
+    "coal_export_quantity_thousand_t": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "source-labelled",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "coal_export_value_usd_thousand": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "source-labelled",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "coal_implied_export_unit_value_usd_per_t": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "USD/t",
+      "frequency": "monthly→quarterly",
+      "transformation": "matching cumulative value and quantity de-cumulated, summed, then divided"
+    },
+    "copper_concentrate_export_quantity_thousand_t": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "source-labelled",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "copper_concentrate_export_value_usd_thousand": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "source-labelled",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "copper_concentrate_implied_export_unit_value_usd_per_t": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "USD/t",
+      "frequency": "monthly→quarterly",
+      "transformation": "matching cumulative value and quantity de-cumulated, summed, then divided"
+    },
+    "cpi_index_2020": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-cpi_national_monthly_2020_base",
+      "unit": "index (2020=100)",
+      "frequency": "monthly→quarterly",
+      "transformation": "available monthly index averaged in quarter"
+    },
+    "exports_usd_thousand": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_total_monthly",
+      "unit": "USD thousand",
+      "frequency": "monthly→quarterly",
+      "transformation": "monthly flow summed to quarter"
+    },
+    "gdp_nominal_agriculture": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-gdp_quarterly",
+      "unit": "million MNT",
+      "frequency": "quarterly",
+      "transformation": "official indicator retained"
+    },
+    "gdp_nominal_construction": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-gdp_quarterly",
+      "unit": "million MNT",
+      "frequency": "quarterly",
+      "transformation": "official indicator retained"
+    },
+    "gdp_nominal_mining": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-gdp_quarterly",
+      "unit": "million MNT",
+      "frequency": "quarterly",
+      "transformation": "official indicator retained"
+    },
+    "gdp_nominal_total": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-gdp_quarterly",
+      "unit": "million MNT",
+      "frequency": "quarterly",
+      "transformation": "official indicator retained"
+    },
+    "gdp_real2015_agriculture": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-gdp_quarterly",
+      "unit": "million MNT",
+      "frequency": "quarterly",
+      "transformation": "official indicator retained"
+    },
+    "gdp_real2015_construction": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-gdp_quarterly",
+      "unit": "million MNT",
+      "frequency": "quarterly",
+      "transformation": "official indicator retained"
+    },
+    "gdp_real2015_mining": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-gdp_quarterly",
+      "unit": "million MNT",
+      "frequency": "quarterly",
+      "transformation": "official indicator retained"
+    },
+    "gdp_real2015_total": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-gdp_quarterly",
+      "unit": "million MNT",
+      "frequency": "quarterly",
+      "transformation": "official indicator retained"
+    },
+    "gold_export_quantity_t": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "source-labelled",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "gold_export_value_usd_thousand": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "source-labelled",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "government_capital_expenditure_mnt_million": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-budget_expenditure_monthly_cumulative",
+      "unit": "million MNT",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "government_expenditure_mnt_million": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-budget_expenditure_monthly_cumulative",
+      "unit": "million MNT",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "government_revenue_mnt_million": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-budget_revenue_monthly_cumulative",
+      "unit": "million MNT",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "imports_usd_thousand": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_total_monthly",
+      "unit": "USD thousand",
+      "frequency": "monthly→quarterly",
+      "transformation": "monthly flow summed to quarter"
+    },
+    "iron_ore_export_quantity_thousand_t": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "source-labelled",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    },
+    "iron_ore_export_value_usd_thousand": {
+      "source_snapshot_id": "nso-2026-08-23T085851Z-trade_main_commodities_monthly_cumulative",
+      "unit": "source-labelled",
+      "frequency": "monthly→quarterly",
+      "transformation": "cumulative flow de-cumulated within year and summed"
+    }
+  },
+  "notes": [
+    "No GDP core residual is computed; tax/subsidies accounting convention is not yet resolved.",
+    "Missing observations remain empty; no interpolation or source substitution is performed."
+  ]
+}

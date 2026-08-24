@@ -1,0 +1,47 @@
+project_id: oyu_tolgoi
+rules:
+  - effective_from: 2009
+    effective_to: unresolved
+    fiscal_stream: royalty
+    rule_type: contractual
+    tax_base: gross sales value according to issuer technical disclosure
+    rate: {copper_percent: 5, gold_percent: 5, silver_percent: 5}
+    thresholds: null
+    reference_price_rule: must be checked against signed IA and any operative amendments
+    deductible_cost_rule: not applicable
+    ownership_share: {government_percent: 34, holder: Erdenes Oyu Tolgoi LLC}
+    payout_rule: null
+    source_id: ott_technical_report_2022
+    evidence_status: COMPANY_REPORTED_ACTUAL
+    implementation_status: NOT_CURRENTLY_COMPUTABLE
+    notes: Reported terms are not coded pending clause-level confirmation of current agreement, sales-royalty calculation, and audit disputes.
+  - effective_from: 2009
+    effective_to: unresolved
+    fiscal_stream: corporate_income_tax
+    rule_type: contractual
+    tax_base: taxable income
+    rate: {reported_rate_percent: 25, reported_loss_carry_forward_years: 8, reported_investment_tax_credit_percent: 10}
+    thresholds: null
+    reference_price_rule: null
+    deductible_cost_rule: operating costs, depreciation, financing interest, credits, and losses required
+    ownership_share: null
+    payout_rule: null
+    source_id: ott_technical_report_2022
+    evidence_status: COMPANY_REPORTED_ACTUAL
+    implementation_status: NOT_CURRENTLY_COMPUTABLE
+    notes: This is not a fixed share of sales and must not be inferred from reported aggregate taxes.
+  - effective_from: 2022-01-24
+    effective_to: unresolved
+    fiscal_stream: financing_flow
+    rule_type: contractual
+    tax_base: shareholder and government debt; not government revenue
+    rate: null
+    thresholds: null
+    reference_price_rule: null
+    deductible_cost_rule: null
+    ownership_share: {government_percent: 34}
+    payout_rule: dividends subject to debt and reserve conditions
+    source_id: ott_2022_government_agreements
+    evidence_status: EXACT_CONTRACTUAL_RULE
+    implementation_status: DEFERRED
+    notes: 2022 disclosure reports full waiver of USD 2.4bn Government Debt; financing and dividends must remain separate from taxes and royalties.

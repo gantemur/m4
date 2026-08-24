@@ -1,0 +1,284 @@
+{
+  "dataset_id": "m4-quarterly-v2",
+  "created_at_utc": "2026-08-23T11:55:10.692800+00:00",
+  "period_start": "1997-Q1",
+  "period_end": "2026-Q3",
+  "source_snapshots": [
+    "bom-2026-08-23T115504Z-currency-rates-daily",
+    "nso-2026-08-23T115504Z-gdp_chainlinked_growth_quarterly",
+    "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+    "nso-2026-08-23T115504Z-gfcf_annual_by_activity",
+    "nso-2026-08-23T115504Z-employment_quarterly_by_activity",
+    "nso-2026-08-23T115504Z-depository_loans_outstanding_monthly"
+  ],
+  "variables": {
+    "coal_export_quantity_thousand_t": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "coal_export_value_usd_thousand": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "coal_implied_export_unit_value_usd_per_t": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "copper_concentrate_export_quantity_thousand_t": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "copper_concentrate_export_value_usd_thousand": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "copper_concentrate_implied_export_unit_value_usd_per_t": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "cpi_index_2015": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "cpi_index_2020": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "cpi_index_2023": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "depository_loans_outstanding_quarter_end": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-depository_loans_outstanding_monthly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "employment_agriculture": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-employment_quarterly_by_activity",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "employment_construction": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-employment_quarterly_by_activity",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "employment_mining": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-employment_quarterly_by_activity",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "employment_total": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-employment_quarterly_by_activity",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "exports_usd_million": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_chainlinked_yoy_agriculture": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-depository_loans_outstanding_monthly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_chainlinked_yoy_construction": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-depository_loans_outstanding_monthly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_chainlinked_yoy_mining": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-depository_loans_outstanding_monthly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_chainlinked_yoy_total": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-depository_loans_outstanding_monthly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_expenditure_current": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_nominal_agriculture": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_nominal_construction": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_nominal_mining": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_nominal_total": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2005_agriculture": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2005_construction": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2005_mining": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2005_total": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2010_agriculture": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2010_construction": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2010_mining": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2010_total": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2015_agriculture": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2015_construction": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2015_mining": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gdp_real2015_total": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gold_export_quantity_t": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gold_export_value_usd_thousand": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "government_capital_expenditure_mnt_million": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "government_consumption_current": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "government_expenditure_mnt_million": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "government_revenue_mnt_million": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gross_capital_formation_current": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "gross_fixed_capital_formation_current": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "household_consumption_current": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "imports_usd_million": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "iron_ore_export_quantity_thousand_t": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "iron_ore_export_value_usd_thousand": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "mnt_per_usd_quarter_end": {
+      "source_snapshot_id": "bom-2026-08-23T115504Z-currency-rates-daily",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "mnt_per_usd_quarterly_average": {
+      "source_snapshot_id": "bom-2026-08-23T115504Z-currency-rates-daily",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "net_exports_current": {
+      "source_snapshot_id": "nso-2026-08-23T115504Z-gdp_expenditure_current_quarterly",
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "trade_balance_usd_million": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    },
+    "trade_turnover_usd_million": {
+      "source_snapshot_id": null,
+      "unit": "see source snapshot",
+      "transformation": "see source snapshot"
+    }
+  },
+  "notes": [
+    "v1 columns are retained unchanged; annual GFCF is not interpolated."
+  ]
+}

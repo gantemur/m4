@@ -1,0 +1,86 @@
+# Legacy-model audit
+
+Audit date: 2026-08-23. This is an architecture audit, not a reconstruction. No third-party workbook is committed. The original 2017 workbook was retrieved into the ignored local archive and inspected non-destructively in Phase 0.5; the reproducible inventory is [`workbook-inventory-v0.json`](../research/legacy/nrgi2017/workbook-inventory-v0.json). NRGI-FSC-24 code/data have not been located publicly.
+
+## 1. NRGI Mongolia Macro-Fiscal Model
+
+**Identity and provenance.** The authoritative ResourceData record describes a semi-structural Excel model, lists David Mihalyi, Daniel Baksa and Balazs Romhanyi, and gives 2016 as its dataset year ([record](https://www.resourcedata.org/dataset/b61d76e2-0907-4fb9-8710-3ae717d3b61a)). The February 2017 [Model Guide](https://resourcegovernance.org/sites/default/files/documents/mongolia-macro-fiscal-model-guide.pdf) and [Summary Guide](https://resourcegovernance.org/sites/default/files/documents/mongolia-macro-fiscal-model-summary-guide.pdf) are primary documentation; the latter says the model used data collected during 2016 and observations from 2000–2015. NRGI also published a June 2017 update on its [fiscal-sustainability page](https://resourcegovernance.org/publications/fiscal-sustainability-mongolia). The ResourceData resource page explicitly identifies the original XLSX as Creative Commons Attribution (CC BY). It was retrieved on 2026-08-23 to the ignored local archive: SHA256 `780d42b13b2df31c8743dbda0ba3e6e54f7a32e07fdb077dffcb019584c979a4`, 8,769,025 bytes. Full provenance is in [`provenance-v0.md`](../research/legacy/nrgi2017/provenance-v0.md).
+
+**Scope.** It is a 30-year, annual baseline/scenario model rather than a short-term forecasting system. It has three connected sections: a semi-structural macro block, a bottom-up mineral block, and a detailed fiscal block. The broad production decomposition is **mineral / agriculture / core**, where core contains industrial and service activity. Construction is therefore inside core, not separately represented.
+
+### Architecture recovered from the guides
+
+| component | documented design | audit implication |
+|---|---|---|
+| macro/real block | Consumption, investment, output, budget deficit and domestic/international prices; population, labour, productivity and capital assumptions feed the long run. | Useful compact architecture, but long-run assumptions are vintage 2016. |
+| nominal/monetary block | A hybrid New-Keynesian inflation process; managed-float exchange-rate treatment combines fixed and floating components, policy rate and risk premium. | Retain the channels, re-estimate/re-specify only after a documented modern dataset. |
+| agriculture | A distinct sector with separate employment and productivity paths. | Retain as an explicit block; examine weather/livestock shocks later. |
+| construction | Not separate: included in core industrial/services activity. | This is the key limitation for M4’s proposed split. |
+| mining | Five project-level financial models plus a linear projection for other mines. Documented projects: Oyu Tolgoi, Erdenet, Tsagaan Suvarga, Gatsuurt, and Tavan Tolgoi, with Erdenes Tavan Tolgoi and ER Tavan Tolgoi shown separately in the coal treatment. | Mine-level thinking is highly valuable; project economics and ownership/tax terms need wholesale refresh. |
+| fiscal | Main tax and expenditure categories, deficits, debt and Fiscal Stability Law indicators. Mine models include royalties, VAT, customs, other tax, CIT and state dividends. | Preserve an explicit fiscal bridge and identities; update legal definitions and fiscal institutions. |
+| external sector | Imports, exports/net exports and foreign prices enter the macro block; exchange rate affects competitiveness and the current-account adjustment channel. | Preserve, but add transparent reserves and BOP evidence rather than hidden reduced forms. |
+| scenarios | Control panel supports commodity price/volume shocks, tax and expenditure measures, starting years, and an OT-underground delay; baseline vs alternative numerical/graphical results. | Good inspectable interface pattern for a future web app. |
+
+**Behavioural versus accounting content.** The Guide presents behavioural equations for consumption/inflation/exchange-rate/interest-rate channels, risk-premium feedback and tax relationships (including an error-correction representation for CIT). It also uses calibrated long-run trends and developer judgement for some key coefficients. The workbook’s formulas, named ranges and aggregation architecture are now inventoried, but a full equation-to-parameter mapping and fitted-estimate register have not been recovered. The Guide says a separate technical appendix contains full equations, parameter names/values and diagnostics; an authoritative downloadable copy was not found. Accordingly this repository does not claim to know which individual coefficients were estimated versus calibrated beyond the documentation’s general description.
+
+**Mine treatment.** Oyu Tolgoi is explicitly material and its underground start could be delayed in scenarios (the 2017 documentation used a 2021 planned start). Erdenet, Tsagaan Suvarga, Gatsuurt and Tavan Tolgoi are explicit; other mines are aggregated. Financial modelling reportedly used prospectuses, contracts where available, and EITI taxes paid in 2011–14, projected in real USD through 2045. The documentation notes uncertainty in mine financial information and government contingent liabilities—an important warning, not a gap to fill by assumption.
+
+**Implementation and recovered workbook evidence.** Developed in Matlab and released in XLSX with a control panel; this is documented by [NRGI/IBP](https://internationalbudget.org/2017/03/overseeing-budget-sustainability/). The recovered original has **91 visible sheets**, no hidden sheets, **62 defined names**, 153,254 formula cells, and 61,560 formulas with a cross-sheet reference. Key groups are `Control panel`, `Control panel - advanced`, `Graphical results`, `Numerical results`, `Semi-struct_model`, `Macro simul`, `Macro for fiscal`, project sheets (`OT`, `Erdenet`, `TsSuv`, `Gatsuurt`, `ETT`, `ER`, `Other mines`), tax/expenditure/debt sheets, monthly budget data, and scenario sheets `S0`–`S15`. `Numerical results` links to `Macro for fiscal`; `Mining summary` sheets aggregate project sheets. Formula evidence confirms a formula-driven annual scenario model with hard-coded historical/assumption values—not merely a static report. It also contains ten legacy external-workbook relationship targets (old local `G:`/`X:` budget/debt paths); these sources are unavailable and must not be treated as live dependencies. Named ranges include stale `#REF!` entries and old external definitions, another reason to audit rather than reuse blindly.
+
+The inventory records formula samples, cross-sheet counts, numeric-literal formula candidates and external-link targets; it does **not** assert that every numeric literal is an estimated coefficient. The guide remains the authoritative statement of equation interpretation. Directly observed sheet structure confirms no dedicated construction sheet or construction sector: construction is embedded in the core treatment.
+
+### Phase 0.5: NRGI-FSC-24 (reported updated model)
+
+The 2024 [Parliament report](https://www.parliament.mn/files/51f102dceff44e57b6a9fcbac522ca16/?d=1) describes a version it names **NRGI-FSC-24**, prepared in a Fiscal Stability Council/Parliament forecasting exercise. It updates macro base data through 2023, re-estimates macro-equation coefficients, adds China/US/EU growth and inflation forecasts plus copper/iron-price assumptions, and updates post-2015 fiscal data. The reported forecast use is medium term (not a new public 30-year model); the report discusses 2024–27 model outputs and validates 2020–23 projections against outcomes.
+
+Its material redesign is mining: six large-company/project performance/projections are replaced by four commodity groups—gold; copper (concentrate and refined forms); coal (brown and hard/black); and iron ore. Monthly quantities use ARIMA and VAR methods: coal uses coal-price indices and Chinese industrial production; copper/iron use a base-metals index and Chinese industrial production; gold uses a precious-metals index and the US policy rate. Non-coal production is approximated by exports where production data are unavailable; coal uses monthly production. Price paths combine the NRGI method with World Bank/Australian projections and judgement. The report says coal is averaged across methods in 2024–25 then declines gradually; iron output follows the declining VAR path; copper concentrate uses ARIMA; gold uses ARIMA based on OT production expectations. This is documented methodology, not a recovered executable model.
+
+In the reported combined DIGNAR/NRGI-FSC workflow, DIGNAR supplies real GDP and exchange-rate projections, while NRGI-FSC supplies nominal GDP, mining quantities/prices/receipts and many fiscal projections. The cited table does not use either model for funds/debt, loan flows or SOE transfers. The report describes Matlab, Iris and Excel tooling and the 2024 [policy-costing guide](https://sdgbeproject.mn/public/storage/media/4d87b85b-73e7-4fe6-8141-b3c45d719582.pdf) says MATLAB code, related files, a Technical Appendix, and an Excel-update guide were submitted electronically to the Parliament Secretariat. Targeted public searches found no downloadable FSC-24 XLSX, Matlab/Iris files, data package, update manual, or authoritative Technical Appendix. These materials should be requested from the Secretariat; they must not be reconstructed from prose.
+
+**Strengths.** Public-facing scenario design; mine-by-mine fiscal detail; a direct macro–mineral–fiscal bridge; explicit fiscal-rule analysis; and a deliberate effort to represent Mongolia’s nominal/external channels.
+
+**Weaknesses / obsolescence risk.** The historical calibration ends around 2015; baseline mine schedules, commodity assumptions, tax/fiscal rules, debt position, FX regime practice, project finance, rail/logistics and ownership arrangements have changed. The model itself cautions that mine financial information and contingent liabilities were incomplete. A 2016 view of OT underground timing is obsolete. Its three-sector treatment cannot reveal whether construction has distinct cyclical or fiscal-investment behaviour. Do not repeat the unverified political phrase “20,000-variable model”: available sources do not establish whether that means independent variables, spreadsheet cells, year-variable combinations, or simulation outputs.
+
+### Provisional disposition for M4
+
+| legacy element | disposition | rationale and next evidence |
+|---|---|---|
+| mine-by-mine cash-flow bridge | RETAIN | Rebuild with current public contracts, production and receipts; retain no old coefficients. |
+| mineral / agriculture distinction | RETAIN | Economically distinct and supported by quarterly NSO GDP. |
+| core non-mining residual | RETAIN | A transparent residual remains useful. |
+| construction inside core | INVESTIGATE | NSO has a consistent quarterly construction series; test its volatility and links to capital expenditure, mine investment and credit before final separation. |
+| 2016 mine schedules, prices, fiscal terms | UPDATE | Refresh with dated official/company sources and document revisions. |
+| annual 30-year scenario horizon | UPDATE | Retain long-run capability but begin with a quarterly historical atlas and clearly separate annual scenario assumptions. |
+| hybrid nominal/FX reduced form | INVESTIGATE | Validate against post-2016 MNT, reserves, policy-rate and BOP history. |
+| opaque/implicit calibration choices | REPLACE | Use a parameter register stating identity/calibrated/estimated status, source and sample. |
+| forecast-like baseline presentation | OMIT | M4 should present scenarios conditional on inputs, not unlabelled forecasts. |
+| workbook formula/named-range dependency | REPLACE | Implement auditable, tested Python transformations; retain the old workbook only as an archival audit object if licence allows. |
+
+## 2. MINCGEM / Oyu Tolgoi impact assessment
+
+The 2011 [BAEconomics/NUM report](https://www.baeconomics.com.au/wp-content/uploads/2011/03/OT-EIA-Book-for-Web-with-cover.pdf) is copyright and explicitly restricts reproduction of major extracts, so it is not copied here. It used MINCGEM, a recursively dynamic multi-region, multi-sector CGE model based on GTAP 7. The original database (2004) covered 113 regions, 57 commodities and five primary factors; the study aggregated this to 10 regions, 15 commodity groups and four primary factors, separated Mongolia, split coking/thermal coal, and separated copper ores/concentrates, gold and copper refining. OT was represented separately with mine-specific production and factor-use projections.
+
+The study compares a no-OT reference case with OT policy scenarios over 2011–43, focused on GDP/GNP, exchange rate, real wages, fiscal revenues, trade, sectoral output and alternative uses of resource revenue/wealth accumulation. It is useful evidence for mechanisms—resource boom, real appreciation, labour demand, fiscal spending and sectoral reallocation—but M4 should not reproduce its CGE architecture: it is data- and closure-intensive, less inspectable for a public small model, calibrated around an old social-accounting database, and designed for general-equilibrium comparative scenarios rather than a compact evidence-traceable macro-fiscal dashboard.
+
+## 3. IMF fiscal work around 2010
+
+The located IMF material is principally fiscal-regime, programme and debt-sustainability analysis—not an economy-wide structural model comparable to M4. The [February 2010 staff report](https://www.elibrary.imf.org/view/journals/002/2010/052/article-A001-en.xml) records the October 2009 OT Investment Agreement, then discusses fiscal consolidation, OT advance payments, prospective Tavan Tolgoi revenue and the proposed Fiscal Responsibility Law. The [2011 joint IMF/World Bank DSA](https://www.elibrary.imf.org/view/journals/002/2011/076/article-A003-en.xml) projects mineral revenue/debt with copper and coal price assumptions and updated Tavan Tolgoi assumptions.
+
+Chronology matters: pre-October-2009 work could not use a signed OT Investment Agreement; the 2010/2011 documents are post-agreement and should not be described as pre-agreement fiscal modelling. These long-horizon project/revenue/debt projections are useful for a fiscal-receipts ledger and scenario discipline, but not a substitute for an economy-wide production, inflation, FX and domestic-demand model.
+
+## 4. ERI survey
+
+This is a short architecture bibliography, not a claim of exhaustive coverage.
+
+- Ragchaasuren Galindev’s 2014 [ERI Fiscal Stability Law study](https://www.eri.mn/research/published/336-8j5mczvm/vol.3) uses a dynamic small-open-economy CGE model with static expectations and a representative household; it studies volatile coal/copper prices and fiscal-rule stabilisation.
+- ERI’s [Tavan Tolgoi study notice](https://www.eri.mn/news/31) describes CGE assessment of long-run direct/indirect effects of mine and infrastructure development across sectors.
+- ERI’s [mining/revenue-management entry](https://www.eri.mn/mining/report/522-ugm5qakl) identifies mining impact, budget-revenue management and CGE modelling as its subject.
+- The NRGI Guide also cites 2012 ERI work on Dutch-disease risk. Its exact underlying paper and model files require a separate bibliographic retrieval before they are used.
+
+These are valuable for sectoral mechanisms, fiscal smoothing and coal-transition questions, but M4’s mandate remains a smaller, interpretable, reproducible system. No source found in this pass substantiates a single ERI model covering all OT, TT, sovereign wealth, mining shocks and carbon/coal transition; Phase 1 should turn this survey into a checked bibliography with authors, dates, data vintages, licences and model availability.
+
+## Construction-split reconnaissance
+
+NSO PxWeb table `DT_NSO_0500_004V1` exposes quarterly current-price GDP by industry, including construction, from 2000-Q1 to 2026-Q2. A live API retrieval on 2026-08-23 returned 106 quarters. The unadjusted construction share of current-price total GDP had mean **2.91%**, minimum **0.35%**, maximum **9.69%**, and standard deviation **2.02 percentage points**. This is enough to establish availability and a non-trivial changing share, but not enough to establish a causal construction block or compare real volatility: the present descriptive calculation is nominal, not seasonally adjusted, and does not join capital expenditure, credit, mine investment, or construction price deflators.
+
+To decide the split, build a dated quarterly panel of real construction GVA, public capital expenditure (correcting cumulative monthly budget series), private/mine investment proxies, credit, imports/capital goods and a construction deflator. Then inspect definition/rebasing breaks, seasonal patterns, shares of **non-mining** GVA, correlations/lags as descriptive evidence only, and robustness to residual definition. The present evidence supports **INVESTIGATE**, not a final decision.

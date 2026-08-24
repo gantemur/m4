@@ -1,0 +1,23 @@
+{
+  "dataset": "m4-quarterly-v0",
+  "rows": 106,
+  "period_start": "2000-Q1",
+  "period_end": "2026-Q2",
+  "checks": {
+    "duplicate_quarters": [],
+    "quarters_non_decreasing": true,
+    "negative_gdp_values": [],
+    "missing_gdp_total": [],
+    "coal_unit_value_min_usd_per_t": 30.324449877750613,
+    "coal_unit_value_max_usd_per_t": 338.7349771193797,
+    "gdp_identity_check": "not evaluated: tax/subsidies and published accounting convention require a separate reconciliation",
+    "seasonal_adjustment": "none",
+    "interpolation": "none"
+  },
+  "warnings": [
+    "Monthly trade and budget series are incomplete before their source-specific starts.",
+    "CPI 2020-base values are absent before the rebasing window; no back-cast was performed.",
+    "Commodity tables are cumulative and were de-cumulated within calendar year before quarterly summation.",
+    "Official GDP and construction series are not seasonally adjusted."
+  ]
+}

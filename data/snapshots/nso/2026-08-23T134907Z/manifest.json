@@ -1,0 +1,17 @@
+{
+  "snapshot": "2026-08-23T134907Z",
+  "tables": [
+    {
+      "table": "DT_NSO_0500_004V1",
+      "purpose": "GDP = industry GVA + taxes less subsidies; other industry GVA accounting"
+    },
+    {
+      "table": "DT_NSO_1100_016V5",
+      "purpose": "official monthly IPI comparison index transformed as index minus 100, then averaged quarterly"
+    },
+    {
+      "table": "DT_NSO_1100_006V2",
+      "purpose": "physical production monthly flows summed to quarter"
+    }
+  ]
+}
