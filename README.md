@@ -2,9 +2,9 @@
 
 M4 is a small, transparent and eventually interactive model of Mongolia’s mining-centred economy. It will trace the important channels from mineral production and export revenue through fiscal policy, external balances, the exchange rate, construction and the wider non-mining economy. It is not a mining-only projection tool or a large CGE/DSGE model.
 
-**Status: Phase 6A — hardened Mongolian-first public alpha.** M4 is a transparent historical scenario engine, not an empirically estimated macro model or an unconditional forecasting system. Its browser-only alpha presents historical counterfactuals, keeps ETT AMNAT separate from national scenarios, and only exposes reviewed official reference-price rows.
+**Status: Public Alpha.** M4 is a transparent historical scenario engine, not an empirically estimated macro model or an unconditional forecasting system. Its browser-only alpha presents historical counterfactuals, keeps ETT AMNAT separate from national scenarios, and only exposes reviewed official reference-price rows.
 
-**Live alpha:** configure GitHub Pages for this repository; [the deployment workflow](.github/workflows/pages.yml) publishes the `web/` directory after tests and publication-safety checks pass.
+**Live alpha:** [gantemur.github.io/m4](https://gantemur.github.io/m4/) · deployed 2026-08-24. The current limitations are deliberate: unsupported macro propagation is shown as not determined, and only independently reviewed MRPAM price rows are offered as official inputs.
 
 ## Layout
 
