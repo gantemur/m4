@@ -48,7 +48,7 @@ def test_reviewed_mrpam_record_is_complete_and_eligible_for_synthetic_qa():
 
 
 def test_royalty_form_browser_input_contract():
-    browser = next((path for name in ("chromium", "chromium-browser", "google-chrome", "google-chrome-stable") if (path := shutil.which(name))), None)
+    browser = next((path for name in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser") if (path := shutil.which(name))), None)
     if browser is None or shutil.which("node") is None:
         pytest.skip("Chromium/Node unavailable; form normalization still runs in Node parity")
     subprocess.run(["node", "web/tests/royalty-form-browser.mjs"], cwd=ROOT,
