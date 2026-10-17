@@ -1,5 +1,12 @@
 # M4 research and data rules
 
+## Coordination
+Several agents may work here in parallel. Before writing, follow
+gantemur/playbook coordination.md (current main): claim a lock in
+LOCKS.md, re-check it before every push, release it when done, and
+keep unfinished work in a workspace. Locks grant no authority; the
+rest of this file says what may be committed or merged.
+
 1. Never manually alter downloaded raw observations.
 2. Every external series must record source institution, exact table/series ID when available, source URL, retrieval date, units, native frequency, stock/flow/average/end-of-period status, and transformations applied.
 3. Never silently interpolate missing values.
