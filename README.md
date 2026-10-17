@@ -70,7 +70,7 @@ This writes `data/processed/m4-quarterly-v2.csv` without overwriting v1. See [`d
 
 ## Reproducibility and provenance
 
-Raw observations are never hand-edited. Each external series must have source, identifier, URL, retrieval date, units, frequency, observation convention and transformations documented. Missing data are not silently interpolated or substituted. See [`AGENTS.md`](AGENTS.md) and [`docs/data-dictionary-v2.md`](docs/data-dictionary-v2.md).
+Raw observations are never hand-edited. Each external series must have source, identifier, URL, retrieval date, units, frequency, observation convention and transformations documented. Missing data are not silently interpolated or substituted. See [`docs/data-dictionary-v2.md`](docs/data-dictionary-v2.md).
 
 ## Phase 6 public alpha
 
