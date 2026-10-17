@@ -1,1 +1,48 @@
-{"ett":{"officialPrice":"Official reference-price row","noOfficial":"No reviewed official price selected","override":"Override with user-supplied price","officialDetail":"OFFICIAL SOURCE / OBSERVED","userInput":"USER-SUPPLIED INPUT","sources":"Sources"},"intro":{"alpha":"ALPHA — Coverage is deliberately limited; calculations are reproducible, while many macro propagation effects remain unspecified."},"variables":{"coalExportQuantity":"Coal export quantity","coalExportValue":"Coal export value","coalExportPrice":"Coal export price","copperExportQuantity":"Copper-concentrate export quantity","copperExportValue":"Copper-concentrate export value","copperExportPrice":"Copper-concentrate export price","goldExportValue":"Gold export value","ironOreExportValue":"Iron ore export value","totalMerchandiseExports":"Total merchandise exports","imports":"Imports","tradeBalance":"Trade balance","mntPerUsd":"MNT/USD","governmentRevenue":"Government revenue","governmentExpenditure":"Government expenditure","miningRealOutput":"Mining real output","agricultureRealOutput":"Agriculture real output","constructionRealOutput":"Construction real output","otherIndustryRealOutput":"Other-industry real output","taxesLessSubsidies":"Taxes less subsidies","residualMerchandiseExports":"Residual merchandise exports","realGdpTotal":"Real GDP total","unspecifiedOutcome":"Other outcome"},"trace":{"commodityExportsPlusResidual":"Commodity exports plus observed residual merchandise exports","exportsMinusImports":"Total merchandise exports minus imports","miningExportIncome":"Mining export income","nominalGdpIdentity":"Nominal GDP accounting identity"},"status":{"HELD_AT_BASELINE":"HELD AT BASELINE","HELD_AT_BASELINE_desc":"No scenario change was applied to this historical baseline value."}}
+{
+  "ett": {
+    "officialPrice": "Official reference-price row",
+    "noOfficial": "No reviewed official price selected",
+    "override": "Override with user-supplied price",
+    "officialDetail": "OFFICIAL SOURCE / OBSERVED",
+    "userInput": "USER-SUPPLIED INPUT",
+    "sources": "Sources",
+    "invalidInput": "Enter a finite, nonnegative quantity and price, and a finite, positive MNT/USD rate."
+  },
+  "intro": {
+    "alpha": "ALPHA — Coverage is deliberately limited; calculations are reproducible, while many macro propagation effects remain unspecified."
+  },
+  "variables": {
+    "coalExportQuantity": "Coal export quantity",
+    "coalExportValue": "Coal export value",
+    "coalExportPrice": "Coal export price",
+    "copperExportQuantity": "Copper-concentrate export quantity",
+    "copperExportValue": "Copper-concentrate export value",
+    "copperExportPrice": "Copper-concentrate export price",
+    "goldExportValue": "Gold export value",
+    "ironOreExportValue": "Iron ore export value",
+    "totalMerchandiseExports": "Total merchandise exports",
+    "imports": "Imports",
+    "tradeBalance": "Trade balance",
+    "mntPerUsd": "MNT/USD",
+    "governmentRevenue": "Government revenue",
+    "governmentExpenditure": "Government expenditure",
+    "miningRealOutput": "Mining real output",
+    "agricultureRealOutput": "Agriculture real output",
+    "constructionRealOutput": "Construction real output",
+    "otherIndustryRealOutput": "Other-industry real output",
+    "taxesLessSubsidies": "Taxes less subsidies",
+    "residualMerchandiseExports": "Residual merchandise exports",
+    "realGdpTotal": "Real GDP total",
+    "unspecifiedOutcome": "Other outcome"
+  },
+  "trace": {
+    "commodityExportsPlusResidual": "Commodity exports plus observed residual merchandise exports",
+    "exportsMinusImports": "Total merchandise exports minus imports",
+    "miningExportIncome": "Mining export income",
+    "nominalGdpIdentity": "Nominal GDP accounting identity"
+  },
+  "status": {
+    "HELD_AT_BASELINE": "HELD AT BASELINE",
+    "HELD_AT_BASELINE_desc": "No scenario change was applied to this historical baseline value."
+  }
+}

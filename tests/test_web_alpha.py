@@ -1,4 +1,6 @@
 import json
+import os
+import pytest
 import shutil
 import subprocess
 from pathlib import Path
@@ -43,3 +45,11 @@ def test_reviewed_mrpam_record_is_complete_and_eligible_for_synthetic_qa():
     assert row["price_observation_month"] == "2026-07"
     assert row["price_usd_per_tonne"] == 77.33
     assert len(row["source_checksum_sha256"]) == 64
+
+
+def test_royalty_form_browser_input_contract():
+    browser = next((path for name in ("chromium", "chromium-browser", "google-chrome", "google-chrome-stable") if (path := shutil.which(name))), None)
+    if browser is None or shutil.which("node") is None:
+        pytest.skip("Chromium/Node unavailable; form normalization still runs in Node parity")
+    subprocess.run(["node", "web/tests/royalty-form-browser.mjs"], cwd=ROOT,
+                   env={**os.environ, "CHROMIUM": browser}, check=True, timeout=30)
